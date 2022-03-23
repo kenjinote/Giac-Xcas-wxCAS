@@ -1,0 +1,17 @@
+#! /bin/bash
+export CFLAGS='-m32 -O2'
+export CXXFLAGS='-m32 -O2'
+# export LIBS="$LIBS -framework AGL -framework OpenGL -framework ApplicationServices -framework Cocoa -isysroot /Developer/SDKs/MacOSX10.6.sdk"
+./configure --prefix=/Applications/usr
+make
+cd src
+sh mkstat
+make
+sh mkhist
+make install
+cp -f icas /Applications/usr/bin
+rm -rf /Applications/usr/bin/xcas.app
+cp -f xcas /Applications/usr/bin/
+cd /Applications/usr/bin
+fltk-config --post xcas
+open ~/Desktop/xcas.pmdoc

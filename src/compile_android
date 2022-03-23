@@ -1,0 +1,17 @@
+export PATH=/usr/local/android-ndk-r6b/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86/bin:$PATH
+export CC='arm-linux-androideabi-gcc ' 
+export CROSS_COMPILE='arm-linux-androideabi-'
+export CFLAGS='-I/usr/local/android-ndk-r6b/platforms/android-3/arch-arm/usr/include -g -static -fPIC' 
+export CXXFLAGS='-I/usr/local/android-ndk-r6b/platforms/android-3/arch-arm/usr/include -g -static -fPIC'
+export LDFLAGS=' -static -fPIC -s -L/usr/local/android-ndk-r6b/platforms/android-3/arch-arm/usr/lib -lm -lc -lgcc -lstdc++' 
+export AR='arm-linux-androideabi-ar' 
+export AS='arm-linux-androideabi-as'
+export LD='arm-linux-androideabi-g++' 
+export RANLIB='arm-linux-androideabi-ranlib'
+export OBJDUMP='arm-linux-androideabi-objdump' 
+export STRIP='arm-linux-androideabi-strip'
+export NM='arm-linux-androideabi-nm' 
+export CXX='arm-linux-androideabi-g++'
+make -f Makefile.android
+
+

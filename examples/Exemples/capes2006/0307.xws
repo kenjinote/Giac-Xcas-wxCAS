@@ -1,0 +1,551 @@
+// xcas version=0.8.1 fontsize=20 font=0
+// fltk 7Fl_Tile 13 70 870 446 20 0
+[
+// fltk N4xcas6FigureE 13 70 870 445 20 0 landscape=0 history=0.42989 geo=0.45747  mouse_param=0.11264
+// fltk N4xcas12History_PackE 15 -752 354 1267 20 0
+[
+// fltk 7Fl_Tile 37 -752 332 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -752 332 30 20 0
+a:=point(0,0,0);
+,
+// fltk N4xcas10Log_OutputE 37 -722 332 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -721 332 27 20 0
+pnt(pnt[point[0,0,0],0,"a"])
+]
+,
+// fltk 7Fl_Tile 37 -692 332 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -692 332 30 20 0
+b:=point(4,0,0);
+,
+// fltk N4xcas10Log_OutputE 37 -662 332 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -661 332 27 20 0
+pnt(pnt[point[4,0,0],0,"b"])
+]
+,
+// fltk 7Fl_Tile 37 -632 332 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -632 332 30 20 0
+c:=point(4,4,0);
+,
+// fltk N4xcas10Log_OutputE 37 -602 332 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -601 332 27 20 0
+pnt(pnt[point[4,4,0],0,"c"])
+]
+,
+// fltk 7Fl_Tile 37 -572 332 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -572 332 30 20 0
+d:=point(0,4,0);
+,
+// fltk N4xcas10Log_OutputE 37 -542 332 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -541 332 27 20 0
+pnt(pnt[point[0,4,0],0,"d"])
+]
+,
+// fltk 7Fl_Tile 37 -512 332 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -512 332 30 20 0
+P:=polygon(a,b,c,d):;P;
+,
+// fltk N4xcas10Log_OutputE 37 -482 332 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 -481 332 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 -481 704 27 20 0
+["Done",pnt(pnt[group[point[0,0,0],point[4,0,0],point[4,4,0],point[0,4,0],point[0,0,0]],0])]
+,
+// fltk 12Fl_Scrollbar 37 176 316 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 353 149 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 -430 332 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -430 332 30 20 0
+Q:=translation([0,0,4],P):;Q;
+,
+// fltk N4xcas10Log_OutputE 37 -400 332 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 -399 332 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 -399 704 27 20 0
+["Done",pnt(pnt[group[point[0,0,4],point[4,0,4],point[4,4,4],point[0,4,4],point[0,0,4]],0])]
+,
+// fltk 12Fl_Scrollbar 37 176 316 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 353 149 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 -348 332 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -348 332 30 20 0
+A:=vertices(Q)[0];
+,
+// fltk N4xcas10Log_OutputE 37 -318 332 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -317 332 27 20 0
+pnt(pnt[point[0,0,4],0,"A"])
+]
+,
+// fltk 7Fl_Tile 37 -288 332 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -288 332 30 20 0
+B:=vertices(Q)[1];
+,
+// fltk N4xcas10Log_OutputE 37 -258 332 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -257 332 27 20 0
+pnt(pnt[point[4,0,4],0,"B"])
+]
+,
+// fltk 7Fl_Tile 37 -228 332 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -228 332 30 20 0
+C:=vertices(Q)[2];
+,
+// fltk N4xcas10Log_OutputE 37 -198 332 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -197 332 27 20 0
+pnt(pnt[point[4,4,4],0,"C"])
+]
+,
+// fltk 7Fl_Tile 37 -168 332 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -168 332 30 20 0
+D:=vertices(Q)[3];
+,
+// fltk N4xcas10Log_OutputE 37 -138 332 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -137 332 27 20 0
+pnt(pnt[point[0,4,4],0,"D"])
+]
+,
+// fltk 7Fl_Tile 37 -108 332 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -108 332 30 20 0
+I:=isobarycenter(A,D,d,a);
+,
+// fltk N4xcas10Log_OutputE 37 -78 332 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -77 332 27 20 0
+pnt(pnt[point[0,2,2],0,"I"])
+]
+,
+// fltk 7Fl_Tile 37 -48 332 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -48 332 30 20 0
+O:=isobarycenter(a,b,c,d);
+,
+// fltk N4xcas10Log_OutputE 37 -18 332 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -17 332 27 20 0
+pnt(pnt[point[2,2,0],0,"O"])
+]
+,
+// fltk 7Fl_Tile 37 12 332 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 12 332 30 20 0
+segment(b,d,display=dash_line);
+,
+// fltk N4xcas10Log_OutputE 37 42 332 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 43 332 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 43 403 27 20 0
+pnt(pnt[group[point[4,0,0],point[0,4,0]],4194304])
+,
+// fltk 12Fl_Scrollbar 37 176 316 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 353 149 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 94 332 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 94 332 30 20 0
+polygon(a,b,B,A);
+,
+// fltk N4xcas10Log_OutputE 37 124 332 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 125 332 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 125 634 27 20 0
+pnt(pnt[group[point[0,0,0],point[4,0,0],point[4,0,4],point[0,0,4],point[0,0,0]],0])
+,
+// fltk 12Fl_Scrollbar 37 116 332 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 369 87 16 29 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 176 332 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 176 332 30 20 0
+polygon(d,c,C,D);
+,
+// fltk N4xcas10Log_OutputE 37 206 332 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 207 332 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 207 634 27 20 0
+pnt(pnt[group[point[0,4,0],point[4,4,0],point[4,4,4],point[0,4,4],point[0,4,0]],0])
+,
+// fltk 12Fl_Scrollbar 37 198 332 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 369 169 16 29 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 258 332 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 258 332 30 20 0
+triangle(a,c,D,color=red);
+,
+// fltk N4xcas10Log_OutputE 37 288 332 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 289 332 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 289 537 27 20 0
+pnt(pnt[group[point[0,0,0],point[4,4,0],point[0,4,4],point[0,0,0]],1])
+,
+// fltk 12Fl_Scrollbar 37 280 332 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 369 251 16 29 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 340 332 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 340 332 30 20 0
+segment(O,I,color=blue);
+,
+// fltk N4xcas10Log_OutputE 37 370 332 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 371 332 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 371 343 27 20 0
+pnt(pnt[group[point[2,2,0],point[0,2,2]],4])
+,
+// fltk 12Fl_Scrollbar 37 162 332 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 369 133 16 29 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 422 332 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 422 332 30 20 0
+J:=midpoint(O,I);
+,
+// fltk N4xcas10Log_OutputE 37 452 332 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 453 332 27 20 0
+pnt(pnt[point[1,2,1],0,"J"])
+]
+,
+// fltk 7Fl_Tile 37 482 332 31 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 482 332 30 20 0
+
+,
+// fltk N4xcas10Log_OutputE 37 512 332 1 20 0
+
+]
+]
+// fltk N4xcas5Geo3dE 387 96 398 419 20 0
+-6,4,-6,4,[pnt(pnt[point[0,0,0],0,"a"]),pnt(pnt[point[4,0,0],0,"b"]),pnt(pnt[point[4,4,0],0,"c"]),pnt(pnt[point[0,4,0],0,"d"]),"Done",pnt(pnt[group[point[0,0,0],point[4,0,0],point[4,4,0],point[0,4,0],point[0,0,0]],0]),"Done",pnt(pnt[group[point[0,0,4],point[4,0,4],point[4,4,4],point[0,4,4],point[0,0,4]],0]),pnt(pnt[point[0,0,4],0,"A"]),pnt(pnt[point[4,0,4],0,"B"]),pnt(pnt[point[4,4,4],0,"C"]),pnt(pnt[point[0,4,4],0,"D"]),pnt(pnt[point[0,2,2],0,"I"]),pnt(pnt[point[2,2,0],0,"O"]),pnt(pnt[group[point[4,0,0],point[0,4,0]],4194304]),pnt(pnt[group[point[0,0,0],point[4,0,0],point[4,0,4],point[0,0,4],point[0,0,0]],0]),pnt(pnt[group[point[0,4,0],point[4,4,0],point[4,4,4],point[0,4,4],point[0,4,0]],0]),pnt(pnt[group[point[0,0,0],point[4,4,0],point[0,4,4],point[0,0,0]],1]),pnt(pnt[group[point[2,2,0],point[0,2,2]],4]),pnt(pnt[point[1,2,1],0,"J"])],-6,4,0.44954,-0.29348,-0.48593,-0.68968,1,2,1,2097152,1,1.05,0,1,65,[[0,0,1,0,1,1,1,1,1,1,1,1,0,0,0,1,0,0,-1,0,0,180,1,0,0,1],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0]],24,18,256,0,100,0,0,1,0.1
+
+,
+// fltk N4xcas10Log_OutputE 13 515 870 1 20 0
+
+]
+,
+// fltk 7Fl_Tile 13 518 870 59 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 13 518 870 30 20 0
+distance(O,C); distance(I,C)
+,
+// fltk N4xcas10Log_OutputE 13 548 870 1 20 0
+
+,
+// fltk N4xcas8EquationE 13 549 870 28 20 0 1
+2*sqrt(6),2*sqrt(6)
+]
+,
+// fltk 7Fl_Tile 13 579 870 59 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 13 579 870 30 20 0
+distance(C,J); distance(a,J); distance(a,C)
+,
+// fltk N4xcas10Log_OutputE 13 609 870 1 20 0
+
+,
+// fltk N4xcas8EquationE 13 610 870 28 20 0 1
+sqrt(22),sqrt(6),4*sqrt(3)
+]
+,
+// fltk 7Fl_Tile 13 640 870 55 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 13 640 870 30 20 0
+is_collinear(a,J,C)
+,
+// fltk N4xcas10Log_OutputE 13 670 870 1 20 0
+
+,
+// fltk N4xcas8EquationE 13 671 870 24 20 0 1
+0
+]
+,
+// fltk 7Fl_Tile 13 697 870 321 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 13 697 870 30 20 0
+D1:=line(O,I);P1:=plane(a,J,C,color=rouge+rempli)
+,
+// fltk N4xcas10Log_OutputE 13 727 870 1 20 0
+
+,
+// fltk 7Fl_Tile 13 728 870 290 20 0
+[
+// fltk N4xcas7Graph3dE 13 728 756 290 20 0
+-1,5,-1,5,[pnt(pnt[line[point[2,2,0],point[0,2,2]],0,"D1"]),pnt(pnt[hyperplan([4,0,-4],point[0,0,0]),1073741825,"P1"])],-1,5,0.82282,-0.52727,-0.056112,-0.20445,0.2,0.2,1,2097152,1,1.5,0,0,1,[[0,0,1,0,1,1,1,1,1,1,1,1,0,0,0,1,0,0,-1,0,0,180,1,0,0,1],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0]],24,18,256,0,100,0,0,1,0.1
+,
+// fltk 8Fl_Group 769 728 114 290 20 0
+[
+// fltk N4xcas14Mouse_PositionE 769 728 114 60 20 0
+[]
+,
+// fltk 8Fl_Group 769 788 114 115 20 0
+[
+// fltk 9Fl_Button 769 788 38 23 20 0
+[]
+,
+// fltk 9Fl_Button 807 788 37 23 20 0
+[]
+,
+// fltk 9Fl_Button 844 788 38 23 20 0
+[]
+,
+// fltk 9Fl_Button 769 811 38 23 20 0
+[]
+,
+// fltk 9Fl_Button 807 811 37 23 20 0
+[]
+,
+// fltk 9Fl_Button 844 811 38 23 20 0
+[]
+,
+// fltk 9Fl_Button 769 834 38 23 20 0
+[]
+,
+// fltk 9Fl_Button 807 834 37 23 20 0
+[]
+,
+// fltk 9Fl_Button 844 834 38 23 20 0
+[]
+,
+// fltk 9Fl_Button 769 857 38 23 20 0
+[]
+,
+// fltk 9Fl_Button 807 857 37 23 20 0
+[]
+,
+// fltk 9Fl_Button 844 857 38 23 20 0
+[]
+,
+// fltk 9Fl_Button 769 880 38 23 20 0
+[]
+,
+// fltk 11Fl_Menu_Bar 807 880 75 23 20 0
+[]
+]
+,
+// fltk 8Fl_Group 769 903 114 115 20 0
+[
+]
+]
+]
+]
+,
+// fltk 7Fl_Tile 13 1020 870 55 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 13 1020 870 30 20 0
+coordinates(single_inter(D1,P1)),coordinates(J)
+,
+// fltk N4xcas10Log_OutputE 13 1050 870 1 20 0
+
+,
+// fltk N4xcas8EquationE 13 1051 870 24 20 0 1
+[1,2,1],[1,2,1]
+]
+,
+// fltk 7Fl_Tile 13 1077 870 31 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 13 1077 870 30 20 0
+
+,
+// fltk N4xcas10Log_OutputE 13 1107 870 1 20 0
+
+]
+// context 1755 giac archive
+7 0 20 8 0 0 'cas_setup' 7 0 11 0 0 0
+0 0 0
+0 0 0
+0 1 0
+0 0 0
+1 »½×Ùß|Û=
+0 12 0
+7 0 4 0 1 0
+0 50 0
+0 0 0
+0 25 0
+0 0 0
+0 0 0
+0 0 0
+8 0 0 'xyztrange' 7 0 16 1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1 ffffffö¿
+1 š™™™™™ñ?
+0 1 0
+1         
+1       ð?
+0 1 0
+7 0 0 7 0 0 8 0 15 7 0 2 8 -1 12 7 8 3 7 20 3 0 0 0
+0 0 0
+0 4 0
+0 0 0
+12 1 |A 6 1 A 8 0 15 7 0 2 8 -1 12 7 8 3 7 20 3 0 4 0
+0 0 0
+0 4 0
+0 0 0
+12 1 |B 6 1 B 8 0 15 7 0 2 8 -1 12 7 8 3 7 20 3 0 4 0
+0 4 0
+0 4 0
+0 0 0
+12 1 |C 6 1 C 8 0 15 7 0 2 8 -1 12 7 8 3 7 20 3 0 0 0
+0 4 0
+0 4 0
+0 0 0
+12 1 |D 6 1 D 8 0 15 7 0 2 8 -1 12 7 8 3 7 6 2 7 20 3 0 2 0
+0 2 0
+0 0 0
+7 20 3 0 0 0
+0 2 0
+0 2 0
+0 0 0
+12 2 |D1 6 2 D1 8 0 15 7 0 2 8 -1 12 7 8 3 7 20 3 0 0 0
+0 2 0
+0 2 0
+0 0 0
+12 1 |I 6 1 I 8 0 15 7 0 2 8 -1 12 7 8 3 7 20 3 0 1 0
+0 2 0
+0 1 0
+0 0 0
+12 1 |J 6 1 J 8 0 15 7 0 2 8 -1 12 7 8 3 7 20 3 0 2 0
+0 2 0
+0 0 0
+0 0 0
+12 1 |O 6 1 O 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 5 7 20 3 0 0 0
+0 0 0
+0 0 0
+7 20 3 0 4 0
+0 0 0
+0 0 0
+7 20 3 0 4 0
+0 4 0
+0 0 0
+7 20 3 0 0 0
+0 4 0
+0 0 0
+7 20 3 0 0 0
+0 0 0
+0 0 0
+0 0 0
+12 1 |P 6 1 P 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 0 'hyperplan' 7 1 2 7 0 3 0 4 0
+0 0 0
+0 -4 0
+7 20 3 0 0 0
+0 0 0
+0 0 0
+0 1073741825 0
+12 2 |P1 6 2 P1 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 5 7 20 3 0 0 0
+0 0 0
+0 4 0
+7 20 3 0 4 0
+0 0 0
+0 4 0
+7 20 3 0 4 0
+0 4 0
+0 4 0
+7 20 3 0 0 0
+0 4 0
+0 4 0
+7 20 3 0 0 0
+0 0 0
+0 4 0
+0 0 0
+12 1 |Q 6 1 Q 8 0 15 7 0 2 8 -1 12 7 8 3 7 20 3 0 0 0
+0 0 0
+0 0 0
+0 0 0
+12 1 |a 6 1 a 8 0 15 7 0 2 8 -1 12 7 8 3 7 20 3 0 4 0
+0 0 0
+0 0 0
+0 0 0
+12 1 |b 6 1 b 8 0 15 7 0 2 8 -1 12 7 8 3 7 20 3 0 4 0
+0 4 0
+0 0 0
+0 0 0
+12 1 |c 6 1 c 8 0 15 7 0 2 8 -1 12 7 8 3 7 20 3 0 0 0
+0 4 0
+0 0 0
+0 0 0
+12 1 |d 6 1 d 8 0 0 'xcas_mode' 0 0 0
+

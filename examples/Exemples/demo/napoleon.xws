@@ -1,0 +1,662 @@
+// xcas version=0.8.1 fontsize=20 font=0
+// fltk 7Fl_Tile 13 70 870 446 20 0
+[
+// fltk N4xcas6FigureE 13 70 870 445 20 0 landscape=0 history=0.38046 geo=0.5092  mouse_param=0.11034
+// fltk N4xcas12History_PackE 15 96 311 1399 20 0
+[
+// fltk 7Fl_Tile 37 96 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 96 289 30 20 0
+assume(a=[3.0,-10.0,10.0,0.2]);
+,
+// fltk N4xcas10Log_OutputE 37 126 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 127 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 127 286 27 20 0
+parameter(a,-10.0,10.0,3.0,0.2)
+,
+// fltk 12Fl_Scrollbar 37 176 289 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 326 127 16 49 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 178 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 178 289 30 20 0
+assume(b=[-1.4,-10.0,10.0]);
+,
+// fltk N4xcas10Log_OutputE 37 208 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 209 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 209 286 27 20 0
+parameter(b,-10.0,10.0,-1.4,0.2)
+,
+// fltk 12Fl_Scrollbar 37 258 289 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 326 209 16 49 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 260 289 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 260 289 30 20 0
+A:=point(0);
+,
+// fltk N4xcas10Log_OutputE 37 290 289 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 291 289 27 20 0
+point(0,0)
+]
+,
+// fltk 7Fl_Tile 37 320 289 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 320 289 30 20 0
+B:=point(2,1);
+,
+// fltk N4xcas10Log_OutputE 37 350 289 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 351 289 27 20 0
+point(2,1)
+]
+,
+// fltk 7Fl_Tile 37 380 289 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 380 289 30 20 0
+C:=point(a,b);
+,
+// fltk N4xcas10Log_OutputE 37 410 289 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 411 289 27 20 0
+point(a+(i)*b)
+]
+,
+// fltk 7Fl_Tile 37 440 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 440 289 30 20 0
+T1:=equilateral_triangle(A,B,'display'=(bleu+dashdot_line+quadrant2));
+,
+// fltk N4xcas10Log_OutputE 37 470 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 471 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 471 286 27 20 0
+polygon(point(0,0),point(2,1),point(((2+i)*(sqrt(3)*(i)+1))/2),point(0,0))
+,
+// fltk 12Fl_Scrollbar 37 520 289 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 326 471 16 49 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 522 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 522 289 30 20 0
+T2:=equilateral_triangle(B,C,'display'=(bleu+dashdot_line));
+,
+// fltk N4xcas10Log_OutputE 37 552 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 553 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 553 286 27 20 0
+polygon(point(2,1),point(a+(i)*b),point(2+i+((a+(i)*b-2-i)*(sqrt(3)*(i)+1))/2),point(2,1))
+,
+// fltk 12Fl_Scrollbar 37 -389 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -422 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 604 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 604 289 30 20 0
+T3:=equilateral_triangle(C,A,'display'=(bleu+dashdot_line));
+,
+// fltk N4xcas10Log_OutputE 37 634 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 635 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 635 286 27 20 0
+polygon(point(a+(i)*b),point(0,0),point(a+(i)*b+((-a-(i)*b)*(sqrt(3)*(i)+1))/2),point(a+(i)*b))
+,
+// fltk 12Fl_Scrollbar 37 -307 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -340 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 686 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 686 289 30 20 0
+triangle(A,B,C,display=noir+line_width_3);
+,
+// fltk N4xcas10Log_OutputE 37 716 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 717 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 717 286 27 20 0
+polygon(point(0,0),point(2,1),point(a+(i)*b),point(0,0))
+,
+// fltk 12Fl_Scrollbar 37 -225 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -258 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 768 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 768 289 30 20 0
+M:=normal(isobarycenter(T1));
+,
+// fltk N4xcas10Log_OutputE 37 798 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 799 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 799 286 27 20 0
+point(((-1+2*i)*sqrt(3)+6+3*i)/6)
+,
+// fltk 12Fl_Scrollbar 37 -143 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -176 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 850 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 850 289 30 20 0
+N:=normal(isobarycenter(T2));
+,
+// fltk N4xcas10Log_OutputE 37 880 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 881 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 881 286 27 20 0
+point(((i)*sqrt(3)+3)/6*a+(-sqrt(3)+3*i)/6*b+((1-2*i)*sqrt(3)+6+3*i)/6)
+,
+// fltk 12Fl_Scrollbar 37 -61 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -94 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 932 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 932 289 30 20 0
+O:=normal(isobarycenter(T3));
+,
+// fltk N4xcas10Log_OutputE 37 962 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 963 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 963 286 27 20 0
+point(((-i)*sqrt(3)+3)/6*a+(sqrt(3)+3*i)/6*b)
+,
+// fltk 12Fl_Scrollbar 37 21 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -12 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1014 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1014 289 30 20 0
+MN:=segment(M,N,display=rouge+line_width_2);
+,
+// fltk N4xcas10Log_OutputE 37 1044 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1045 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1045 286 27 20 0
+segment(point(((-1+2*i)*sqrt(3)+6+3*i)/6),point((((i)*sqrt(3)+3)*a)/6+((-sqrt(3)+3*i)*b)/6+((1-2*i)*sqrt(3)+6+3*i)/6))
+,
+// fltk 12Fl_Scrollbar 37 103 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 70 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1096 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1096 289 30 20 0
+NO:=segment(N,O,display=rouge+line_width_2);
+,
+// fltk N4xcas10Log_OutputE 37 1126 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1127 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1127 286 27 20 0
+segment(point((((i)*sqrt(3)+3)*a)/6+((-sqrt(3)+3*i)*b)/6+((1-2*i)*sqrt(3)+6+3*i)/6),point((((-i)*sqrt(3)+3)*a)/6+((sqrt(3)+3*i)*b)/6))
+,
+// fltk 12Fl_Scrollbar 37 185 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 152 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1178 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1178 289 30 20 0
+OM:=segment(O,M,display=rouge+line_width_2);
+,
+// fltk N4xcas10Log_OutputE 37 1208 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1209 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1209 286 27 20 0
+segment(point((((-i)*sqrt(3)+3)*a)/6+((sqrt(3)+3*i)*b)/6),point(((-1+2*i)*sqrt(3)+6+3*i)/6))
+,
+// fltk 12Fl_Scrollbar 37 267 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 234 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1260 289 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1260 289 30 20 0
+title="Theoreme de Napoleon: OMN est equilateral";
+,
+// fltk N4xcas10Log_OutputE 37 1290 289 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1291 289 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1291 286 27 20 0
+title="Theoreme de Napoleon: OMN est equilateral"
+,
+// fltk 12Fl_Scrollbar 37 349 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 316 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1342 289 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1342 289 30 20 0
+normal(distance2(M,N)-distance2(N,O));
+,
+// fltk N4xcas10Log_OutputE 37 1372 289 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 1373 289 27 20 0
+0
+]
+,
+// fltk 7Fl_Tile 37 1402 289 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1402 289 30 20 0
+normal(distance2(N,O)-distance2(O,M));
+,
+// fltk N4xcas10Log_OutputE 37 1432 289 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 1433 289 27 20 0
+0
+]
+,
+// fltk 7Fl_Tile 37 1462 289 31 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1462 289 30 20 0
+
+,
+// fltk N4xcas10Log_OutputE 37 1492 289 1 20 0
+
+]
+]
+// fltk N4xcas5Geo2dE 344 96 443 419 20 0
+-2.4916,5.6416,-4.5172,2.7872,[parameter(a,-10.0,10.0,3.0,0.2),parameter(b,-10.0,10.0,-1.4,0.2),pnt(pnt[0,0,"A"]),pnt(pnt[2+i,[0],"B"]),pnt(pnt[a+(i)*b,[0],"C"]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372,"T1"]),pnt(pnt[group[2+i,a+(i)*b,2+i+((a+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916,"T2"]),pnt(pnt[group[a+(i)*b,0,a+(i)*b+((-a-(i)*b)*(sqrt(3)*(i)+1))/2,a+(i)*b],12582916,"T3"]),pnt(pnt[group[0,2+i,a+(i)*b,0],131072]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0,"M"]),pnt(pnt[((i)*sqrt(3)+3)/6*a+(-sqrt(3)+3*(i))/6*b+((1-2*(i))*sqrt(3)+6+3*(i))/6,0,"N"]),pnt(pnt[((-(i))*sqrt(3)+3)/6*a+(sqrt(3)+3*(i))/6*b,0,"O"]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*a)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6],65537,"MN"]),pnt(pnt[group[(((i)*sqrt(3)+3)*a)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*a)/6+((sqrt(3)+3*(i))*b)/6],65537,"NO"]),pnt(pnt[group[(((-(i))*sqrt(3)+3)*a)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],65537,"OM"]),title="Theoreme de Napoleon: OMN est equilateral",0,0],-3.535,3.535,1,0,0,0,1,0.5,1,0,1,1.05,0,1,65,[],24,18,256,0,100,0,0,1,0.03
+
+,
+// fltk N4xcas10Log_OutputE 13 515 870 1 20 0
+
+]
+,
+// fltk 7Fl_Tile 13 518 870 321 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 13 518 870 30 20 0
+animation(seq([A,B,C,C1,C2,C3,triangle(A,B,C,display=bleu),M,N,O,triangle(M,N,O,display=rouge)],a,-5,5)
+,
+// fltk N4xcas10Log_OutputE 13 548 870 1 20 0
+
+,
+// fltk 7Fl_Tile 13 549 870 290 20 0
+[
+// fltk N4xcas7Graph2dE 13 549 758 290 20 0
+-8.162,8.162,-2.7926,2.7926,[animation([[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[-5+(i)*b,[0]]),C1,C2,C3,pnt(pnt[group[0,2+i,-5+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*-5)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*-5)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*-5)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*-5)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[-4+(i)*b,[0]]),C1,C2,C3,pnt(pnt[group[0,2+i,-4+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*-4)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*-4)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*-4)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*-4)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[-3+(i)*b,[0]]),C1,C2,C3,pnt(pnt[group[0,2+i,-3+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*-3)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*-3)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*-3)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*-3)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[-2+(i)*b,[0]]),C1,C2,C3,pnt(pnt[group[0,2+i,-2+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*-2)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*-2)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*-2)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*-2)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[-1+(i)*b,[0]]),C1,C2,C3,pnt(pnt[group[0,2+i,-1+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*-1)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*-1)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*-1)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*-1)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[0+(i)*b,[0]]),C1,C2,C3,pnt(pnt[group[0,2+i,0+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*0)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*0)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*0)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*0)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[1+(i)*b,[0]]),C1,C2,C3,pnt(pnt[group[0,2+i,1+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*1)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*1)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*1)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*1)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[2+(i)*b,[0]]),C1,C2,C3,pnt(pnt[group[0,2+i,2+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*2)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*2)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*2)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*2)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[3+(i)*b,[0]]),C1,C2,C3,pnt(pnt[group[0,2+i,3+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*3)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*3)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*3)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*3)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[4+(i)*b,[0]]),C1,C2,C3,pnt(pnt[group[0,2+i,4+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*4)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*4)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*4)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*4)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[5+(i)*b,[0]]),C1,C2,C3,pnt(pnt[group[0,2+i,5+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*5)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*5)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*5)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*5)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])]])],-2.4992,2.4992,1,0,0,0,0.5,2,1,0,1,1.05,0.2,0,1,[],24,18,256,0,100,0,0,1,0.03
+,
+// fltk 8Fl_Group 771 549 104 290 20 0
+[
+// fltk N4xcas14Mouse_PositionE 771 549 104 40 20 0
+[]
+,
+// fltk 8Fl_Group 771 589 104 115 20 0
+[
+// fltk 9Fl_Button 771 589 34 23 20 0
+[]
+,
+// fltk 9Fl_Button 805 589 35 23 20 0
+[]
+,
+// fltk 9Fl_Button 840 589 34 23 20 0
+[]
+,
+// fltk 9Fl_Button 771 612 34 23 20 0
+[]
+,
+// fltk 9Fl_Button 805 612 35 23 20 0
+[]
+,
+// fltk 9Fl_Button 840 612 34 23 20 0
+[]
+,
+// fltk 9Fl_Button 771 635 34 23 20 0
+[]
+,
+// fltk 9Fl_Button 805 635 35 23 20 0
+[]
+,
+// fltk 9Fl_Button 840 635 34 23 20 0
+[]
+,
+// fltk 9Fl_Button 771 658 34 23 20 0
+[]
+,
+// fltk 9Fl_Button 805 658 35 23 20 0
+[]
+,
+// fltk 9Fl_Button 840 658 34 23 20 0
+[]
+,
+// fltk 9Fl_Button 771 681 34 23 20 0
+[]
+,
+// fltk 11Fl_Menu_Bar 805 681 69 23 20 0
+[]
+]
+,
+// fltk 8Fl_Group 771 704 104 135 20 0
+[
+]
+]
+]
+]
+,
+// fltk 7Fl_Tile 13 841 870 31 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 13 841 870 30 20 0
+
+,
+// fltk N4xcas10Log_OutputE 13 871 870 1 20 0
+
+]
+// context 3844 giac archive
+7 0 19 8 0 0 'cas_setup' 7 0 11 0 0 0
+0 0 0
+0 0 0
+0 1 0
+0 0 0
+1 »½×Ùß|Û=
+0 12 0
+7 0 4 0 1 0
+0 50 0
+0 0 0
+0 25 0
+0 0 0
+0 0 0
+0 0 0
+8 0 0 'xyztrange' 7 0 16 1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1 ffffffö¿
+1 š™™™™™ñ?
+0 1 0
+1         
+1       ð?
+0 1 0
+7 0 0 7 0 0 8 0 15 7 0 2 8 -1 12 7 8 3 0 0 0
+0 0 0
+12 1 |A 6 1 A 8 0 15 7 0 2 8 -1 12 7 8 3 4 0 2 0
+0 1 0
+7 0 1 0 0 0
+12 1 |B 6 1 B 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 1 7 0 2 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 7 0 1 0 0 0
+12 1 |C 6 1 C 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 -1 0
+0 2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+0 0 0
+12 1 |M 6 1 M 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 2 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 -1 0
+0 2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+8 0 1 7 0 3 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 1 0
+0 -2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+0 65537 0
+12 2 |MN 6 2 MN 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 1 7 0 3 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 1 0
+0 -2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+0 0 0
+12 1 |N 6 1 N 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 2 8 0 1 7 0 3 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 1 0
+0 -2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+8 0 1 7 0 2 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 -1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 0 65537 0
+12 2 |NO 6 2 NO 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 1 7 0 2 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 -1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 0 0 0
+12 1 |O 6 1 O 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 2 8 0 1 7 0 2 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 -1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 -1 0
+0 2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+0 65537 0
+12 2 |OM 6 2 OM 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 4 0 0 0
+4 0 2 0
+0 1 0
+8 0 4 7 0 3 4 0 2 0
+0 1 0
+8 0 1 7 0 2 8 0 4 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 1 0
+0 1 0
+8 0 6 0 2 0
+0 0 0
+0 281018372 0
+12 2 |T1 6 2 T1 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 4 4 0 2 0
+0 1 0
+8 0 1 7 0 2 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 8 0 1 7 0 2 4 0 2 0
+0 1 0
+8 0 4 7 0 3 8 0 1 7 0 3 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 4 0 -2 0
+0 -1 0
+8 0 1 7 0 2 8 0 4 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 1 0
+0 1 0
+8 0 6 0 2 0
+4 0 2 0
+0 1 0
+0 12582916 0
+12 2 |T2 6 2 T2 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 4 8 0 1 7 0 2 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 0 0 0
+8 0 1 7 0 3 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 8 0 4 7 0 3 8 0 1 7 0 2 8 0 2 6 1 a 8 0 2 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 8 0 1 7 0 2 8 0 4 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 1 0
+0 1 0
+8 0 6 0 2 0
+8 0 1 7 0 2 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 0 12582916 0
+12 2 |T3 6 2 T3 8 0 15 7 0 2 7 13 2 0 1 1
+1       @
+6 1 a 8 0 15 7 0 2 7 13 2 0 1 1
+1 ffffffö¿
+6 1 b 8 0 0 'xcas_mode' 0 0 0
+

@@ -1,0 +1,4 @@
+#! /bin/sh
+unset LANG
+../src/icas testgeo > geo.tst
+diff geo.tst geo.out

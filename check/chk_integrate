@@ -1,0 +1,4 @@
+#! /bin/sh
+unset LANG
+../src/icas testintegrate > integrate.tst
+diff integrate.tst integrate.out

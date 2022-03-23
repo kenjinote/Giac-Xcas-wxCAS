@@ -1,0 +1,583 @@
+// xcas version=0.8.1 fontsize=20 font=0
+// fltk 7Fl_Tile 13 70 870 70 20 0
+[
+// fltk N4xcas23Comment_Multiline_InputE 13 70 870 69 20 0
+Soit ABC un triangle, G son cercle circonscrit, M un point du plan, P sa projection sur BC£Q sur CA, R sur AB, alors M est sur G si et seulement si P, Q, R sont alignes£La figure ci-dessous permet de tester ce theoreme, mais aussi de le prouver par le calcul formel
+,
+// fltk N4xcas10Log_OutputE 13 139 870 1 20 0
+
+]
+,
+// fltk 7Fl_Tile 13 142 870 446 20 0
+[
+// fltk N4xcas6FigureE 13 142 870 445 20 0 landscape=0 history=0.37931 geo=0.50805  mouse_param=0.11264
+// fltk N4xcas12History_PackE 15 168 310 1841 20 0
+[
+// fltk 7Fl_Tile 37 168 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 168 288 30 20 0
+xa:=0;
+,
+// fltk N4xcas10Log_OutputE 37 198 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 199 288 27 20 0
+0
+]
+,
+// fltk 7Fl_Tile 37 228 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 228 288 30 20 0
+ya:=0;
+,
+// fltk N4xcas10Log_OutputE 37 258 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 259 288 27 20 0
+0
+]
+,
+// fltk 7Fl_Tile 37 288 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 288 288 30 20 0
+xb:=1;
+,
+// fltk N4xcas10Log_OutputE 37 318 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 319 288 27 20 0
+1
+]
+,
+// fltk 7Fl_Tile 37 348 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 348 288 30 20 0
+yb:=0;
+,
+// fltk N4xcas10Log_OutputE 37 378 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 379 288 27 20 0
+0
+]
+,
+// fltk 7Fl_Tile 37 408 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 408 288 30 20 0
+assume(xc=[-0.4,-10.0,10.0,0.2]);
+,
+// fltk N4xcas10Log_OutputE 37 438 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 439 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 439 286 27 20 0
+parameter(xc,-10.0,10.0,-0.4,0.2)
+,
+// fltk 12Fl_Scrollbar 37 488 288 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 325 439 16 49 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 490 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 490 288 30 20 0
+assume(yc=[2.0,-10.0,10.0]);
+,
+// fltk N4xcas10Log_OutputE 37 520 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 521 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 521 286 27 20 0
+parameter(yc,-10.0,10.0,2.0,0.2)
+,
+// fltk 12Fl_Scrollbar 37 570 288 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 325 521 16 49 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 572 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 572 288 30 20 0
+A:=point(xa,ya);
+,
+// fltk N4xcas10Log_OutputE 37 602 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 603 288 27 20 0
+point(0,0)
+]
+,
+// fltk 7Fl_Tile 37 632 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 632 288 30 20 0
+B:=point(xb,yb);
+,
+// fltk N4xcas10Log_OutputE 37 662 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 663 288 27 20 0
+point(1,0)
+]
+,
+// fltk 7Fl_Tile 37 692 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 692 288 30 20 0
+C:=point(xc,yc);
+,
+// fltk N4xcas10Log_OutputE 37 722 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 723 288 27 20 0
+point(xc+(i)*yc)
+]
+,
+// fltk 7Fl_Tile 37 752 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 752 288 30 20 0
+color(triangle(A,B,C),bleu);
+,
+// fltk N4xcas10Log_OutputE 37 782 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 783 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 783 286 27 20 0
+polygon(point(0,0),point(1,0),point(xc+(i)*yc),point(0,0))
+,
+// fltk 12Fl_Scrollbar 37 -606 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -639 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 834 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 834 288 30 20 0
+G:=circumcircle(A,B,C);
+,
+// fltk N4xcas10Log_OutputE 37 864 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 865 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 865 286 27 20 0
+circle(point(((i)*xc^2+(-i)*xc+(i)*yc^2+yc)/(2*yc)),sqrt((-yc)^2+(-xc^2+xc-yc^2)^2)*(1/2)/(abs(yc)))
+,
+// fltk 12Fl_Scrollbar 37 -524 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -557 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 916 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 916 288 30 20 0
+assume(x=[1.4,-10.0,10.0]);
+,
+// fltk N4xcas10Log_OutputE 37 946 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 947 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 947 286 27 20 0
+parameter(x,-10.0,10.0,1.4,0.2)
+,
+// fltk 12Fl_Scrollbar 37 -442 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -475 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 998 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 998 288 30 20 0
+assume(y=[2.0,-10.0,10.0]);
+,
+// fltk N4xcas10Log_OutputE 37 1028 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1029 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1029 286 27 20 0
+parameter(y,-10.0,10.0,2.0,0.2)
+,
+// fltk 12Fl_Scrollbar 37 -360 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -393 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1080 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1080 288 30 20 0
+M:=point(x,y);
+,
+// fltk N4xcas10Log_OutputE 37 1110 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 1111 288 27 20 0
+point(x+(i)*y)
+]
+,
+// fltk 7Fl_Tile 37 1140 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1140 288 30 20 0
+P:=projection(line(B,C),M);
+,
+// fltk N4xcas10Log_OutputE 37 1170 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1171 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1171 286 27 20 0
+point(1+((x-1)*(xc-1)+y*yc)/((xc-1)*(xc-1)+yc*yc)*(xc+(i)*yc-1))
+,
+// fltk 12Fl_Scrollbar 37 -218 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -251 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1222 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1222 288 30 20 0
+color(segment(M,P),rouge);
+,
+// fltk N4xcas10Log_OutputE 37 1252 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1253 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1253 286 27 20 0
+segment(point(x+(i)*y),point(1+((x-1)*(xc-1)+y*yc)/((xc-1)*(xc-1)+yc*yc)*(xc+(i)*yc-1)))
+,
+// fltk 12Fl_Scrollbar 37 -136 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -169 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1304 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1304 288 30 20 0
+Q:=projection(line(C,A),M);
+,
+// fltk N4xcas10Log_OutputE 37 1334 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1335 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1335 286 27 20 0
+point(xc+(i)*yc+((x-xc)*(-xc)+(y-yc)*(-yc))/((-xc)*(-xc)+(-yc)*(-yc))*(-xc-(i)*yc))
+,
+// fltk 12Fl_Scrollbar 37 -54 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -87 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1386 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1386 288 30 20 0
+color(segment(M,Q),rouge), color(line(Q,P),cyan);
+,
+// fltk N4xcas10Log_OutputE 37 1416 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 1417 288 27 20 0
+Done
+]
+,
+// fltk 7Fl_Tile 37 1446 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1446 288 30 20 0
+R:=projection(line(A,B),M);
+,
+// fltk N4xcas10Log_OutputE 37 1476 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 1477 288 27 20 0
+point(x)
+]
+,
+// fltk 7Fl_Tile 37 1506 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1506 288 30 20 0
+color(segment(M,R),rouge);
+,
+// fltk N4xcas10Log_OutputE 37 1536 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1537 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1537 286 27 20 0
+segment(point(x+(i)*y),point(x))
+,
+// fltk 12Fl_Scrollbar 37 148 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 115 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1588 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1588 288 30 20 0
+D1:=factor(numer(im((Q-P)*conj(R-P))));
+,
+// fltk N4xcas10Log_OutputE 37 1618 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1619 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1619 286 27 20 0
+(-(yc^2))*(xc^2*y-xc*y-y^2*yc+y*yc^2-yc*x^2+yc*x)
+,
+// fltk 12Fl_Scrollbar 37 230 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 197 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1670 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1670 288 30 20 0
+D12:=D1[2];
+,
+// fltk N4xcas10Log_OutputE 37 1700 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1701 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1701 286 27 20 0
+xc^2*y-xc*y-y^2*yc+y*yc^2-yc*x^2+yc*x
+,
+// fltk 12Fl_Scrollbar 37 312 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 279 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1752 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1752 288 30 20 0
+D2:=equation(G);
+,
+// fltk N4xcas10Log_OutputE 37 1782 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1783 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1783 286 27 20 0
+(x-yc/(2*yc))^2+(y-(xc^2-xc+yc^2)/(2*yc))^2=((((-i)*xc^2+(i)*xc+(-i)*yc^2-yc)/(2*yc)*((i)*xc^2+(-i)*xc+(i)*yc^2-yc))/(2*yc))
+,
+// fltk 12Fl_Scrollbar 37 394 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 361 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1834 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1834 288 30 20 0
+D22:=factor(numer(equal2diff(D2)));
+,
+// fltk N4xcas10Log_OutputE 37 1864 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1865 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1865 286 27 20 0
+x^2*yc-x*yc-yc^2*y+yc*y^2-y*xc^2+y*xc
+,
+// fltk 12Fl_Scrollbar 37 476 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 443 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1916 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1916 288 30 20 0
+normal(D12/D22);
+,
+// fltk N4xcas10Log_OutputE 37 1946 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 1947 288 27 20 0
+-1
+]
+,
+// fltk 7Fl_Tile 37 1976 288 31 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1976 288 30 20 0
+
+,
+// fltk N4xcas10Log_OutputE 37 2006 288 1 20 0
+
+]
+]
+// fltk N4xcas5Geo2dE 343 168 442 419 20 0
+-2.2807,3.4695,-1.8758,3.7752,[0,0,1,0,parameter(xc,-10.0,10.0,-0.4,0.2),parameter(yc,-10.0,10.0,2.0,0.2),pnt(pnt[0,[0],"A"]),pnt(pnt[1,[0],"B"]),pnt(pnt[xc+(i)*yc,[0],"C"]),pnt(pnt[group[0,1,xc+(i)*yc,0],bleu]),pnt(pnt[cercle(pnt[[0,(2*((i)*xc^2+(-(i))*xc+(i)*yc^2+yc))/(2*yc)],0,2*pi]),0,"G"]),parameter(x,-10.0,10.0,1.4,0.2),parameter(y,-10.0,10.0,2.0,0.2),pnt(pnt[x+(i)*y,[0],"M"]),pnt(pnt[1+((x-1)*(xc-1)+y*yc)/((xc-1)*(xc-1)+yc*yc)*(xc+(i)*yc-1),0,"P"]),pnt(pnt[group[x+(i)*y,1+((x-1)*(xc-1)+y*yc)/((xc-1)*(xc-1)+yc*yc)*(xc+(i)*yc-1)],rouge]),pnt(pnt[xc+(i)*yc+((x-xc)*(-xc)+(y-yc)*(-yc))/((-xc)*(-xc)+(-yc)*(-yc))*(-xc-(i)*yc),0,"Q"]),pnt(pnt[group[x+(i)*y,xc+(i)*yc+((x-xc)*(-xc)+(y-yc)*(-yc))/((-xc)*(-xc)+(-yc)*(-yc))*(-xc-(i)*yc)],rouge]),pnt(pnt[line[xc+(i)*yc+((x-xc)*(-xc)+(y-yc)*(-yc))/((-xc)*(-xc)+(-yc)*(-yc))*(-xc-(i)*yc),1+((x-1)*(xc-1)+y*yc)/((xc-1)*(xc-1)+yc*yc)*(xc+(i)*yc-1)],cyan]),pnt(pnt[x,0,"R"]),pnt(pnt[group[x+(i)*y,x],rouge]),(-(yc^2))*(xc^2*y-xc*y-y^2*yc+y*yc^2-yc*x^2+yc*x),xc^2*y-xc*y-y^2*yc+y*yc^2-yc*x^2+yc*x,(x-yc/(2*yc))^2+(y-(xc^2-xc+yc^2)/(2*yc))^2=((((-(i))*xc^2+(i)*xc+(-(i))*yc^2-yc)/(2*yc)*((i)*xc^2+(-(i))*xc+(i)*yc^2-yc))/(2*yc)),x^2*yc-x*yc-yc^2*y+yc*y^2-y*xc^2+y*xc,-1],-2.4992,2.4992,1,0,0,0,0.5,0.5,1,0,1,1.8,0,1,65,[],24,18,256,0,100,0,0,1,0.03
+
+,
+// fltk N4xcas10Log_OutputE 13 587 870 1 20 0
+
+]
+// context 3619 giac archive
+7 0 25 8 0 0 'cas_setup' 7 0 11 0 0 0
+0 0 0
+0 0 0
+0 1 0
+0 0 0
+1 »½×Ùß|Û=
+0 12 0
+7 0 4 0 1 0
+0 50 0
+0 0 0
+0 25 0
+0 0 0
+0 0 0
+0 0 0
+8 0 0 'xyztrange' 7 0 16 1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1 ffffffö¿
+1 š™™™™™ñ?
+0 1 0
+1         
+1       ð?
+0 1 0
+7 0 0 7 0 0 8 0 15 7 0 2 8 -1 12 7 8 3 0 0 0
+7 0 1 0 0 0
+12 1 |A 6 1 A 8 0 15 7 0 2 8 -1 12 7 8 3 0 1 0
+7 0 1 0 0 0
+12 1 |B 6 1 B 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 1 7 0 2 6 2 xc 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 2 yc 7 0 1 0 0 0
+12 1 |C 6 1 C 8 0 15 7 0 2 8 0 4 7 0 2 8 0 2 8 0 7 7 0 2 6 2 yc 0 2 0
+8 0 1 7 0 6 8 0 4 7 0 2 8 0 7 7 0 2 6 2 xc 0 2 0
+6 1 y 8 0 2 8 0 4 7 0 2 6 2 xc 6 1 y 8 0 2 8 0 4 7 0 2 8 0 7 7 0 2 6 1 y 0 2 0
+6 2 yc 8 0 4 7 0 2 6 1 y 8 0 7 7 0 2 6 2 yc 0 2 0
+8 0 2 8 0 4 7 0 2 6 2 yc 8 0 7 7 0 2 6 1 x 0 2 0
+8 0 4 7 0 2 6 2 yc 6 1 x 6 2 D1 8 0 15 7 0 2 8 0 1 7 0 6 8 0 4 7 0 2 8 0 7 7 0 2 6 2 xc 0 2 0
+6 1 y 8 0 2 8 0 4 7 0 2 6 2 xc 6 1 y 8 0 2 8 0 4 7 0 2 8 0 7 7 0 2 6 1 y 0 2 0
+6 2 yc 8 0 4 7 0 2 6 1 y 8 0 7 7 0 2 6 2 yc 0 2 0
+8 0 2 8 0 4 7 0 2 6 2 yc 8 0 7 7 0 2 6 1 x 0 2 0
+8 0 4 7 0 2 6 2 yc 6 1 x 6 3 D12 8 0 15 7 0 2 8 0 40 7 0 2 8 0 1 7 0 2 8 0 7 7 0 2 8 0 1 7 0 2 6 1 x 8 0 2 8 0 4 7 0 3 6 2 yc 10 0 1 0
+0 2 0
+8 0 6 6 2 yc 0 2 0
+8 0 7 7 0 2 8 0 1 7 0 2 6 1 y 8 0 2 8 0 4 7 0 3 8 0 1 7 0 3 8 0 7 7 0 2 6 2 xc 0 2 0
+8 0 2 6 2 xc 8 0 7 7 0 2 6 2 yc 0 2 0
+10 0 1 0
+0 2 0
+8 0 6 6 2 yc 0 2 0
+8 0 4 7 0 6 8 0 1 7 0 4 8 0 4 7 0 2 4 0 0 0
+0 -1 0
+8 0 7 7 0 2 6 2 xc 0 2 0
+8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 2 xc 8 0 4 7 0 2 4 0 0 0
+0 -1 0
+8 0 7 7 0 2 6 2 yc 0 2 0
+8 0 2 6 2 yc 10 0 1 0
+0 2 0
+8 0 6 6 2 yc 8 0 1 7 0 4 8 0 4 7 0 2 4 0 0 0
+0 1 0
+8 0 7 7 0 2 6 2 xc 0 2 0
+8 0 4 7 0 2 4 0 0 0
+0 -1 0
+6 2 xc 8 0 4 7 0 2 4 0 0 0
+0 1 0
+8 0 7 7 0 2 6 2 yc 0 2 0
+8 0 2 6 2 yc 10 0 1 0
+0 2 0
+8 0 6 6 2 yc 6 2 D2 8 0 15 7 0 2 8 0 1 7 0 6 8 0 4 7 0 2 8 0 7 7 0 2 6 1 x 0 2 0
+6 2 yc 8 0 2 8 0 4 7 0 2 6 1 x 6 2 yc 8 0 2 8 0 4 7 0 2 8 0 7 7 0 2 6 2 yc 0 2 0
+6 1 y 8 0 4 7 0 2 6 2 yc 8 0 7 7 0 2 6 1 y 0 2 0
+8 0 2 8 0 4 7 0 2 6 1 y 8 0 7 7 0 2 6 2 xc 0 2 0
+8 0 4 7 0 2 6 1 y 6 2 xc 6 3 D22 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 0 'cercle' 7 8 3 7 0 2 0 0 0
+8 0 4 7 0 4 0 2 0
+8 0 1 7 0 4 8 0 4 7 0 2 4 0 0 0
+0 1 0
+8 0 7 7 0 2 6 2 xc 0 2 0
+8 0 4 7 0 2 4 0 0 0
+0 -1 0
+6 2 xc 8 0 4 7 0 2 4 0 0 0
+0 1 0
+8 0 7 7 0 2 6 2 yc 0 2 0
+6 2 yc 10 0 1 0
+0 2 0
+8 0 6 6 2 yc 0 0 0
+8 0 4 7 0 2 0 2 0
+6 2 pi 0 0 0
+12 1 |G 6 1 G 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 1 7 0 2 6 1 x 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 y 7 0 1 0 0 0
+12 1 |M 6 1 M 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 1 7 0 2 0 1 0
+8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 8 0 1 7 0 2 6 1 x 0 -1 0
+8 0 1 7 0 2 6 2 xc 0 -1 0
+8 0 4 7 0 2 6 1 y 6 2 yc 8 0 6 8 0 1 7 0 2 8 0 4 7 0 2 8 0 1 7 0 2 6 2 xc 0 -1 0
+8 0 1 7 0 2 6 2 xc 0 -1 0
+8 0 4 7 0 2 6 2 yc 6 2 yc 8 0 1 7 0 3 6 2 xc 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 2 yc 0 -1 0
+0 0 0
+12 1 |P 6 1 P 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 1 7 0 3 6 2 xc 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 2 yc 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 8 0 1 7 0 2 6 1 x 8 0 2 6 2 xc 8 0 2 6 2 xc 8 0 4 7 0 2 8 0 1 7 0 2 6 1 y 8 0 2 6 2 yc 8 0 2 6 2 yc 8 0 6 8 0 1 7 0 2 8 0 4 7 0 2 8 0 2 6 2 xc 8 0 2 6 2 xc 8 0 4 7 0 2 8 0 2 6 2 yc 8 0 2 6 2 yc 8 0 1 7 0 2 8 0 2 6 2 xc 8 0 2 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 2 yc 0 0 0
+12 1 |Q 6 1 Q 8 0 15 7 0 2 8 -1 12 7 8 3 6 1 x 0 0 0
+12 1 |R 6 1 R 8 0 15 7 0 2 7 13 2 0 1 1
+1 ffffffö?
+6 1 x 8 0 15 7 0 2 0 0 0
+6 2 xa 8 0 15 7 0 2 0 1 0
+6 2 xb 8 0 15 7 0 2 7 13 2 0 1 1
+1 š™™™™™Ù¿
+6 2 xc 8 0 15 7 0 2 7 13 2 0 1 1
+1        @
+6 1 y 8 0 15 7 0 2 0 0 0
+6 2 ya 8 0 15 7 0 2 0 0 0
+6 2 yb 8 0 15 7 0 2 7 13 2 0 1 1
+1        @
+6 2 yc 8 0 0 'xcas_mode' 0 0 0
+

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=xcas
+X-AppInstall-Popcon=330
+X-AppInstall-Section=universe
+
+Version=1.0
+Encoding=UTF-8
+Name=Xcas Computer Algebra System
+GenericName=Computer Algebra System
+Comment=The swiss knife for mathematics
+MimeType=application/xcas;
+Exec=/usr/bin/xcas %f
+Icon=xcas.xpm
+Type=Application
+Terminal=false
+Categories=Education;Math;

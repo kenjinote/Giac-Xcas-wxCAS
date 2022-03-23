@@ -1,0 +1,11 @@
+#! /bin/bash
+# flags for compiling for mingw with GMP
+export CXXFLAGS='-I/home/parisse/mingw/usr/include'
+export CPPFLAGS='-I/home/parisse/mingw/usr/include'
+export CFLAGS='-I/home/parisse/mingw/usr/include'
+export LDFLAGS='-L/home/parisse/mingw/usr/lib'
+export PATH=$PATH:/usr/i686-pc-mingw32/sys-root/mingw/bin
+cd giac
+./configure --prefix=/home/parisse/mingw/usr --host=i686-pc-mingw32
+echo " check config.h  ptrdiff_t should not be defined, the line defining SIZE_MAX is incorrect, remove pthread from config.h (2 locations), run make inside giac-0.9.x then run sh mkmingw to build a standalone icas.exe" 
+echo "You will have to copy libstdc++ and gcc_so DLL from /usr/*mingw*/ install directory to the PATH or to the directory of icas.exe"

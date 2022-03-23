@@ -1,0 +1,662 @@
+// xcas version=0.8.1 fontsize=20 font=0
+// fltk 7Fl_Tile 13 70 870 446 20 0
+[
+// fltk N4xcas6FigureE 13 70 870 445 20 0 landscape=0 history=0.37931 geo=0.50805  mouse_param=0.11264
+// fltk N4xcas12History_PackE 15 96 310 1399 20 0
+[
+// fltk 7Fl_Tile 37 96 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 96 288 30 20 0
+assume(a=[2.8,-10.0,10.0]);
+,
+// fltk N4xcas10Log_OutputE 37 126 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 127 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 127 286 27 20 0
+parameter(a,-10.0,10.0,2.8,0.2)
+,
+// fltk 12Fl_Scrollbar 37 176 288 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 325 127 16 49 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 178 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 178 288 30 20 0
+assume(b=[-1.4,-10.0,10.0]);
+,
+// fltk N4xcas10Log_OutputE 37 208 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 209 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 209 286 27 20 0
+parameter(b,-10.0,10.0,-1.4,0.2)
+,
+// fltk 12Fl_Scrollbar 37 258 288 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 325 209 16 49 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 260 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 260 288 30 20 0
+A:=point(0);
+,
+// fltk N4xcas10Log_OutputE 37 290 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 291 288 27 20 0
+point(0,0)
+]
+,
+// fltk 7Fl_Tile 37 320 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 320 288 30 20 0
+B:=point(2,1);
+,
+// fltk N4xcas10Log_OutputE 37 350 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 351 288 27 20 0
+point(2,1)
+]
+,
+// fltk 7Fl_Tile 37 380 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 380 288 30 20 0
+C:=point(a,b);
+,
+// fltk N4xcas10Log_OutputE 37 410 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 411 288 27 20 0
+point(a+(i)*b)
+]
+,
+// fltk 7Fl_Tile 37 440 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 440 288 30 20 0
+T1:=equilateral_triangle(A,B,'display'=(bleu+dashdot_line+quadrant2));
+,
+// fltk N4xcas10Log_OutputE 37 470 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 471 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 471 286 27 20 0
+polygon(point(0,0),point(2,1),point(((2+i)*(sqrt(3)*(i)+1))/2),point(0,0))
+,
+// fltk 12Fl_Scrollbar 37 520 288 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 325 471 16 49 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 522 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 522 288 30 20 0
+T2:=equilateral_triangle(B,C,'display'=(bleu+dashdot_line));
+,
+// fltk N4xcas10Log_OutputE 37 552 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 553 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 553 286 27 20 0
+polygon(point(2,1),point(a+(i)*b),point(2+i+((a+(i)*b-2-i)*(sqrt(3)*(i)+1))/2),point(2,1))
+,
+// fltk 12Fl_Scrollbar 37 -683 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -716 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 604 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 604 288 30 20 0
+T3:=equilateral_triangle(C,A,'display'=(bleu+dashdot_line));
+,
+// fltk N4xcas10Log_OutputE 37 634 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 635 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 635 286 27 20 0
+polygon(point(a+(i)*b),point(0,0),point(a+(i)*b+((-a-(i)*b)*(sqrt(3)*(i)+1))/2),point(a+(i)*b))
+,
+// fltk 12Fl_Scrollbar 37 -601 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -634 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 686 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 686 288 30 20 0
+triangle(A,B,C,display=noir+line_width_3);
+,
+// fltk N4xcas10Log_OutputE 37 716 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 717 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 717 286 27 20 0
+polygon(point(0,0),point(2,1),point(a+(i)*b),point(0,0))
+,
+// fltk 12Fl_Scrollbar 37 -519 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -552 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 768 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 768 288 30 20 0
+M:=normal(isobarycenter(T1));
+,
+// fltk N4xcas10Log_OutputE 37 798 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 799 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 799 286 27 20 0
+point(((-1+2*i)*sqrt(3)+6+3*i)/6)
+,
+// fltk 12Fl_Scrollbar 37 -437 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -470 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 850 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 850 288 30 20 0
+N:=normal(isobarycenter(T2));
+,
+// fltk N4xcas10Log_OutputE 37 880 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 881 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 881 286 27 20 0
+point(((i)*sqrt(3)+3)/6*a+(-sqrt(3)+3*i)/6*b+((1-2*i)*sqrt(3)+6+3*i)/6)
+,
+// fltk 12Fl_Scrollbar 37 -355 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -388 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 932 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 932 288 30 20 0
+O:=normal(isobarycenter(T3));
+,
+// fltk N4xcas10Log_OutputE 37 962 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 963 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 963 286 27 20 0
+point(((-i)*sqrt(3)+3)/6*a+(sqrt(3)+3*i)/6*b)
+,
+// fltk 12Fl_Scrollbar 37 -273 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -306 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1014 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1014 288 30 20 0
+MN:=segment(M,N,display=rouge+line_width_2);
+,
+// fltk N4xcas10Log_OutputE 37 1044 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1045 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1045 286 27 20 0
+segment(point(((-1+2*i)*sqrt(3)+6+3*i)/6),point((((i)*sqrt(3)+3)*a)/6+((-sqrt(3)+3*i)*b)/6+((1-2*i)*sqrt(3)+6+3*i)/6))
+,
+// fltk 12Fl_Scrollbar 37 -191 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -224 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1096 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1096 288 30 20 0
+NO:=segment(N,O,display=rouge+line_width_2);
+,
+// fltk N4xcas10Log_OutputE 37 1126 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1127 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1127 286 27 20 0
+segment(point((((i)*sqrt(3)+3)*a)/6+((-sqrt(3)+3*i)*b)/6+((1-2*i)*sqrt(3)+6+3*i)/6),point((((-i)*sqrt(3)+3)*a)/6+((sqrt(3)+3*i)*b)/6))
+,
+// fltk 12Fl_Scrollbar 37 -109 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -142 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1178 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1178 288 30 20 0
+OM:=segment(O,M,display=rouge+line_width_2);
+,
+// fltk N4xcas10Log_OutputE 37 1208 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1209 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1209 286 27 20 0
+segment(point((((-i)*sqrt(3)+3)*a)/6+((sqrt(3)+3*i)*b)/6),point(((-1+2*i)*sqrt(3)+6+3*i)/6))
+,
+// fltk 12Fl_Scrollbar 37 -27 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 -60 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1260 288 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1260 288 30 20 0
+title="Theoreme de Napoleon: OMN est equilateral";
+,
+// fltk N4xcas10Log_OutputE 37 1290 288 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 1291 288 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 1291 286 27 20 0
+title="Theoreme de Napoleon: OMN est equilateral"
+,
+// fltk 12Fl_Scrollbar 37 55 270 16 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 307 22 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 1342 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1342 288 30 20 0
+normal(distance2(M,N)-distance2(N,O));
+,
+// fltk N4xcas10Log_OutputE 37 1372 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 1373 288 27 20 0
+0
+]
+,
+// fltk 7Fl_Tile 37 1402 288 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1402 288 30 20 0
+normal(distance2(N,O)-distance2(O,M));
+,
+// fltk N4xcas10Log_OutputE 37 1432 288 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 1433 288 27 20 0
+0
+]
+,
+// fltk 7Fl_Tile 37 1462 288 31 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 1462 288 30 20 0
+
+,
+// fltk N4xcas10Log_OutputE 37 1492 288 1 20 0
+
+]
+]
+// fltk N4xcas5Geo2dE 343 96 442 419 20 0
+-4.2519,7.2519,-5.7501,4.6061,[parameter(a,-10.0,10.0,2.8,0.2),parameter(b,-10.0,10.0,-1.4,0.2),pnt(pnt[0,0,"A"]),pnt(pnt[2+i,[0],"B"]),pnt(pnt[a+(i)*b,[0],"C"]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372,"T1"]),pnt(pnt[group[2+i,a+(i)*b,2+i+((a+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916,"T2"]),pnt(pnt[group[a+(i)*b,0,a+(i)*b+((-a-(i)*b)*(sqrt(3)*(i)+1))/2,a+(i)*b],12582916,"T3"]),pnt(pnt[group[0,2+i,a+(i)*b,0],131072]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0,"M"]),pnt(pnt[((i)*sqrt(3)+3)/6*a+(-sqrt(3)+3*(i))/6*b+((1-2*(i))*sqrt(3)+6+3*(i))/6,0,"N"]),pnt(pnt[((-(i))*sqrt(3)+3)/6*a+(sqrt(3)+3*(i))/6*b,0,"O"]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*a)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6],65537,"MN"]),pnt(pnt[group[(((i)*sqrt(3)+3)*a)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*a)/6+((sqrt(3)+3*(i))*b)/6],65537,"NO"]),pnt(pnt[group[(((-(i))*sqrt(3)+3)*a)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],65537,"OM"]),title="Theoreme de Napoleon: OMN est equilateral",0,0],-5,5,1,0,0,0,2,2,1,0,1,1.05,0,1,65,[],24,18,256,0,100,0,0,1,0.03
+
+,
+// fltk N4xcas10Log_OutputE 13 515 870 1 20 0
+
+]
+,
+// fltk 7Fl_Tile 13 518 870 342 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 13 518 870 51 20 0
+animation(seq(subst([A,B,C,T1,T2,T3,triangle(A,B,C,display=bleu),£M,N,O,triangle(M,N,O,display=rouge)],a,c),c,-5,5))
+,
+// fltk N4xcas10Log_OutputE 13 569 870 1 20 0
+
+,
+// fltk 7Fl_Tile 13 570 870 290 20 0
+[
+// fltk N4xcas7Graph2dE 13 570 756 290 20 0
+-16.329,16.329,-6.0359,6.0359,[animation([[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[-5+(i)*b,[0]]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372]),pnt(pnt[group[2+i,-5+(i)*b,2+i+((-5+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916]),pnt(pnt[group[-5+(i)*b,0,-5+(i)*b+((5-(i)*b)*(sqrt(3)*(i)+1))/2,-5+(i)*b],12582916]),pnt(pnt[group[0,2+i,-5+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(-5*((i)*sqrt(3)+3))/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(-5*((-(i))*sqrt(3)+3))/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(-5*((i)*sqrt(3)+3))/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(-5*((-(i))*sqrt(3)+3))/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[-4+(i)*b,[0]]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372]),pnt(pnt[group[2+i,-4+(i)*b,2+i+((-4+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916]),pnt(pnt[group[-4+(i)*b,0,-4+(i)*b+((4-(i)*b)*(sqrt(3)*(i)+1))/2,-4+(i)*b],12582916]),pnt(pnt[group[0,2+i,-4+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(-4*((i)*sqrt(3)+3))/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(-4*((-(i))*sqrt(3)+3))/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(-4*((i)*sqrt(3)+3))/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(-4*((-(i))*sqrt(3)+3))/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[-3+(i)*b,[0]]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372]),pnt(pnt[group[2+i,-3+(i)*b,2+i+((-3+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916]),pnt(pnt[group[-3+(i)*b,0,-3+(i)*b+((3-(i)*b)*(sqrt(3)*(i)+1))/2,-3+(i)*b],12582916]),pnt(pnt[group[0,2+i,-3+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(-3*((i)*sqrt(3)+3))/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(-3*((-(i))*sqrt(3)+3))/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(-3*((i)*sqrt(3)+3))/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(-3*((-(i))*sqrt(3)+3))/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[-2+(i)*b,[0]]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372]),pnt(pnt[group[2+i,-2+(i)*b,2+i+((-2+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916]),pnt(pnt[group[-2+(i)*b,0,-2+(i)*b+((2-(i)*b)*(sqrt(3)*(i)+1))/2,-2+(i)*b],12582916]),pnt(pnt[group[0,2+i,-2+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(-2*((i)*sqrt(3)+3))/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(-2*((-(i))*sqrt(3)+3))/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(-2*((i)*sqrt(3)+3))/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(-2*((-(i))*sqrt(3)+3))/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[-1+(i)*b,[0]]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372]),pnt(pnt[group[2+i,-1+(i)*b,2+i+((-1+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916]),pnt(pnt[group[-1+(i)*b,0,-1+(i)*b+((1-(i)*b)*(sqrt(3)*(i)+1))/2,-1+(i)*b],12582916]),pnt(pnt[group[0,2+i,-1+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(-((i)*sqrt(3)+3))/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(-((-(i))*sqrt(3)+3))/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(-((i)*sqrt(3)+3))/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(-((-(i))*sqrt(3)+3))/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[(i)*b,[0]]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372]),pnt(pnt[group[2+i,(i)*b,2+i+(((i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916]),pnt(pnt[group[(i)*b,0,(i)*b+((-(i))*b*(sqrt(3)*(i)+1))/2,(i)*b],12582916]),pnt(pnt[group[0,2+i,(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[1+(i)*b,[0]]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372]),pnt(pnt[group[2+i,1+(i)*b,2+i+((1+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916]),pnt(pnt[group[1+(i)*b,0,1+(i)*b+((-1-(i)*b)*(sqrt(3)*(i)+1))/2,1+(i)*b],12582916]),pnt(pnt[group[0,2+i,1+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[((i)*sqrt(3)+3)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[((-(i))*sqrt(3)+3)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,((i)*sqrt(3)+3)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,((-(i))*sqrt(3)+3)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[2+(i)*b,[0]]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372]),pnt(pnt[group[2+i,2+(i)*b,2+i+((2+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916]),pnt(pnt[group[2+(i)*b,0,2+(i)*b+((-2-(i)*b)*(sqrt(3)*(i)+1))/2,2+(i)*b],12582916]),pnt(pnt[group[0,2+i,2+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*2)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*2)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*2)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*2)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[3+(i)*b,[0]]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372]),pnt(pnt[group[2+i,3+(i)*b,2+i+((3+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916]),pnt(pnt[group[3+(i)*b,0,3+(i)*b+((-3-(i)*b)*(sqrt(3)*(i)+1))/2,3+(i)*b],12582916]),pnt(pnt[group[0,2+i,3+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*3)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*3)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*3)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*3)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[4+(i)*b,[0]]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372]),pnt(pnt[group[2+i,4+(i)*b,2+i+((4+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916]),pnt(pnt[group[4+(i)*b,0,4+(i)*b+((-4-(i)*b)*(sqrt(3)*(i)+1))/2,4+(i)*b],12582916]),pnt(pnt[group[0,2+i,4+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*4)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*4)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*4)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*4)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])],[pnt(pnt[0,0]),pnt(pnt[2+i,[0]]),pnt(pnt[5+(i)*b,[0]]),pnt(pnt[group[0,2+i,((2+i)*(sqrt(3)*(i)+1))/2,0],281018372]),pnt(pnt[group[2+i,5+(i)*b,2+i+((5+(i)*b-2-i)*(sqrt(3)*(i)+1))/2,2+i],12582916]),pnt(pnt[group[5+(i)*b,0,5+(i)*b+((-5-(i)*b)*(sqrt(3)*(i)+1))/2,5+(i)*b],12582916]),pnt(pnt[group[0,2+i,5+(i)*b,0],4]),pnt(pnt[((-1+2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((i)*sqrt(3)+3)*5)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,0]),pnt(pnt[(((-(i))*sqrt(3)+3)*5)/6+((sqrt(3)+3*(i))*b)/6,0]),pnt(pnt[group[((-1+2*(i))*sqrt(3)+6+3*(i))/6,(((i)*sqrt(3)+3)*5)/6+((-sqrt(3)+3*(i))*b)/6+((1-2*(i))*sqrt(3)+6+3*(i))/6,(((-(i))*sqrt(3)+3)*5)/6+((sqrt(3)+3*(i))*b)/6,((-1+2*(i))*sqrt(3)+6+3*(i))/6],1])]])],-5,5,1,0,0,0,0.5,2,1,0,1,1.05,0.2,0,1,[],24,18,256,0,100,0,0,1,0.03
+,
+// fltk 8Fl_Group 769 570 108 290 20 0
+[
+// fltk N4xcas14Mouse_PositionE 769 570 108 40 20 0
+[]
+,
+// fltk 8Fl_Group 769 610 108 115 20 0
+[
+// fltk 9Fl_Button 769 610 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 805 610 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 841 610 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 769 633 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 805 633 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 841 633 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 769 656 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 805 656 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 841 656 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 769 679 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 805 679 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 841 679 36 23 20 0
+[]
+,
+// fltk 9Fl_Button 769 702 36 23 20 0
+[]
+,
+// fltk 11Fl_Menu_Bar 805 702 72 23 20 0
+[]
+]
+,
+// fltk 8Fl_Group 769 725 108 135 20 0
+[
+]
+]
+]
+]
+,
+// fltk 7Fl_Tile 13 862 870 31 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 13 862 870 30 20 0
+
+,
+// fltk N4xcas10Log_OutputE 13 892 870 1 20 0
+
+]
+// context 3844 giac archive
+7 0 19 8 0 0 'cas_setup' 7 0 11 0 0 0
+0 0 0
+0 0 0
+0 1 0
+0 0 0
+1 »½×Ùß|Û=
+0 12 0
+7 0 4 0 1 0
+0 50 0
+0 0 0
+0 25 0
+0 0 0
+0 0 0
+0 0 0
+8 0 0 'xyztrange' 7 0 16 1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1 ffffffö¿
+1 š™™™™™ñ?
+0 1 0
+1         
+1       ð?
+0 1 0
+7 0 0 7 0 0 8 0 15 7 0 2 8 -1 12 7 8 3 0 0 0
+0 0 0
+12 1 |A 6 1 A 8 0 15 7 0 2 8 -1 12 7 8 3 4 0 2 0
+0 1 0
+7 0 1 0 0 0
+12 1 |B 6 1 B 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 1 7 0 2 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 7 0 1 0 0 0
+12 1 |C 6 1 C 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 -1 0
+0 2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+0 0 0
+12 1 |M 6 1 M 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 2 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 -1 0
+0 2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+8 0 1 7 0 3 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 1 0
+0 -2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+0 65537 0
+12 2 |MN 6 2 MN 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 1 7 0 3 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 1 0
+0 -2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+0 0 0
+12 1 |N 6 1 N 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 2 8 0 1 7 0 3 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 1 0
+0 -2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+8 0 1 7 0 2 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 -1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 0 65537 0
+12 2 |NO 6 2 NO 8 0 15 7 0 2 8 -1 12 7 8 3 8 0 1 7 0 2 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 -1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 0 0 0
+12 1 |O 6 1 O 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 2 8 0 1 7 0 2 8 0 4 7 0 3 8 0 1 7 0 2 8 0 4 7 0 2 4 0 0 0
+0 -1 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+0 3 0
+8 0 6 0 6 0
+6 1 a 8 0 4 7 0 3 8 0 1 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 3 0
+8 0 6 0 6 0
+6 1 b 8 0 4 7 0 2 8 0 1 7 0 2 8 0 4 7 0 2 4 0 -1 0
+0 2 0
+8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 6 0
+0 3 0
+8 0 6 0 6 0
+0 65537 0
+12 2 |OM 6 2 OM 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 4 0 0 0
+4 0 2 0
+0 1 0
+8 0 4 7 0 3 4 0 2 0
+0 1 0
+8 0 1 7 0 2 8 0 4 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 1 0
+0 1 0
+8 0 6 0 2 0
+0 0 0
+0 281018372 0
+12 2 |T1 6 2 T1 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 4 4 0 2 0
+0 1 0
+8 0 1 7 0 2 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 8 0 1 7 0 2 4 0 2 0
+0 1 0
+8 0 4 7 0 3 8 0 1 7 0 3 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 4 0 -2 0
+0 -1 0
+8 0 1 7 0 2 8 0 4 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 1 0
+0 1 0
+8 0 6 0 2 0
+4 0 2 0
+0 1 0
+0 12582916 0
+12 2 |T2 6 2 T2 8 0 15 7 0 2 8 -1 12 7 8 3 7 5 4 8 0 1 7 0 2 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 0 0 0
+8 0 1 7 0 3 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 8 0 4 7 0 3 8 0 1 7 0 2 8 0 2 6 1 a 8 0 2 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 8 0 1 7 0 2 8 0 4 7 0 2 8 0 7 7 0 2 0 3 0
+10 0 1 0
+0 2 0
+4 0 0 0
+0 1 0
+0 1 0
+8 0 6 0 2 0
+8 0 1 7 0 2 6 1 a 8 0 4 7 0 2 4 0 0 0
+0 1 0
+6 1 b 0 12582916 0
+12 2 |T3 6 2 T3 8 0 15 7 0 2 7 13 2 0 1 1
+1 ffffff@
+6 1 a 8 0 15 7 0 2 7 13 2 0 1 1
+1 ffffffö¿
+6 1 b 8 0 0 'xcas_mode' 0 0 0
+

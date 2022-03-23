@@ -1,0 +1,4 @@
+#! /bin/sh
+../src/icas testcas > cas.tst
+rm -f session.tex 
+diff cas.tst cas.out

@@ -1,0 +1,273 @@
+// xcas version=0.8.1 fontsize=20 font=0
+// fltk 7Fl_Tile 13 70 1050 521 20 0
+[
+// fltk N4xcas6FigureE 13 70 1050 521 20 0 landscape=0 history=0.37048 geo=0.4581  mouse_param=0.17143
+// fltk N4xcas12History_PackE 15 -516 369 1107 20 0
+[
+// fltk 7Fl_Tile 37 -516 347 81 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -516 347 31 20 0
+obliquite:=element((-90) .. 90,23.0)
+,
+// fltk N4xcas10Log_OutputE 37 -485 347 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 -484 347 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 -484 300 27 20 0
+parameter(obliquite,-90,90,23.0,1.8)
+,
+// fltk 12Fl_Scrollbar 37 177 230 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 267 150 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 -433 347 76 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -433 347 26 20 0
+jour:=element(0 .. 365,180.0)
+,
+// fltk N4xcas10Log_OutputE 37 -407 347 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 -406 347 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 -406 274 27 20 0
+parameter(jour,0,365,180.0,3.65)
+,
+// fltk 12Fl_Scrollbar 37 172 230 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 267 145 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 -355 347 55 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -355 347 27 20 0
+theta:=evalf(obliquite*pi/180); 
+,
+// fltk N4xcas10Log_OutputE 37 -328 347 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -327 347 27 20 0
+0.401425727959
+]
+,
+// fltk 7Fl_Tile 37 -298 347 103 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -298 347 30 20 0
+Phi:=0.5
+,
+// fltk N4xcas10Log_OutputE 37 -268 347 24 20 0
+'Phi' is a reserved word, sto not allowed:£
+,
+// fltk 9Fl_Scroll 37 -244 347 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 -244 388 27 20 0
+["'Phi' is a reserved word, sto not allowed:",0.5]
+,
+// fltk 12Fl_Scrollbar 37 176 230 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 267 149 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 -193 347 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -193 347 30 20 0
+alpha:=evalf(2*pi*(jour-180.)/365.)
+,
+// fltk N4xcas10Log_OutputE 37 -163 347 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -162 347 27 20 0
+0.0
+]
+,
+// fltk 7Fl_Tile 37 -133 347 58 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -133 347 30 20 0
+axe1:=[-sin(alpha),cos(alpha),0]
+,
+// fltk N4xcas10Log_OutputE 37 -103 347 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 -102 347 27 20 0
+[-0.0,1.0,0]
+]
+,
+// fltk 7Fl_Tile 37 -73 347 122 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 -73 347 72 20 0
+axe:=[sin(theta)*cos(alpha),£sin(theta)*sin(alpha),£cos(theta)]
+,
+// fltk N4xcas10Log_OutputE 37 -1 347 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 0 347 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 0 319 27 20 0
+[0.390731128489,0.0,0.920504853452]
+,
+// fltk 12Fl_Scrollbar 37 218 230 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 267 191 16 33 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 51 347 77 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 51 347 27 20 0
+gl_rotation_axis=axe
+,
+// fltk N4xcas10Log_OutputE 37 78 347 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 79 347 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 79 466 27 20 0
+gl_rotation_axis=[0.390731128489,0.0,0.920504853452]
+,
+// fltk 12Fl_Scrollbar 37 108 347 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 384 79 16 29 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 130 347 80 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 130 347 30 20 0
+axe2:=cross(axe,axe1)
+,
+// fltk N4xcas10Log_OutputE 37 160 347 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 161 347 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 161 331 27 20 0
+[-0.920504853452,-0.0,0.390731128489]
+,
+// fltk 12Fl_Scrollbar 37 210 347 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 384 161 16 49 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 212 347 202 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 212 347 174 20 0
+animation(seq(£sphere([0,0,0],1,axe,£cos(Phi)*axe1+sin(Phi)*axe2,£display=blanc+rempli,£gl_material=[gl_front_and_back,£gl_diffuse,[1,1,1,1]],£gl_material=[gl_texture,"terre.jpg"]),£Phi,0,6.28,6.28/24));
+,
+// fltk N4xcas10Log_OutputE 37 386 347 1 20 0
+
+,
+// fltk N4xcas10Gen_OutputE 37 387 347 27 20 0
+Done
+]
+,
+// fltk 7Fl_Tile 37 416 347 140 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 416 347 90 20 0
+segment(-1.1*axe,1.1*axe,£gl_material=[gl_front_and_back,£gl_emission,[1,0,0,1]],£display=rouge+line_width_5)
+,
+// fltk N4xcas10Log_OutputE 37 506 347 1 20 0
+
+,
+// fltk 9Fl_Scroll 37 507 347 49 20 0
+[
+// fltk N4xcas10Gen_OutputE 37 507 1462 27 20 0
+pnt(pnt[group[point[-0.429804241338,-0.0,-1.0125553388],point[0.429804241338,0.0,1.0125553388]],color(262145,"",[gl_material,[gl_front_and_back,gl_emission,[1,0,0,1]]]),""])
+,
+// fltk 12Fl_Scrollbar 37 536 347 20 20 0
+[]
+,
+// fltk 12Fl_Scrollbar 384 507 16 29 20 0
+[]
+]
+]
+,
+// fltk 7Fl_Tile 37 558 347 31 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 37 558 347 30 20 0
+
+,
+// fltk N4xcas10Log_OutputE 37 588 347 1 20 0
+
+]
+]
+// fltk N4xcas5Geo3dE 402 96 481 495 20 0
+-1.0993,1.0993,-1.0993,1.0993,[parameter(obliquite,-90,90,23.0,1.8),parameter(jour,0,365,180.0,3.65),0.401425727959,["'Phi' is a reserved word, sto not allowed:",0.5],0.0,[-0.0,1.0,0],[0.390731128489,0.0,0.920504853452],gl_rotation_axis=[0.390731128489,0.0,0.920504853452],[-0.920504853452,-0.0,0.390731128489],animation(pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.0,1.0,0.0]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.238126177495,0.965960168538,0.101078565427]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.460040805093,0.866158094405,0.195275736191]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.65063600975,0.707388269167,0.276178600658]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.796936134177,0.500459689008,0.338279319086]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.888981115218,0.259459981915,0.377350095496]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.92050456159,0.000796326710733,0.390731004601]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.889360367689,-0.257921542147,0.377511078619]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.797668819739,-0.499080199356,0.338590325655]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.651672247417,-0.70626164482,0.276618457451]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.461310048154,-0.865361035569,0.195814497906]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.23954201631,-0.96554693871,0.101679553348]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[-0.00146604473949,-0.999998731728,0.000622299071351]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.236709734663,-0.966370948165,-0.100477321116]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.458770395118,-0.866952956193,-0.19473647915]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.649598121715,-0.708513099192,-0.275738043325]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.79620142715,-0.501837909222,-0.337967454455]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.888599607806,-0.26099776355,-0.377188155207]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.920502226688,-0.00238897811228,-0.390730013494]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.889737364258,0.25638244815,-0.377671104168]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.798399481979,0.497699443764,-0.338900473375]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.652706832088,0.705133229008,-0.277057612589]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.462578121081,0.864561781706,-0.196352762929]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.240957247516,0.965131259729,-0.102280283354]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""]),pnt(pnt[hypersphere([0,0,0],1,[0.390731128489,0.0,0.920504853452],[0.00293208576029,0.999994926913,-0.00124459656421]),couleur(1073741831,"",[gl_material,[gl_front_and_back,gl_diffuse,[1,1,1,1]]],[gl_material,[gl_texture,"terre.jpg"]]),""])),pnt(pnt[group[point[-0.429804241338,-0.0,-1.0125553388],point[0.429804241338,0.0,1.0125553388]],couleur(262145,"",[gl_material,[gl_front_and_back,gl_emission,[1,0,0,1]]]),""])],-1.0993,1.0993,0.6114,-0.35518,-0.3133,-0.63393,0.1,0.1,0,2097152,1,1.05,-0.2,1,9,[[5,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1,-1,0,0,0,0,180,1,0,0,1],[-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,180,1,0,0,1],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,180,1,0,0,0]],128,128,3,0,100,0.39073,0,0.9205,0.1
+
+,
+// fltk N4xcas10Log_OutputE 13 591 1050 1 20 0
+
+]
+,
+// fltk 7Fl_Tile 13 593 1050 31 20 0
+[
+// fltk N4xcas19Multiline_Input_tabE 13 593 1050 30 20 0
+
+,
+// fltk N4xcas10Log_OutputE 13 623 1050 1 20 0
+
+]
+// context 703 giac archive
+7 0 12 8 0 0 'cas_setup' 7 0 11 0 0 0
+0 0 0
+0 0 0
+0 1 0
+0 0 0
+7 0 2 1 »½×Ùß|Û=
+1 —ÔFFõg<
+0 12 0
+7 0 4 0 1 0
+0 50 0
+0 0 0
+0 25 0
+0 0 0
+0 0 0
+0 0 0
+8 0 0 'xyztrange' 7 0 16 1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1       $À
+1       $@
+1 ffffffö¿
+1 š™™™™™ñ?
+0 1 0
+1         
+1       ð?
+0 1 0
+7 0 0 7 0 0 8 0 15 7 0 2 1         
+6 5 alpha 8 0 15 7 0 2 7 0 3 1 «ÿ˜"½Ù?
+1         
+1 of,˜Ætí?
+6 3 axe 8 0 15 7 0 2 7 0 3 1        €
+1       ð?
+0 0 0
+6 4 axe1 8 0 15 7 0 2 7 0 3 1 of,˜Ætí¿
+1        €
+1 «ÿ˜"½Ù?
+6 4 axe2 8 0 15 7 0 2 1      €f@
+6 4 jour 8 0 15 7 0 2 1       7@
+6 9 obliquite 8 0 15 7 0 2 1 ÂV‰õ°Ù?
+6 5 theta 8 0 0 'xcas_mode' 0 0 0
+

@@ -1,0 +1,6798 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011 HP
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#: src/misc.cc:1856 src/misc.cc:4229
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-18 10:35+0100\n"
+"PO-Revision-Date: 2010-05-03 15:29+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: src/hist.cxx:94 src/History.cc:1462
+msgid " has changed. Save?"
+msgstr " 已更改。 是否保存？"
+
+#: src/hist.cxx:433 src/hist.cxx:2736 src/hist.menus:121 src/hist.menus:230
+msgid "CAS"
+msgstr ""
+
+#: src/hist.cxx:434 src/hist.menus:231
+msgid "Program CAS"
+msgstr "Program CAS"
+
+#: src/hist.cxx:435 src/hist.cxx:738 src/hist.cxx:4997 src/hist.menus:224
+#: src/Tableur.cc:151 src/Tableur.cc:2955
+msgid "Spreadsheet"
+msgstr ""
+
+#: src/hist.cxx:436 src/hist.cxx:738 src/hist.cxx:2748 src/hist.menus:100
+#: src/hist.menus:233
+msgid "Geometry"
+msgstr ""
+
+#: src/hist.cxx:437 src/hist.cxx:738 src/hist.menus:103 src/hist.menus:228
+#: src/hist.menus:234
+msgid "Tortue"
+msgstr ""
+
+#: src/hist.cxx:736 src/hist.cxx:738
+msgid "Choose start mode"
+msgstr ""
+
+#: src/hist.cxx:736 src/Cfg.cc:167
+msgid "Maple"
+msgstr ""
+
+#: src/hist.cxx:736 src/Cfg.cc:166
+msgid "Xcas"
+msgstr ""
+
+#: src/hist.cxx:736
+msgid "Other"
+msgstr "其它"
+
+#: src/hist.cxx:786
+msgid "Auto-recovery files found. Load ?"
+msgstr ""
+
+#: src/hist.cxx:786 src/History.cc:1425 src/Tableur.cc:2648
+msgid "Yes"
+msgstr ""
+
+#: src/hist.cxx:786 src/History.cc:1425 src/Tableur.cc:2648
+msgid "No"
+msgstr ""
+
+#: src/hist.cxx:801
+msgid ""
+"Autorecover files have been loaded. Geometry and spreadsheet were not "
+"reevaled"
+msgstr ""
+
+#: src/hist.cxx:1341
+msgid "Enter new help browser program (empty line for builtin)"
+msgstr ""
+
+#: src/hist.cxx:1562
+msgid "Exercice number (from 1 to 25)?"
+msgstr ""
+
+#: src/hist.cxx:1630 src/hist.cxx:1685 src/Graph.cc:5658
+msgid "Graph of a function"
+msgstr ""
+
+#: src/hist.cxx:1663 src/Graph.cc:6259
+msgid "Area under curve"
+msgstr "曲线下方面积"
+
+#: src/hist.cxx:1707 src/Graph.cc:5854
+msgid "Graph of a recurrent sequence"
+msgstr ""
+
+#: src/hist.cxx:2116 src/hist.cxx:2176 src/hist.cxx:2251 src/hist.cxx:2254
+msgid "min"
+msgstr ""
+
+#: src/hist.cxx:2117 src/hist.cxx:2252 src/hist.cxx:3447
+msgid "Maj"
+msgstr ""
+
+#: src/hist.cxx:2742 src/hist.menus:102 src/hist.menus:232
+msgid "Tableur"
+msgstr ""
+
+#: src/hist.cxx:2969
+msgid "Xcas New Interface"
+msgstr ""
+
+#: src/hist.cxx:2996 src/hist.cxx:3481 src/hist.cxx:3932 src/hist.cxx:3945
+#: src/hist.cxx:3958
+msgid "a"
+msgstr ""
+
+#: src/hist.cxx:3007
+msgid "b"
+msgstr ""
+
+#: src/hist.cxx:3018
+msgid "c"
+msgstr ""
+
+#: src/hist.cxx:3029
+msgid "d"
+msgstr ""
+
+#: src/hist.cxx:3040
+msgid "e"
+msgstr ""
+
+#: src/hist.cxx:3051
+msgid "f"
+msgstr ""
+
+#: src/hist.cxx:3062
+msgid "g"
+msgstr ""
+
+#: src/hist.cxx:3073
+msgid "h"
+msgstr ""
+
+#: src/hist.cxx:3084 src/hist.cxx:3709
+msgid "i"
+msgstr ""
+
+#: src/hist.cxx:3095
+msgid "j"
+msgstr ""
+
+#: src/hist.cxx:3106
+msgid "k"
+msgstr ""
+
+#: src/hist.cxx:3117
+msgid "l"
+msgstr ""
+
+#: src/hist.cxx:3128
+msgid "m"
+msgstr ""
+
+#: src/hist.cxx:3139
+msgid "n"
+msgstr ""
+
+#: src/hist.cxx:3150
+msgid "o"
+msgstr ""
+
+#: src/hist.cxx:3161
+msgid "p"
+msgstr ""
+
+#: src/hist.cxx:3172
+msgid "q"
+msgstr ""
+
+#: src/hist.cxx:3183
+msgid "r"
+msgstr ""
+
+#: src/hist.cxx:3194
+msgid "s"
+msgstr ""
+
+#: src/hist.cxx:3205 src/hist.cxx:3566
+msgid "t"
+msgstr ""
+
+#: src/hist.cxx:3216
+msgid "u"
+msgstr ""
+
+#: src/hist.cxx:3227
+msgid "v"
+msgstr ""
+
+#: src/hist.cxx:3238
+msgid "w"
+msgstr ""
+
+#: src/hist.cxx:3249 src/hist.cxx:3530
+msgid "x"
+msgstr ""
+
+#: src/hist.cxx:3260 src/hist.cxx:3542
+msgid "y"
+msgstr ""
+
+#: src/hist.cxx:3271 src/hist.cxx:3554
+msgid "z"
+msgstr ""
+
+#: src/hist.cxx:3282
+msgid "<"
+msgstr ""
+
+#: src/hist.cxx:3293 src/hist.cxx:4123
+msgid ">"
+msgstr ""
+
+#: src/hist.cxx:3304
+msgid "\\"
+msgstr ""
+
+#: src/hist.cxx:3315 src/hist.cxx:3592
+msgid "("
+msgstr ""
+
+#: src/hist.cxx:3326 src/hist.cxx:3684
+msgid ")"
+msgstr ""
+
+#: src/hist.cxx:3337 src/hist.cxx:3695
+msgid " "
+msgstr ""
+
+#: src/hist.cxx:3348
+msgid "!"
+msgstr ""
+
+#: src/hist.cxx:3359
+msgid "]"
+msgstr ""
+
+#: src/hist.cxx:3370
+msgid "["
+msgstr ""
+
+#: src/hist.cxx:3381
+msgid "{"
+msgstr ""
+
+#: src/hist.cxx:3392
+msgid "}"
+msgstr ""
+
+#: src/hist.cxx:3403
+msgid ":"
+msgstr ""
+
+#: src/hist.cxx:3414 src/Tableur.cc:2067
+msgid "="
+msgstr ""
+
+#: src/hist.cxx:3425 src/hist.cxx:3580
+msgid "\""
+msgstr ""
+
+#: src/hist.cxx:3436
+msgid "_"
+msgstr ""
+
+#: src/hist.cxx:3459
+msgid "#"
+msgstr ""
+
+#: src/hist.cxx:3470
+msgid "Π"
+msgstr ""
+
+#: src/hist.cxx:3493 src/hist.cxx:3639
+msgid ","
+msgstr ""
+
+#: src/hist.cxx:3504 src/hist.cxx:3650
+msgid ";"
+msgstr ""
+
+#: src/hist.cxx:3515 src/hist.cxx:3627
+msgid "'"
+msgstr ""
+
+#: src/hist.cxx:3581
+msgid "String delimiter"
+msgstr ""
+
+#: src/hist.cxx:3603
+msgid "{}"
+msgstr ""
+
+#: src/hist.cxx:3604
+msgid "Bloc delimiter (set delimiter in maple compatible mode)"
+msgstr ""
+
+#: src/hist.cxx:3615
+msgid "[]"
+msgstr ""
+
+#: src/hist.cxx:3616
+msgid "List, vector, matrix delimiter"
+msgstr ""
+
+#: src/hist.cxx:3628
+msgid "Quote"
+msgstr "报价单"
+
+#: src/hist.cxx:3661
+msgid ":="
+msgstr ""
+
+#: src/hist.cxx:3662
+msgid "Assign"
+msgstr ""
+
+#: src/hist.cxx:3673
+msgid "|"
+msgstr ""
+
+#: src/hist.cxx:3710
+msgid "Complex square root of -1"
+msgstr "-1 的复平方根"
+
+#: src/hist.cxx:3723
+msgid "π"
+msgstr ""
+
+#: src/hist.cxx:3724
+msgid "The pi number"
+msgstr ""
+
+#: src/hist.cxx:3736
+msgid "oo"
+msgstr ""
+
+#: src/hist.cxx:3737
+msgid "Infinity (unsigned)"
+msgstr "无穷大（无符号）"
+
+#: src/hist.cxx:3749
+msgid "sqrt"
+msgstr ""
+
+#: src/hist.cxx:3750
+msgid "Square root"
+msgstr "平方根"
+
+#: src/hist.cxx:3765
+msgid "~"
+msgstr ""
+
+#: src/hist.cxx:3766 src/gen.cc:1889
+msgid "Evalf"
+msgstr ""
+
+#: src/hist.cxx:3779 src/Equation.cc:4250 src/gen.cc:7525 src/gen.cc:7532
+msgid "simplify"
+msgstr "简化"
+
+#: src/hist.cxx:3780 src/hist.menus:141
+msgid "simplify: Simplify expression"
+msgstr "simplify：简化表达式"
+
+#: src/hist.cxx:3793 src/Equation.cc:4251
+msgid "factor"
+msgstr ""
+
+#: src/hist.cxx:3794 src/hist.menus:144
+msgid "factor: Factorization"
+msgstr ""
+
+#: src/hist.cxx:3807 src/Equation.cc:4249
+msgid "normal"
+msgstr ""
+
+#: src/hist.cxx:3808
+msgid "rational simplification, handles algebraic extension too"
+msgstr ""
+
+#: src/hist.cxx:3821
+msgid "=>"
+msgstr ""
+
+#: src/hist.cxx:3822
+msgid "Sto/Convert to"
+msgstr ""
+
+#: src/hist.cxx:3838
+msgid "∂"
+msgstr ""
+
+#: src/hist.cxx:3839
+msgid "diff"
+msgstr ""
+
+#: src/hist.cxx:3852
+msgid "∫"
+msgstr ""
+
+#: src/hist.cxx:3853
+msgid "Integral"
+msgstr "积分"
+
+#: src/hist.cxx:3866
+msgid "Σ"
+msgstr ""
+
+#: src/hist.cxx:3867
+msgid "Sum"
+msgstr "求和"
+
+#: src/hist.cxx:3879
+msgid "lim"
+msgstr ""
+
+#: src/hist.cxx:3880
+msgid "Limit"
+msgstr "限制"
+
+#: src/hist.cxx:3897
+msgid "sin"
+msgstr ""
+
+#: src/hist.cxx:3898
+msgid "Sinus"
+msgstr ""
+
+#: src/hist.cxx:3909
+msgid "cos"
+msgstr ""
+
+#: src/hist.cxx:3920
+msgid "tan"
+msgstr ""
+
+#: src/hist.cxx:3921 src/Graph.cc:6257
+msgid "Tangent"
+msgstr ""
+
+#: src/hist.cxx:3933
+msgid "Arcsinus"
+msgstr ""
+
+#: src/hist.cxx:3946
+msgid "Arccosinus"
+msgstr ""
+
+#: src/hist.cxx:3959
+msgid "Arctangent"
+msgstr ""
+
+#: src/hist.cxx:3974
+msgid "exp"
+msgstr ""
+
+#: src/hist.cxx:3975 src/Tableur.cc:3027
+msgid "Exponential"
+msgstr "幂指数"
+
+#: src/hist.cxx:3986
+msgid "10^"
+msgstr ""
+
+#: src/hist.cxx:3997
+msgid "log10"
+msgstr ""
+
+#: src/hist.cxx:3998
+msgid "base 10 logarithm"
+msgstr "以 10 为底的对数"
+
+#: src/hist.cxx:4009
+msgid "ln"
+msgstr ""
+
+#: src/hist.cxx:4010
+msgid "Natural logarithm"
+msgstr ""
+
+#: src/hist.cxx:4026
+msgid "+"
+msgstr ""
+
+#: src/hist.cxx:4038
+msgid "-"
+msgstr ""
+
+#: src/hist.cxx:4039
+msgid "Substract"
+msgstr ""
+
+#: src/hist.cxx:4051
+msgid "*"
+msgstr ""
+
+#: src/hist.cxx:4063
+msgid "/"
+msgstr ""
+
+#: src/hist.cxx:4075
+msgid "^"
+msgstr ""
+
+#: src/hist.cxx:4087 src/gen.cc:7713
+msgid "%"
+msgstr ""
+
+#: src/hist.cxx:4088
+msgid "Modulo"
+msgstr "同余"
+
+#: src/hist.cxx:4099
+msgid "inv"
+msgstr ""
+
+#: src/hist.cxx:4100
+msgid "Inverse"
+msgstr "逆运算"
+
+#: src/hist.cxx:4111
+msgid "neg"
+msgstr ""
+
+#: src/hist.cxx:4112
+msgid "Opposite"
+msgstr "对"
+
+#: src/hist.cxx:4140
+msgid "1"
+msgstr ""
+
+#: src/hist.cxx:4152
+msgid "2"
+msgstr ""
+
+#: src/hist.cxx:4164
+msgid "3"
+msgstr ""
+
+#: src/hist.cxx:4176
+msgid "4"
+msgstr ""
+
+#: src/hist.cxx:4188
+msgid "5"
+msgstr ""
+
+#: src/hist.cxx:4200
+msgid "6"
+msgstr ""
+
+#: src/hist.cxx:4212
+msgid "7"
+msgstr ""
+
+#: src/hist.cxx:4224 src/Cfg.cc:238
+msgid "8"
+msgstr ""
+
+#: src/hist.cxx:4236
+msgid "9"
+msgstr ""
+
+#: src/hist.cxx:4248
+msgid "0"
+msgstr ""
+
+#: src/hist.cxx:4260
+msgid "."
+msgstr ""
+
+#: src/hist.cxx:4271
+msgid "E"
+msgstr ""
+
+#: src/hist.cxx:4285
+msgid "esc"
+msgstr ""
+
+#: src/hist.cxx:4286
+msgid "Cancel (erase cmdline, stop interactive_plotode)"
+msgstr ""
+
+#: src/hist.cxx:4299
+msgid "abc"
+msgstr ""
+
+#: src/hist.cxx:4300
+msgid "Show/Hide alphabetic keyboard"
+msgstr ""
+
+#: src/hist.cxx:4313
+msgid "cmds"
+msgstr ""
+
+#: src/hist.cxx:4314
+msgid "Show commands bandeau"
+msgstr ""
+
+#: src/hist.cxx:4327 src/hist.menus:64 src/hist.menus:70
+msgid "msg"
+msgstr ""
+
+#: src/hist.cxx:4328
+msgid "Show messages"
+msgstr ""
+
+#: src/hist.cxx:4341
+msgid "b7"
+msgstr ""
+
+#: src/hist.cxx:4342
+msgid "Set bit 7 for next key entry"
+msgstr ""
+
+#: src/hist.cxx:4355
+msgid "ctrl"
+msgstr ""
+
+#: src/hist.cxx:4356
+msgid "Control"
+msgstr "控制按钮"
+
+#: src/hist.cxx:4369 src/hist.cxx:4578 src/hist.cxx:4609
+msgid "X"
+msgstr ""
+
+#: src/hist.cxx:4370
+msgid "Close keyboard"
+msgstr ""
+
+#: src/hist.cxx:4382
+msgid "@<"
+msgstr ""
+
+#: src/hist.cxx:4383
+msgid "Backspace"
+msgstr ""
+
+#: src/hist.cxx:4396
+msgid "paste"
+msgstr ""
+
+#: src/hist.cxx:4409
+msgid "@returnarrow"
+msgstr ""
+
+#: src/hist.cxx:4428
+msgid "<<"
+msgstr ""
+
+#: src/hist.cxx:4429
+msgid "Previous menu page"
+msgstr ""
+
+#: src/hist.cxx:4520
+msgid ">>"
+msgstr ""
+
+#: src/hist.cxx:4521
+msgid "Next menu page"
+msgstr ""
+
+#: src/hist.cxx:4534
+msgid "cust"
+msgstr ""
+
+#: src/hist.cxx:4535
+msgid "Custom menu"
+msgstr ""
+
+#: src/hist.cxx:4548
+msgid "var"
+msgstr ""
+
+#: src/hist.cxx:4549
+msgid "Show list of variables"
+msgstr ""
+
+#: src/hist.cxx:4562
+msgid "home"
+msgstr ""
+
+#: src/hist.cxx:4563
+msgid "Home menu"
+msgstr ""
+
+#: src/hist.cxx:4595
+msgid "Messages"
+msgstr "消息"
+
+#: src/hist.cxx:4625
+msgid "Xcas General Setup"
+msgstr ""
+
+#: src/hist.cxx:4626
+msgid "Level"
+msgstr "级别"
+
+#: src/hist.cxx:4627
+msgid "Choose user level (from tortue to university)"
+msgstr ""
+
+#: src/hist.cxx:4639
+msgid "Size"
+msgstr "尺寸"
+
+#: src/hist.cxx:4643
+msgid "Auto HTML help"
+msgstr ""
+
+#: src/hist.cxx:4644
+msgid "Selecting a menu item displays fulls help in browser"
+msgstr ""
+
+#: src/hist.cxx:4648 src/hist.menus:90
+msgid "browser"
+msgstr ""
+
+#: src/hist.cxx:4653
+msgid "rows"
+msgstr "行"
+
+#: src/hist.cxx:4654
+msgid "Number of rows for new->spreadsheet"
+msgstr ""
+
+#: src/hist.cxx:4661
+msgid "cols"
+msgstr ""
+
+#: src/hist.cxx:4662
+msgid "Number of columns for new->spreadsheet"
+msgstr ""
+
+#: src/hist.cxx:4669 src/hist.menus:14 src/History.cc:3202 src/History.cc:3531
+#: src/Cfg.cc:323 src/Cfg.cc:686 src/Editeur.cc:1760
+msgid "Save"
+msgstr ""
+
+#: src/hist.cxx:4670
+msgid "Close window and save as default configuration"
+msgstr ""
+
+#: src/hist.cxx:4674
+msgid "Close"
+msgstr "关闭"
+
+#: src/hist.cxx:4680
+msgid "Print format"
+msgstr ""
+
+#: src/hist.cxx:4681
+msgid "Printer page format"
+msgstr ""
+
+#: src/hist.cxx:4694 src/Tableur.cc:2954
+msgid "Format"
+msgstr ""
+
+#: src/hist.cxx:4698 src/Tableur.cc:153 src/Graph.cc:6250
+msgid "Landscape"
+msgstr ""
+
+#: src/hist.cxx:4699
+msgid "Landscape or Portrait"
+msgstr ""
+
+#: src/hist.cxx:4706
+msgid "PS view"
+msgstr ""
+
+#: src/hist.cxx:4707
+msgid "Postscript previewer program (put no for no preview)"
+msgstr ""
+
+#: src/hist.cxx:4711
+msgid "Proxy"
+msgstr "代理"
+
+#: src/hist.cxx:4712
+msgid "Proxy server for update, e.g. http://cache.domain:3128"
+msgstr ""
+
+#: src/hist.cxx:4718
+msgid "Font"
+msgstr ""
+
+#: src/hist.cxx:4721
+msgid "Auto index help"
+msgstr ""
+
+#: src/hist.cxx:4722
+msgid "Selecting a menu item displays short index help"
+msgstr ""
+
+#: src/hist.cxx:4727
+msgid "Xcas < 0.8.1 compatible"
+msgstr ""
+
+#: src/hist.cxx:4728
+msgid ""
+"If not checked, save context information, incompatible with Xcas < 0.8.1"
+msgstr ""
+
+#: src/hist.cxx:4733
+msgid "Disable tooltips"
+msgstr ""
+
+#: src/hist.cxx:4734
+msgid "Check box to disable tooltips"
+msgstr ""
+
+#: src/hist.cxx:4739
+msgid "Disable test i"
+msgstr ""
+
+#: src/hist.cxx:4740
+msgid "Check to disable replacement of i inside loop by a variable"
+msgstr ""
+
+#: src/hist.cxx:4748
+msgid "Xcas Script Window"
+msgstr ""
+
+#: src/hist.cxx:4752
+msgid "Xcas DispG Window"
+msgstr ""
+
+#: src/hist.cxx:4773
+msgid "Click or Cancel"
+msgstr ""
+
+#: src/hist.cxx:4774
+msgid "Click in graph or here to cancel"
+msgstr ""
+
+#: src/hist.cxx:4779
+msgid "label"
+msgstr ""
+
+#: src/hist.cxx:4793
+msgid "ClrGraph"
+msgstr ""
+
+#: src/hist.cxx:4794
+msgid "Clear DispG graphic"
+msgstr "清除 DispG 图形"
+
+#: src/hist.cxx:4999 src/hist.menus:221
+msgid "Geo"
+msgstr ""
+
+#: src/hist.cxx:5001 src/hist.menus:194
+msgid "Graphic"
+msgstr ""
+
+#: src/hist.cxx:5003 src/hist.menus:191
+msgid "Prg"
+msgstr ""
+
+#: src/hist.menus:1 src/History.cc:3201 src/global.cc:2660
+msgid "File"
+msgstr ""
+
+#: src/hist.menus:2
+msgid "New session"
+msgstr ""
+
+#: src/hist.menus:3
+msgid "Open"
+msgstr ""
+
+#: src/hist.menus:4
+msgid "Open (recovery mode)"
+msgstr ""
+
+#: src/hist.menus:5
+msgid "Import"
+msgstr ""
+
+#: src/hist.menus:6
+msgid "maple worksheet"
+msgstr ""
+
+#: src/hist.menus:7
+msgid "ti89 program"
+msgstr ""
+
+#: src/hist.menus:8
+msgid "V200 program"
+msgstr ""
+
+#: src/hist.menus:9 src/History.cc:3211 src/Tableur.cc:2930
+#: src/Editeur.cc:1753 src/Graph.cc:6233
+msgid "Insert"
+msgstr ""
+
+#: src/hist.menus:10 src/History.cc:3212
+msgid "xcas session"
+msgstr ""
+
+#: src/hist.menus:11 src/History.cc:3213
+msgid "figure"
+msgstr ""
+
+#: src/hist.menus:12 src/History.cc:3214
+msgid "spreadsheet"
+msgstr ""
+
+#: src/hist.menus:13 src/History.cc:3215 src/History.cc:3240
+#: src/History.cc:3252
+msgid "program"
+msgstr "程序"
+
+#: src/hist.menus:15 src/History.cc:3203 src/Editeur.cc:1761
+msgid "Save as"
+msgstr ""
+
+#: src/hist.menus:16
+msgid "Save all"
+msgstr ""
+
+#: src/hist.menus:17 src/History.cc:3204
+msgid "Export as"
+msgstr ""
+
+#: src/hist.menus:18 src/History.cc:3205 src/Editeur.cc:1755
+#: src/Editeur.cc:1764
+msgid "xcas text"
+msgstr ""
+
+#: src/hist.menus:19 src/History.cc:3206 src/Editeur.cc:1756
+#: src/Editeur.cc:1765
+msgid "maple text"
+msgstr ""
+
+#: src/hist.menus:20 src/History.cc:3207 src/Editeur.cc:1757
+#: src/Editeur.cc:1766
+msgid "mupad text"
+msgstr ""
+
+#: src/hist.menus:21 src/History.cc:3208 src/Editeur.cc:1758
+#: src/Editeur.cc:1767
+msgid "ti text"
+msgstr ""
+
+#: src/hist.menus:22 src/History.cc:3217
+msgid "Kill"
+msgstr ""
+
+#: src/hist.menus:23 src/hist.menus:240 src/History.cc:3218 src/Graph.cc:1138
+#: src/Graph.cc:7057
+msgid "Print"
+msgstr ""
+
+#: src/hist.menus:24 src/hist.menus:241 src/History.cc:3219
+msgid "preview"
+msgstr "预览"
+
+#: src/hist.menus:25 src/History.cc:3220 src/Tableur.cc:2937
+#: src/Editeur.cc:1779 src/Graph.cc:6236
+msgid "to printer"
+msgstr ""
+
+#: src/hist.menus:26 src/History.cc:3221
+msgid "preview selected levels"
+msgstr "预览所选级别"
+
+#: src/hist.menus:27
+msgid "LaTeX"
+msgstr ""
+
+#: src/hist.menus:28 src/hist.menus:243 src/History.cc:3222 src/Graph.cc:6237
+msgid "latex preview"
+msgstr ""
+
+#: src/hist.menus:29 src/hist.menus:244 src/History.cc:3223
+msgid "latex print"
+msgstr ""
+
+#: src/hist.menus:30 src/History.cc:3225
+msgid "latex print selection"
+msgstr ""
+
+#: src/hist.menus:31
+msgid "Screen capture"
+msgstr ""
+
+#: src/hist.menus:32
+msgid "Create links (Mac OS)"
+msgstr ""
+
+#: src/hist.menus:33
+msgid "Quit and update Xcas"
+msgstr ""
+
+#: src/hist.menus:34
+msgid "Quit"
+msgstr ""
+
+#: src/hist.menus:35 src/History.cc:3228 src/Tableur.cc:2940
+#: src/Editeur.cc:1782 src/Graph.cc:6241
+msgid "Edit"
+msgstr "编辑"
+
+#: src/hist.menus:36
+msgid "Execute worksheet"
+msgstr ""
+
+#: src/hist.menus:37
+msgid "Execute below"
+msgstr ""
+
+#: src/hist.menus:38
+msgid "Remove answers"
+msgstr ""
+
+#: src/hist.menus:39 src/History.cc:3267 src/Tableur.cc:2944 src/Graph.cc:1436
+#: src/Graph.cc:6251
+msgid "Undo"
+msgstr ""
+
+#: src/hist.menus:40 src/History.cc:3268 src/Tableur.cc:2945 src/Graph.cc:6252
+msgid "Redo"
+msgstr "重做"
+
+#: src/hist.menus:41 src/History.cc:3262 src/Tableur.cc:2943
+#: src/Editeur.cc:1783 src/Graph.cc:6247
+msgid "Paste"
+msgstr "粘贴"
+
+#: src/hist.menus:42
+msgid "Del selected levels"
+msgstr ""
+
+#: src/hist.menus:43
+msgid "selection -> LaTeX"
+msgstr ""
+
+#: src/hist.menus:44 src/hist.menus:122
+msgid "New entry"
+msgstr ""
+
+#: src/hist.menus:45
+msgid "New parameter"
+msgstr ""
+
+#: src/hist.menus:46 src/History.cc:3261
+msgid "Insert newline"
+msgstr ""
+
+#: src/hist.menus:47 src/History.cc:3265
+msgid "Merge selected levels"
+msgstr "合并所选级别"
+
+#: src/hist.menus:48
+msgid "New group"
+msgstr ""
+
+#: src/hist.menus:49 src/History.cc:3264
+msgid "Group selected levels"
+msgstr ""
+
+#: src/hist.menus:50
+msgid "Degroup selected levels"
+msgstr ""
+
+#: src/hist.menus:51 src/Graph.cc:1694
+msgid "Cfg"
+msgstr ""
+
+#: src/hist.menus:52
+msgid "Cas configuration"
+msgstr ""
+
+#: src/hist.menus:53 src/Graph.cc:1727
+msgid "Graph configuration"
+msgstr ""
+
+#: src/hist.menus:54
+msgid "General configuration"
+msgstr ""
+
+#: src/hist.menus:55
+msgid "Mode (syntax)"
+msgstr ""
+
+#: src/hist.menus:56 src/Editeur.cc:1770
+msgid "xcas"
+msgstr ""
+
+#: src/hist.menus:57 src/Editeur.cc:1771
+msgid "maple"
+msgstr ""
+
+#: src/hist.menus:58 src/Editeur.cc:1772
+msgid "mupad"
+msgstr ""
+
+#: src/hist.menus:59
+msgid "ti89/92"
+msgstr ""
+
+#: src/hist.menus:60
+msgid "Show"
+msgstr ""
+
+#: src/hist.menus:61 src/hist.menus:67
+msgid "DispG"
+msgstr ""
+
+#: src/hist.menus:62 src/hist.menus:68
+msgid "keyboard"
+msgstr ""
+
+#: src/hist.menus:63 src/hist.menus:69
+msgid "bandeau"
+msgstr ""
+
+#: src/hist.menus:65
+msgid "Show script window"
+msgstr ""
+
+#: src/hist.menus:66
+msgid "Hide"
+msgstr ""
+
+#: src/hist.menus:71
+msgid "Index language"
+msgstr "下标语言"
+
+#: src/hist.menus:72
+msgid "francais"
+msgstr ""
+
+#: src/hist.menus:73
+msgid "english"
+msgstr ""
+
+#: src/hist.menus:74
+msgid "espanol"
+msgstr ""
+
+#: src/hist.menus:75
+msgid "greek"
+msgstr ""
+
+#: src/hist.menus:76
+msgid "Colors"
+msgstr ""
+
+#: src/hist.menus:77
+msgid "default background"
+msgstr ""
+
+#: src/hist.menus:78
+msgid "input text"
+msgstr ""
+
+#: src/hist.menus:79
+msgid "input background"
+msgstr ""
+
+#: src/hist.menus:80
+msgid "comment text"
+msgstr ""
+
+#: src/hist.menus:81
+msgid "comment background"
+msgstr ""
+
+#: src/hist.menus:82
+msgid "log text"
+msgstr ""
+
+#: src/hist.menus:83
+msgid "log background"
+msgstr ""
+
+#: src/hist.menus:84
+msgid "equation text"
+msgstr ""
+
+#: src/hist.menus:85
+msgid "equation background"
+msgstr ""
+
+#: src/hist.menus:86
+msgid "editor text"
+msgstr ""
+
+#: src/hist.menus:87
+msgid "editor background"
+msgstr ""
+
+#: src/hist.menus:88
+msgid "Session font"
+msgstr ""
+
+#: src/hist.menus:89
+msgid "All fonts"
+msgstr ""
+
+#: src/hist.menus:91
+msgid "Save configuration"
+msgstr ""
+
+#: src/hist.menus:92
+msgid "Help"
+msgstr ""
+
+#: src/hist.menus:93 src/Input.cc:393
+msgid "Index"
+msgstr "下标"
+
+#: src/hist.menus:94 src/Help1.cc:215
+msgid "Find word in HTML help"
+msgstr ""
+
+#: src/hist.menus:95
+msgid "Interface"
+msgstr ""
+
+#: src/hist.menus:96
+msgid "Manuals"
+msgstr ""
+
+#: src/hist.menus:97
+msgid "CAS reference"
+msgstr "CAS 参考"
+
+#: src/hist.menus:98
+msgid "Algorithmes (HTML)"
+msgstr ""
+
+#: src/hist.menus:99
+msgid "Algorithmes (PDF)"
+msgstr ""
+
+#: src/hist.menus:101
+msgid "Programmation"
+msgstr "编程"
+
+#: src/hist.menus:104
+msgid "Exercices"
+msgstr ""
+
+#: src/hist.menus:105
+msgid "Amusement"
+msgstr ""
+
+#: src/hist.menus:106
+msgid "PARI-GP"
+msgstr ""
+
+#: src/hist.menus:107
+msgid "Internet"
+msgstr ""
+
+#: src/hist.menus:108
+msgid "Forum"
+msgstr ""
+
+#: src/hist.menus:109
+msgid "Reference card, fiches"
+msgstr ""
+
+#: src/hist.menus:110
+msgid "Ressources lycee"
+msgstr ""
+
+#: src/hist.menus:111
+msgid "Site Lycee de G. Connan"
+msgstr ""
+
+#: src/hist.menus:112
+msgid "Ressources Capes"
+msgstr ""
+
+#: src/hist.menus:113
+msgid "Ressources Agregation externe"
+msgstr ""
+
+#: src/hist.menus:114
+msgid "Ressources Agregation interne"
+msgstr ""
+
+#: src/hist.menus:115
+msgid "Update help"
+msgstr ""
+
+#: src/hist.menus:116
+msgid "Start with CAS"
+msgstr ""
+
+#: src/hist.menus:117
+msgid "Tutorial"
+msgstr ""
+
+#: src/hist.menus:118
+msgid "solutions"
+msgstr ""
+
+#: src/hist.menus:119
+msgid "Rebuild help cache"
+msgstr ""
+
+#: src/hist.menus:120
+msgid "About"
+msgstr ""
+
+#: src/hist.menus:123
+msgid "New comment"
+msgstr ""
+
+#: src/hist.menus:124
+msgid "Equations"
+msgstr "方程 "
+
+#: src/hist.menus:125
+msgid "solve: Solve equation or system"
+msgstr "solve：求解方程或体系"
+
+#: src/hist.menus:126
+msgid "fsolve: Solve equation numerically"
+msgstr "fsolve：对方程进行数值求解"
+
+#: src/hist.menus:127
+msgid "proot: Roots of a polynomial"
+msgstr "proot：一个多项式的根"
+
+#: src/hist.menus:128
+msgid "linsolve: Solve linear system"
+msgstr "linsolve：求解线性体系"
+
+#: src/hist.menus:129
+msgid "desolve: Solve differential equation"
+msgstr ""
+
+#: src/hist.menus:130
+msgid "odesolve: Solve differential equation (numeric)"
+msgstr ""
+
+#: src/hist.menus:131
+msgid "rsolve: Solve recurrence equation"
+msgstr "rsolve：求解递推方程"
+
+#: src/hist.menus:132
+msgid "Calculus"
+msgstr "微积分"
+
+#: src/hist.menus:133
+msgid "int: Integration (definite/indefinite)"
+msgstr "int：积分（定积分/不定积分）"
+
+#: src/hist.menus:134
+msgid "diff: Derivative"
+msgstr ""
+
+#: src/hist.menus:135
+msgid "limit: Limit"
+msgstr ""
+
+#: src/hist.menus:136
+msgid "series: Taylor or asymptotic expansion"
+msgstr "series：泰勒或渐进展开式"
+
+#: src/hist.menus:137
+msgid "sum: Discrete summation"
+msgstr "sum：离散求和"
+
+#: src/hist.menus:138
+msgid "laplace: Laplace transform"
+msgstr "laplace：拉普拉斯变换"
+
+#: src/hist.menus:139
+msgid "ilaplace: invert Laplace transform"
+msgstr ""
+
+#: src/hist.menus:140
+msgid "Simplify"
+msgstr "简化"
+
+#: src/hist.menus:142
+msgid "normal: Simplify rational and algebraic expression"
+msgstr "normal：简化有理表达式与代数表达式"
+
+#: src/hist.menus:143
+msgid "ratnormal: Simplify rational expressions"
+msgstr "ratnormal：简化有理表达式"
+
+#: src/hist.menus:145
+msgid "cfactor: Factorization over C"
+msgstr ""
+
+#: src/hist.menus:146
+msgid "partfrac: Partial fraction decomposition"
+msgstr "partfrac：部分分式展开"
+
+#: src/hist.menus:147
+msgid "cpartfrac: Partial fraction decomposition over C"
+msgstr "cpartfrac：对 C 进行部分分式展开"
+
+#: src/hist.menus:148 src/hist.menus:151 src/hist.menus:166 src/hist.menus:170
+msgid "---"
+msgstr ""
+
+#: src/hist.menus:149
+msgid "subst: Substitution of variables by expressions"
+msgstr "subst：将变量替换为表达式"
+
+#: src/hist.menus:150
+msgid "reorder: Reorder expression wrt list of variables"
+msgstr "reorder：对变量列表表达式重新排序"
+
+#: src/hist.menus:152
+msgid "lin: Linearization of exponentials"
+msgstr ""
+
+#: src/hist.menus:153
+msgid "tlin: Trigonometric linearization"
+msgstr ""
+
+#: src/hist.menus:154
+msgid "texpand: Expand transcendental expressions"
+msgstr ""
+
+#: src/hist.menus:155
+msgid "lncollect: Collect logarithms"
+msgstr "lncollect：合并对数项"
+
+#: src/hist.menus:156
+msgid "exp2pow: Convert exp(a*ln(b)) to b^a"
+msgstr ""
+
+#: src/hist.menus:157
+msgid "exp2trig: Convert complex exponentials to trig"
+msgstr ""
+
+#: src/hist.menus:158
+msgid "trig2exp: Convert trig to complex exponentials"
+msgstr ""
+
+#: src/hist.menus:159
+msgid "Arithmetic"
+msgstr "运算"
+
+#: src/hist.menus:160
+msgid "isprime: test if an integer is prime"
+msgstr ""
+
+#: src/hist.menus:161
+msgid "ifactor: factorize an integer"
+msgstr ""
+
+#: src/hist.menus:162
+msgid "iquo: quotient for integers"
+msgstr ""
+
+#: src/hist.menus:163
+msgid "irem: remainder for integers"
+msgstr ""
+
+#: src/hist.menus:164
+msgid "iabcuv: Solve a.u+b.v=c in Z"
+msgstr ""
+
+#: src/hist.menus:165
+msgid "ichinrem: Chinese remainder for integers"
+msgstr ""
+
+#: src/hist.menus:167
+msgid "gcd: gcd of integers or polynomials"
+msgstr "gcd：整数或多项式的最大公约数"
+
+#: src/hist.menus:168
+msgid "lcm: lcm of integers or polynomials"
+msgstr ""
+
+#: src/hist.menus:169
+msgid "powmod: fast powering modulo"
+msgstr "powmod：快速幂同余"
+
+#: src/hist.menus:171
+msgid "quo: quotient (poly. synthetic division)"
+msgstr "quo：商（多项式 综合除法）"
+
+#: src/hist.menus:172
+msgid "rem: remainder (poly. synthetic division)"
+msgstr "rem：余项（多项式 综合除法）"
+
+#: src/hist.menus:173
+msgid "abcuv: Solve a.u+b.v=c for polynomials"
+msgstr "abcuv：对多项式求解 a.u+b.v=c"
+
+#: src/hist.menus:174
+msgid "chinrem: Chinese remainder for polynomials"
+msgstr "chinrem：多项式的中国余数"
+
+#: src/hist.menus:175
+msgid "Linear algebra"
+msgstr "线性代数"
+
+#: src/hist.menus:176
+msgid "matrix: Create a matrix"
+msgstr ""
+
+#: src/hist.menus:177
+msgid "tran: Transpose a matrix"
+msgstr ""
+
+#: src/hist.menus:178
+msgid "ker: Kernel of a matrix"
+msgstr ""
+
+#: src/hist.menus:179
+msgid "image: Image of a matrix"
+msgstr ""
+
+#: src/hist.menus:180
+msgid "inv: Invert a matrix"
+msgstr "inv：对矩阵进行逆变换"
+
+#: src/hist.menus:181
+msgid "det: Determinant of a matrix"
+msgstr ""
+
+#: src/hist.menus:182
+msgid "charpoly: Characteristic polynomial"
+msgstr ""
+
+#: src/hist.menus:183
+msgid "egv: Eigenvectors of a matrix"
+msgstr ""
+
+#: src/hist.menus:184
+msgid "egvl: Eigenvalues of a matrix"
+msgstr ""
+
+#: src/hist.menus:185 src/Tableur.cc:1800 src/Tableur.cc:1803
+#: src/Tableur.cc:2058
+msgid "Expression"
+msgstr "表达式"
+
+#: src/hist.menus:186
+msgid "New expression"
+msgstr ""
+
+#: src/hist.menus:187
+msgid "Cmds"
+msgstr ""
+
+#: src/hist.menus:188
+msgid "Constants"
+msgstr ""
+
+#: src/hist.menus:189
+msgid "i: sqrt(-1)"
+msgstr ""
+
+#: src/hist.menus:190
+msgid "e: exp(1)"
+msgstr ""
+
+#: src/hist.menus:192
+msgid "New program"
+msgstr ""
+
+#: src/hist.menus:193
+msgid "debug: debug a program"
+msgstr ""
+
+#: src/hist.menus:195
+msgid "Attributs"
+msgstr ""
+
+#: src/hist.menus:196 src/Graph.cc:6296
+msgid "Curves"
+msgstr "曲线"
+
+#: src/hist.menus:197
+msgid "plotfunc: Plot a 1-var function"
+msgstr ""
+
+#: src/hist.menus:198
+msgid "plotparam: Parametric 2-d curve"
+msgstr ""
+
+#: src/hist.menus:199
+msgid "plotpolar: Polar 2-d curve"
+msgstr ""
+
+#: src/hist.menus:200
+msgid "plotarea: Area under curve"
+msgstr ""
+
+#: src/hist.menus:201
+msgid "plotimplicit: Implicit plot"
+msgstr ""
+
+#: src/hist.menus:202
+msgid "plotcontour: Level curves"
+msgstr ""
+
+#: src/hist.menus:203
+msgid "plotdensity: 2-d z view as color"
+msgstr ""
+
+#: src/hist.menus:204
+msgid "Surfaces"
+msgstr ""
+
+#: src/hist.menus:205
+msgid "plotfunc: Plot a 2-var function"
+msgstr ""
+
+#: src/hist.menus:206
+msgid "plotparam: Parametric 3-d surface"
+msgstr ""
+
+#: src/hist.menus:207
+msgid "Sequence"
+msgstr ""
+
+#: src/hist.menus:208
+msgid "plotseq: Recurrent sequence plot"
+msgstr ""
+
+#: src/hist.menus:209
+msgid "plotlist: plot a list of values"
+msgstr ""
+
+#: src/hist.menus:210
+msgid "Ode"
+msgstr "Ode"
+
+#: src/hist.menus:211
+msgid "plotfield: 2-d or 3-d field"
+msgstr ""
+
+#: src/hist.menus:212
+msgid "plotode: Diff. equation plot"
+msgstr ""
+
+#: src/hist.menus:213
+msgid "interactive_odeplot: Interactive diff. equation plot"
+msgstr ""
+
+#: src/hist.menus:214
+msgid "Stats"
+msgstr ""
+
+#: src/hist.menus:215
+msgid "camembert: 1-d stats"
+msgstr ""
+
+#: src/hist.menus:216
+msgid "histogram: 1-d stats"
+msgstr ""
+
+#: src/hist.menus:217
+msgid "moustache: 1-d stats"
+msgstr ""
+
+#: src/hist.menus:218
+msgid "scatterplot: 2-d stats"
+msgstr ""
+
+#: src/hist.menus:219 src/hist.menus:220
+msgid "polygonscatterplot: 2-d stats"
+msgstr ""
+
+#: src/hist.menus:222
+msgid "New figure 2d"
+msgstr ""
+
+#: src/hist.menus:223
+msgid "New figure 3d"
+msgstr ""
+
+#: src/hist.menus:225
+msgid "New spreadsheet"
+msgstr ""
+
+#: src/hist.menus:226
+msgid "Phys"
+msgstr ""
+
+#: src/hist.menus:227
+msgid "Highschool"
+msgstr ""
+
+#: src/hist.menus:229
+msgid "New turtle"
+msgstr ""
+
+#: src/hist.menus:235
+msgid "A4"
+msgstr ""
+
+#: src/hist.menus:236
+msgid "A5"
+msgstr ""
+
+#: src/hist.menus:237
+msgid "A3"
+msgstr ""
+
+#: src/hist.menus:238
+msgid "LETTER"
+msgstr ""
+
+#: src/hist.menus:239
+msgid "ENVELOPE"
+msgstr ""
+
+#: src/hist.menus:242 src/gen.cc:10156
+msgid "print"
+msgstr ""
+
+#: src/hist.menus:245
+msgid "close"
+msgstr ""
+
+#: src/History.cc:119
+msgid "Choose file"
+msgstr ""
+
+#: src/History.cc:122
+msgid "Filename"
+msgstr ""
+
+#: src/History.cc:124
+msgid "Current filename"
+msgstr ""
+
+#: src/History.cc:126
+msgid "Choose file to overwrite"
+msgstr ""
+
+#: src/History.cc:127 src/Input.cc:382 src/Xcas1.cc:2600 src/Xcas1.cc:3102
+#: src/Xcas1.cc:3339 src/Equation.cc:4384 src/Print.cc:732 src/Tableur.cc:161
+#: src/Tableur.cc:1511 src/Tableur.cc:1838 src/Tableur.cc:2004
+#: src/Tableur.cc:2083 src/Tableur.cc:2283 src/Graph.cc:1429 src/Graph.cc:1720
+#: src/Graph.cc:2969 src/Graph.cc:5285 src/Graph.cc:5485
+msgid "OK"
+msgstr ""
+
+#: src/History.cc:128 src/History.cc:1425 src/Input.cc:386 src/Xcas1.cc:2524
+#: src/Xcas1.cc:2598 src/Xcas1.cc:3106 src/Xcas1.cc:3342 src/Cfg.cc:328
+#: src/Cfg.cc:690 src/Equation.cc:4387 src/Print.cc:735 src/Tableur.cc:164
+#: src/Tableur.cc:484 src/Tableur.cc:1514 src/Tableur.cc:1841
+#: src/Tableur.cc:2007 src/Tableur.cc:2086 src/Tableur.cc:2286
+#: src/Editeur.cc:1415 src/Graph.cc:905 src/Graph.cc:1431 src/Graph.cc:1722
+#: src/Graph.cc:2972 src/Graph.cc:5288 src/Graph.cc:5488
+msgid "Cancel"
+msgstr ""
+
+#: src/History.cc:154
+msgid "Error"
+msgstr ""
+
+#: src/History.cc:372
+msgid "Syntax compatibility mode "
+msgstr ""
+
+#: src/History.cc:372
+msgid ""
+"\n"
+"Parse error line "
+msgstr ""
+
+#: src/History.cc:372 src/Input.cc:991 src/Editeur.cc:1102 src/Editeur.cc:1187
+#: src/Editeur.cc:1357 src/Graph.cc:6882
+msgid " at "
+msgstr " 地址 "
+
+#: src/History.cc:1431
+msgid " modified. Save?"
+msgstr " 已修改。 是否保存？"
+
+#: src/History.cc:1550 src/plot.cc:9405
+msgid "Unable to open file "
+msgstr ""
+
+#: src/History.cc:1559 src/History.cc:3492
+msgid "Unnamed"
+msgstr "未命名"
+
+#: src/History.cc:1687
+msgid "Set compatibility mode to TI?"
+msgstr ""
+
+#: src/History.cc:1723
+msgid "File "
+msgstr ""
+
+#: src/History.cc:1723
+msgid " exists. Overwrite?"
+msgstr " 存在。 是否覆盖？"
+
+#: src/History.cc:1728
+msgid "Translating worksheet and setting compatibility mode to maple"
+msgstr ""
+
+#: src/History.cc:1825
+msgid "Translating maple worksheet and setting compatibility mode to maple"
+msgstr ""
+
+#: src/History.cc:2110 src/Xcas1.cc:1234
+msgid "Unable to launch thread. Press STOP to interrupt."
+msgstr ""
+
+#: src/History.cc:2368
+msgid "Export worksheet as"
+msgstr ""
+
+#: src/History.cc:2408
+msgid "Current buffer modified. Save?"
+msgstr ""
+
+#: src/History.cc:3210 src/Editeur.cc:1752
+msgid "Load"
+msgstr ""
+
+#: src/History.cc:3224
+msgid "latex preview selection"
+msgstr ""
+
+#: src/History.cc:3229 src/Editeur.cc:1792
+msgid "Add"
+msgstr ""
+
+#: src/History.cc:3231 src/History.cc:3243
+msgid "comment"
+msgstr ""
+
+#: src/History.cc:3232
+msgid "entry"
+msgstr ""
+
+#: src/History.cc:3233
+msgid "expression"
+msgstr "表达式"
+
+#: src/History.cc:3234 src/History.cc:3246
+msgid "tableur"
+msgstr ""
+
+#: src/History.cc:3235 src/History.cc:3247
+msgid "graph, geo2d"
+msgstr ""
+
+#: src/History.cc:3236 src/History.cc:3248
+msgid "graph, geo3d"
+msgstr ""
+
+#: src/History.cc:3237 src/History.cc:3249
+msgid "geo2d exact"
+msgstr ""
+
+#: src/History.cc:3238 src/History.cc:3250
+msgid "geo3d exact"
+msgstr ""
+
+#: src/History.cc:3239
+msgid "tortue"
+msgstr ""
+
+#: src/History.cc:3241 src/History.cc:3253
+msgid "group"
+msgstr ""
+
+#: src/History.cc:3244
+msgid "new entry"
+msgstr ""
+
+#: src/History.cc:3245
+msgid "equation"
+msgstr ""
+
+#: src/History.cc:3251
+msgid "dessin tortue"
+msgstr ""
+
+#: src/History.cc:3256
+msgid "Execute"
+msgstr ""
+
+#: src/History.cc:3257
+msgid "worksheet"
+msgstr ""
+
+#: src/History.cc:3258
+msgid "below"
+msgstr ""
+
+#: src/History.cc:3259
+msgid "remove answers below"
+msgstr "清除下列答案"
+
+#: src/History.cc:3263 src/Graph.cc:6248
+msgid "Delete selected levels"
+msgstr ""
+
+#: src/History.cc:3266
+msgid "Degroup current fold"
+msgstr ""
+
+#: src/History.cc:3530
+msgid "Online help and command completion"
+msgstr ""
+
+#: src/History.cc:3534
+msgid "Save current session"
+msgstr ""
+
+#: src/History.cc:3539
+msgid "Switch bandeau on or off"
+msgstr ""
+
+#: src/History.cc:3549
+msgid "Current CAS status. Click to modify"
+msgstr ""
+
+#: src/History.cc:3554
+msgid "Interrupt current computation"
+msgstr "中断当前计算"
+
+#: src/History.cc:3556
+msgid "Kbd"
+msgstr ""
+
+#: src/History.cc:3558
+msgid "Switch keyboard on or off"
+msgstr ""
+
+#: src/History.cc:3566
+msgid "Close current session"
+msgstr "关闭当前会话"
+
+#: src/History.cc:3649 src/History.cc:3673
+msgid "Unable to cut. Xcas is busy."
+msgstr ""
+
+#: src/History.cc:3678
+msgid ""
+"First select level(s):\n"
+"click on the level numbers near the left border"
+msgstr ""
+
+#: src/Input.cc:141
+msgid " or "
+msgstr " 或者 "
+
+#: src/Input.cc:383
+msgid "Click to copy the commandname to the commandline"
+msgstr ""
+
+#: src/Input.cc:388
+msgid "Details"
+msgstr "详细信息"
+
+#: src/Input.cc:389
+msgid "Show full HTML help in browser"
+msgstr ""
+
+#: src/Input.cc:398
+msgid "Related"
+msgstr "相关"
+
+#: src/Input.cc:401
+msgid "Click for help on related command"
+msgstr ""
+
+#: src/Input.cc:404
+msgid "Synonyms"
+msgstr ""
+
+#: src/Input.cc:408
+msgid "Search this word in HTML help"
+msgstr ""
+
+#: src/Input.cc:412
+msgid "Show commandnames starting from this text"
+msgstr ""
+
+#: src/Input.cc:414
+msgid "Command short description and syntax"
+msgstr "命令的简短描述及语法"
+
+#: src/Input.cc:426
+msgid ""
+"Left-click: copy example to commandline, right-click: fill in template with "
+"example values"
+msgstr ""
+
+#: src/Input.cc:978
+msgid "// Parsing"
+msgstr ""
+
+#: src/Input.cc:978
+msgid "// Success"
+msgstr ""
+
+#: src/Input.cc:990
+msgid "Syntax error in compatibility mode: "
+msgstr "兼容模式中出现语法错误： "
+
+#: src/Input.cc:991 src/Editeur.cc:1102 src/Editeur.cc:1187
+#: src/Editeur.cc:1357 src/Graph.cc:6882
+msgid "Parse error line "
+msgstr "解析错误行 "
+
+#: src/Input.cc:991 src/Editeur.cc:1102 src/Editeur.cc:1187
+#: src/Editeur.cc:1357
+msgid " column "
+msgstr " 列 "
+
+#: src/Input.cc:1008
+msgid "To get a newline, use shift-Enter. Reedit?"
+msgstr ""
+
+#: src/Xcas1.cc:263
+msgid "Xcas Debug Window"
+msgstr ""
+
+#: src/Xcas1.cc:268
+msgid "Show the source of the program"
+msgstr ""
+
+#: src/Xcas1.cc:272 src/Cfg.cc:377
+msgid "eval"
+msgstr ""
+
+#: src/Xcas1.cc:292
+msgid "sst F5"
+msgstr ""
+
+#: src/Xcas1.cc:293
+msgid "Execute current line, skip function"
+msgstr ""
+
+#: src/Xcas1.cc:297
+msgid "in F6"
+msgstr ""
+
+#: src/Xcas1.cc:298
+msgid "Execute current line, step in function"
+msgstr ""
+
+#: src/Xcas1.cc:302
+msgid "cont F7"
+msgstr ""
+
+#: src/Xcas1.cc:303
+msgid "Continue execution until next breakpoint"
+msgstr "继续执行到下一个断点为止"
+
+#: src/Xcas1.cc:307
+msgid "kill"
+msgstr ""
+
+#: src/Xcas1.cc:308
+msgid "Kill current program"
+msgstr ""
+
+#: src/Xcas1.cc:311 src/Editeur.cc:1811
+msgid "break"
+msgstr ""
+
+#: src/Xcas1.cc:312
+msgid "Add a breakpoint"
+msgstr ""
+
+#: src/Xcas1.cc:315
+msgid "rmbrk"
+msgstr ""
+
+#: src/Xcas1.cc:316
+msgid "Remove a breakpoint"
+msgstr ""
+
+#: src/Xcas1.cc:319
+msgid "watch"
+msgstr ""
+
+#: src/Xcas1.cc:320 src/Xcas1.cc:324
+msgid "Add a variable name to the watch"
+msgstr ""
+
+#: src/Xcas1.cc:323
+msgid "rmwtch"
+msgstr ""
+
+#: src/Xcas1.cc:330
+msgid "Show watch variables"
+msgstr ""
+
+#: src/Xcas1.cc:1234
+msgid "Computing..."
+msgstr ""
+
+#: src/Xcas1.cc:2521
+msgid "Press a key"
+msgstr ""
+
+#: src/Xcas1.cc:2531
+msgid "Press a key\n"
+msgstr ""
+
+#: src/Xcas1.cc:2603 src/Xcas1.cc:3110
+msgid "STOP"
+msgstr "STOP"
+
+#: src/Xcas1.cc:3329
+msgid "What a nice font"
+msgstr ""
+
+#: src/Cfg.cc:142
+msgid "Standard"
+msgstr "标准求解"
+
+#: src/Cfg.cc:143
+msgid "Scientific"
+msgstr "科学计数"
+
+#: src/Cfg.cc:144 src/Cfg.cc:145
+msgid "Engineer"
+msgstr ""
+
+#: src/Cfg.cc:168
+msgid "Mupad"
+msgstr ""
+
+#: src/Cfg.cc:169
+msgid "TI89/92"
+msgstr ""
+
+#: src/Cfg.cc:236
+msgid "10"
+msgstr ""
+
+#: src/Cfg.cc:237
+msgid "16"
+msgstr ""
+
+#: src/Cfg.cc:256
+msgid "Xcas Cas Setup"
+msgstr ""
+
+#: src/Cfg.cc:257
+msgid "Float format"
+msgstr ""
+
+#: src/Cfg.cc:262
+msgid "Current float printing format"
+msgstr "当前浮点打印格式"
+
+#: src/Cfg.cc:266
+msgid "epsilon"
+msgstr "ε"
+
+#: src/Cfg.cc:267
+msgid "Number with absolute value less than epsilon can be coerced to 0"
+msgstr ""
+
+#: src/Cfg.cc:273
+msgid "proba"
+msgstr ""
+
+#: src/Cfg.cc:274
+msgid ""
+"Maximal probability of a wrong answer for non-deterministic algorithms. Set "
+"to 0 for deterministic algorithms only."
+msgstr ""
+
+#: src/Cfg.cc:280
+msgid "approx"
+msgstr ""
+
+#: src/Cfg.cc:281
+msgid "Approx or exact mode"
+msgstr "近似模式或精确模式"
+
+#: src/Cfg.cc:286
+msgid "radian"
+msgstr "弧度"
+
+#: src/Cfg.cc:287
+msgid "Radian or degree angle mode"
+msgstr ""
+
+#: src/Cfg.cc:292
+msgid "increasing power"
+msgstr ""
+
+#: src/Cfg.cc:293
+msgid "Show polynomials in increasin or decreasing order"
+msgstr ""
+
+#: src/Cfg.cc:298
+msgid "Prog style"
+msgstr "程序类型"
+
+#: src/Cfg.cc:303
+msgid "Current programmation syntax style"
+msgstr ""
+
+#: src/Cfg.cc:307
+msgid "Complex"
+msgstr "复数"
+
+#: src/Cfg.cc:308
+msgid "Complex mode (e.g. for factorization)"
+msgstr "复数模式（比如因式分解）"
+
+#: src/Cfg.cc:313
+msgid "Cmplx_var"
+msgstr ""
+
+#: src/Cfg.cc:314
+msgid "Variables are complex or real"
+msgstr "变量是复数或实数"
+
+#: src/Cfg.cc:319 src/Cfg.cc:682 src/Graph.cc:1438 src/Graph.cc:1690
+msgid "Apply"
+msgstr ""
+
+#: src/Cfg.cc:333
+msgid "threads"
+msgstr ""
+
+#: src/Cfg.cc:334
+msgid "Maximal number of threads in parallel"
+msgstr ""
+
+#: src/Cfg.cc:341
+msgid "Sqrt"
+msgstr ""
+
+#: src/Cfg.cc:342
+msgid "Factor 2nd order poly using sqrt"
+msgstr "利用开平方法对 2 阶多项式进行因式分解"
+
+#: src/Cfg.cc:347
+msgid "All_trig_sol"
+msgstr ""
+
+#: src/Cfg.cc:348
+msgid "Solver: principal solution vs all solutions"
+msgstr ""
+
+#: src/Cfg.cc:353 src/Cfg.cc:354
+msgid "Digits"
+msgstr "位数"
+
+#: src/Cfg.cc:361
+msgid "Integer basis"
+msgstr ""
+
+#: src/Cfg.cc:366
+msgid "Current basis for printing integers"
+msgstr ""
+
+#: src/Cfg.cc:370
+msgid "debug"
+msgstr "调试"
+
+#: src/Cfg.cc:371
+msgid "Level of information displayed by giac functions"
+msgstr ""
+
+#: src/Cfg.cc:378
+msgid "Number of embedded variable names replacement in interactive evaluation"
+msgstr ""
+
+#: src/Cfg.cc:385
+msgid "recurs"
+msgstr ""
+
+#: src/Cfg.cc:386
+msgid "Number of embedded function calls allowed"
+msgstr ""
+
+#: src/Cfg.cc:393
+msgid "prog"
+msgstr ""
+
+#: src/Cfg.cc:394
+msgid ""
+"Number of embedded variable names replacement in program evaluation (1 or 0 "
+"for default eval level)"
+msgstr ""
+
+#: src/Cfg.cc:401
+msgid "maxiter"
+msgstr ""
+
+#: src/Cfg.cc:402
+msgid "Default maximal number of iterations in Newton method"
+msgstr ""
+
+#: src/Cfg.cc:565
+msgid "Xcas Plot Setup"
+msgstr ""
+
+#: src/Cfg.cc:566
+msgid "Plot setup"
+msgstr ""
+
+#: src/Cfg.cc:571
+msgid "X-"
+msgstr ""
+
+#: src/Cfg.cc:572
+msgid "Xmin for computation"
+msgstr ""
+
+#: src/Cfg.cc:580
+msgid "X+"
+msgstr ""
+
+#: src/Cfg.cc:581
+msgid "Xmax for computation"
+msgstr ""
+
+#: src/Cfg.cc:589
+msgid "Y-"
+msgstr ""
+
+#: src/Cfg.cc:590
+msgid "Ymin for computation"
+msgstr ""
+
+#: src/Cfg.cc:598
+msgid "Y+"
+msgstr ""
+
+#: src/Cfg.cc:599
+msgid "Ymax for computation"
+msgstr ""
+
+#: src/Cfg.cc:607
+msgid "Z-"
+msgstr ""
+
+#: src/Cfg.cc:608
+msgid "Zmin (3-d)"
+msgstr ""
+
+#: src/Cfg.cc:616
+msgid "Z+"
+msgstr ""
+
+#: src/Cfg.cc:617
+msgid "Z-max (3-d)"
+msgstr ""
+
+#: src/Cfg.cc:625
+msgid "t-"
+msgstr ""
+
+#: src/Cfg.cc:626
+msgid "T-min (parametric computation)"
+msgstr ""
+
+#: src/Cfg.cc:634
+msgid "t+"
+msgstr ""
+
+#: src/Cfg.cc:635
+msgid "T-max (parametric computation)"
+msgstr ""
+
+#: src/Cfg.cc:643
+msgid "class_min"
+msgstr ""
+
+#: src/Cfg.cc:644
+msgid "Minimum for classes (for e.g. histogram...)"
+msgstr ""
+
+#: src/Cfg.cc:651
+msgid "class_size"
+msgstr ""
+
+#: src/Cfg.cc:652
+msgid "Size of a class (e.g. for histogram...)"
+msgstr ""
+
+#: src/Cfg.cc:659
+msgid "TX"
+msgstr ""
+
+#: src/Cfg.cc:660
+msgid "Tick range on X axis"
+msgstr ""
+
+#: src/Cfg.cc:667
+msgid "TY"
+msgstr ""
+
+#: src/Cfg.cc:668
+msgid "Tick range on Y axis"
+msgstr ""
+
+#: src/Cfg.cc:675
+msgid "autoscale"
+msgstr ""
+
+#: src/Cfg.cc:676
+msgid "Autoscale graphs"
+msgstr ""
+
+#: src/Cfg.cc:694
+msgid "WX-"
+msgstr ""
+
+#: src/Cfg.cc:695 src/Graph.cc:1554
+msgid "Xmin for visualisation"
+msgstr ""
+
+#: src/Cfg.cc:703
+msgid "WX+"
+msgstr ""
+
+#: src/Cfg.cc:704
+msgid "Xmax for visualization"
+msgstr ""
+
+#: src/Cfg.cc:712
+msgid "WY-"
+msgstr ""
+
+#: src/Cfg.cc:713
+msgid "Ymin for visualization"
+msgstr ""
+
+#: src/Cfg.cc:721
+msgid "WY+"
+msgstr ""
+
+#: src/Cfg.cc:722
+msgid "Ymax for visualization"
+msgstr ""
+
+#: src/Cfg.cc:730
+msgid "ortho"
+msgstr ""
+
+#: src/Cfg.cc:731
+msgid "Orthonormalize"
+msgstr ""
+
+#: src/Cfg.cc:735
+msgid ">W"
+msgstr ""
+
+#: src/Cfg.cc:736
+msgid "Copy XYminmax to W"
+msgstr ""
+
+#: src/Cfg.cc:740
+msgid "W>"
+msgstr ""
+
+#: src/Cfg.cc:741
+msgid "Copy W to XYminmax"
+msgstr ""
+
+#: src/Equation.cc:4246 src/Graph.cc:1096 src/Graph.cc:7039
+msgid "M"
+msgstr ""
+
+#: src/Equation.cc:4247
+msgid "Select all"
+msgstr "全选"
+
+#: src/Equation.cc:4248
+msgid "Edit selection"
+msgstr "编辑选择项"
+
+#: src/Equation.cc:4252
+msgid "evalf"
+msgstr ""
+
+#: src/Equation.cc:4253
+msgid "Back"
+msgstr ""
+
+#: src/Equation.cc:4254
+msgid "Forward"
+msgstr ""
+
+#: src/Equation.cc:4273
+msgid "Equation menu"
+msgstr "方程菜单"
+
+#: src/Print.cc:724
+msgid "Width"
+msgstr ""
+
+#: src/Print.cc:725
+msgid "Width in pixels for export"
+msgstr ""
+
+#: src/Print.cc:726
+msgid "Height"
+msgstr ""
+
+#: src/Print.cc:727
+msgid "Height in pixels for export"
+msgstr ""
+
+#: src/Print.cc:728
+msgid "Pixel size"
+msgstr ""
+
+#: src/Print.cc:729
+msgid "Pixel size in mm"
+msgstr ""
+
+#: src/Print.cc:738
+msgid "Size in pixels for export"
+msgstr ""
+
+#: src/Tableur.cc:102
+msgid "No spreadsheet found. Please click in or add one"
+msgstr ""
+
+#: src/Tableur.cc:134
+msgid "Variable"
+msgstr "变量"
+
+#: src/Tableur.cc:135
+msgid "Save the spreadsheet as a matrix in this variable"
+msgstr ""
+
+#: src/Tableur.cc:136 src/Tableur.cc:484
+msgid "Rows"
+msgstr "行"
+
+#: src/Tableur.cc:140 src/Tableur.cc:484
+msgid "Cols"
+msgstr ""
+
+#: src/Tableur.cc:144 src/gen.cc:1545
+msgid "Eval"
+msgstr ""
+
+#: src/Tableur.cc:145
+msgid "Reeval spreadsheet automatically"
+msgstr ""
+
+#: src/Tableur.cc:147
+msgid "Move right"
+msgstr ""
+
+#: src/Tableur.cc:148
+msgid "Move right or down after Enter"
+msgstr ""
+
+#: src/Tableur.cc:149
+msgid "Distribute"
+msgstr "分布"
+
+#: src/Tableur.cc:150
+msgid "Matrix input is ditributed or kept inside a cell"
+msgstr ""
+
+#: src/Tableur.cc:152
+msgid "Matrix or spreadsheet"
+msgstr "矩阵或电子数据表"
+
+#: src/Tableur.cc:154
+msgid "Split sheet/graph horizontally or vertically"
+msgstr ""
+
+#: src/Tableur.cc:155 src/Tableur.cc:2948 src/Graph.cc:6255
+msgid "Graph"
+msgstr ""
+
+#: src/Tableur.cc:156
+msgid "Show or hide graph connected to this sheet"
+msgstr ""
+
+#: src/Tableur.cc:157
+msgid "Undo history"
+msgstr ""
+
+#: src/Tableur.cc:158
+msgid "Init sheet"
+msgstr ""
+
+#: src/Tableur.cc:168 src/Tableur.cc:2932
+msgid "Sheet configuration"
+msgstr ""
+
+#: src/Tableur.cc:484
+msgid "Remove what?"
+msgstr ""
+
+#: src/Tableur.cc:795
+msgid "computation aborted"
+msgstr "中止计算"
+
+#: src/Tableur.cc:1287
+msgid "Save sheet"
+msgstr ""
+
+#: src/Tableur.cc:1297 src/Editeur.cc:701 src/Graph.cc:5138
+msgid ": file exists. Overwrite?"
+msgstr ""
+
+#: src/Tableur.cc:1431
+msgid "Variable name?"
+msgstr "变量名？"
+
+#: src/Tableur.cc:1435
+msgid "is not a variable name"
+msgstr "不是一个变量名"
+
+#: src/Tableur.cc:1459
+msgid "Insert sheet"
+msgstr ""
+
+#: src/Tableur.cc:1482
+msgid "Insert CSV sheet"
+msgstr ""
+
+#: src/Tableur.cc:1499
+msgid "Separator"
+msgstr "分纸器"
+
+#: src/Tableur.cc:1500
+msgid "One character used to separate fields, like ; Use ^I for tab"
+msgstr ""
+
+#: src/Tableur.cc:1501
+msgid "Newline"
+msgstr ""
+
+#: src/Tableur.cc:1502
+msgid "One character used to separate lines, like <return> Use ^I for tab"
+msgstr ""
+
+#: src/Tableur.cc:1503
+msgid "Decimal"
+msgstr "小数"
+
+#: src/Tableur.cc:1504
+msgid "One character used for decimal digit separator, like . or ,"
+msgstr ""
+
+#: src/Tableur.cc:1505
+msgid "Endfile"
+msgstr "结束文件"
+
+#: src/Tableur.cc:1506
+msgid "Stop reading at first occurence of this character, leave blank for none"
+msgstr ""
+
+#: src/Tableur.cc:1507
+msgid "Start row=1"
+msgstr ""
+
+#: src/Tableur.cc:1517
+msgid "CSV Import filter"
+msgstr ""
+
+#: src/Tableur.cc:1742 src/Tableur.cc:1770 src/Tableur.cc:1835
+msgid "builtin integration"
+msgstr "内置积分"
+
+#: src/Tableur.cc:1748
+msgid "right rectangle"
+msgstr ""
+
+#: src/Tableur.cc:1754
+msgid "left rectangle"
+msgstr ""
+
+#: src/Tableur.cc:1760
+msgid "middle point"
+msgstr ""
+
+#: src/Tableur.cc:1766 src/Tableur.cc:1774
+msgid "trapezoid"
+msgstr ""
+
+#: src/Tableur.cc:1771
+msgid "right_rectangle"
+msgstr ""
+
+#: src/Tableur.cc:1772
+msgid "left_rectangle"
+msgstr ""
+
+#: src/Tableur.cc:1773
+msgid "middle_point"
+msgstr ""
+
+#: src/Tableur.cc:1802
+msgid "Expression of the function (e.g sin(x))"
+msgstr "函数表达式（比如 sin(x)）"
+
+#: src/Tableur.cc:1805
+msgid "Expression of the function (e.g x-y^2)"
+msgstr "函数表达式（比如 x-y^2）"
+
+#: src/Tableur.cc:1806 src/Graph.cc:5420 src/Graph.cc:5426
+msgid "1st var"
+msgstr "第一个变量"
+
+#: src/Tableur.cc:1808
+msgid "Independant variable name (e.g x)"
+msgstr ""
+
+#: src/Tableur.cc:1809 src/Graph.cc:5423 src/Graph.cc:5429 src/Graph.cc:5435
+msgid "2nd var"
+msgstr "第二个变量"
+
+#: src/Tableur.cc:1811 src/Graph.cc:5431
+msgid "Second independant variable name (e.g y)"
+msgstr ""
+
+#: src/Tableur.cc:1812 src/Graph.cc:5465
+msgid "xmin"
+msgstr ""
+
+#: src/Tableur.cc:1815 src/Graph.cc:5468
+msgid "xstep"
+msgstr ""
+
+#: src/Tableur.cc:1818 src/Graph.cc:5471
+msgid "xmax"
+msgstr ""
+
+#: src/Tableur.cc:1821
+msgid "Target"
+msgstr ""
+
+#: src/Tableur.cc:1822
+msgid ""
+"Name of the first of two columns that will be overwritten by the tablefunc"
+msgstr ""
+
+#: src/Tableur.cc:1823 src/Graph.cc:5474
+msgid "ymin"
+msgstr ""
+
+#: src/Tableur.cc:1826 src/Graph.cc:5477
+msgid "ystep"
+msgstr ""
+
+#: src/Tableur.cc:1829 src/Graph.cc:5480
+msgid "ymax"
+msgstr ""
+
+#: src/Tableur.cc:1832
+msgid "Choose"
+msgstr ""
+
+#: src/Tableur.cc:1834
+msgid "int. method"
+msgstr ""
+
+#: src/Tableur.cc:1956
+msgid "Table of value of a function"
+msgstr ""
+
+#: src/Tableur.cc:1986
+msgid "Target cell range"
+msgstr ""
+
+#: src/Tableur.cc:1987
+msgid "Target cell range will be filled by random numbers, e.g. A1:A8"
+msgstr ""
+
+#: src/Tableur.cc:1988 src/Tableur.cc:2070
+msgid "x-"
+msgstr ""
+
+#: src/Tableur.cc:1990
+msgid "Minimal value"
+msgstr "最小值"
+
+#: src/Tableur.cc:1991 src/Tableur.cc:2073
+msgid "x+"
+msgstr ""
+
+#: src/Tableur.cc:1993
+msgid "Maximal value"
+msgstr "最大值"
+
+#: src/Tableur.cc:1994
+msgid "integers"
+msgstr ""
+
+#: src/Tableur.cc:1995
+msgid "Real or integers"
+msgstr "实数或整数"
+
+#: src/Tableur.cc:1998
+msgid "static"
+msgstr ""
+
+#: src/Tableur.cc:1999
+msgid "Immediate static value or formula reevaled each time"
+msgstr ""
+
+#: src/Tableur.cc:2060
+msgid ""
+"Expression of u_(n+1) in terms of a variable=u_n, e.g. 1/2*(x+2/x)\n"
+"Or expression of u_(n+k+1) in terms of a list of variables=[u_n,...,u_(n"
+"+k)], e.g. x+y"
+msgstr ""
+
+#: src/Tableur.cc:2061
+msgid "Variable(s)"
+msgstr "变量"
+
+#: src/Tableur.cc:2063
+msgid ""
+"Independant variable name representing u_n, e.g. x\n"
+"Or list of independant variables representing u_n,...,u_(n+k), e.g. [x,y]"
+msgstr ""
+
+#: src/Tableur.cc:2066
+msgid "Name of the initial value of un"
+msgstr "un 初值名称"
+
+#: src/Tableur.cc:2069
+msgid ""
+"Initial value, e.g. 1.0\n"
+"Or list of initial values, e.g. [1.0,1.0]"
+msgstr ""
+
+#: src/Tableur.cc:2072
+msgid "Minimal value for the function graph"
+msgstr ""
+
+#: src/Tableur.cc:2075
+msgid "Maximal value for the function graph"
+msgstr ""
+
+#: src/Tableur.cc:2076
+msgid "Target column"
+msgstr ""
+
+#: src/Tableur.cc:2078
+msgid "Number of terms"
+msgstr ""
+
+#: src/Tableur.cc:2227
+msgid "Table of value of a recurrent sequence"
+msgstr ""
+
+#: src/Tableur.cc:2262
+msgid "cells input"
+msgstr ""
+
+#: src/Tableur.cc:2263
+msgid "Zone over which the function will be applied, e.g. A1..B7 or A1..B7,D,E"
+msgstr ""
+
+#: src/Tableur.cc:2264
+msgid "target cell"
+msgstr ""
+
+#: src/Tableur.cc:2265
+msgid "Target cell(s) will be filled by the formula, e.g. A8"
+msgstr ""
+
+#: src/Tableur.cc:2266
+msgid "class min"
+msgstr ""
+
+#: src/Tableur.cc:2267
+msgid "Minimal value of classes for histogramsl, e.g. -10"
+msgstr ""
+
+#: src/Tableur.cc:2268
+msgid "class size"
+msgstr ""
+
+#: src/Tableur.cc:2269
+msgid "Size of a class for histograms, e.g. 2"
+msgstr ""
+
+#: src/Tableur.cc:2270
+msgid "value"
+msgstr ""
+
+#: src/Tableur.cc:2271
+msgid "Use submatrix by reference (dynamic) or by value (static)"
+msgstr ""
+
+#: src/Tableur.cc:2273
+msgid "lines"
+msgstr ""
+
+#: src/Tableur.cc:2274
+msgid "Use line or columns"
+msgstr ""
+
+#: src/Tableur.cc:2276
+msgid "outside"
+msgstr ""
+
+#: src/Tableur.cc:2277
+msgid "Sheet graph or standalone graph"
+msgstr ""
+
+#: src/Tableur.cc:2279
+msgid "degree"
+msgstr "度"
+
+#: src/Tableur.cc:2280
+msgid "Degree of the polynomial regression"
+msgstr ""
+
+#: src/Tableur.cc:2369
+msgid "Syntax error"
+msgstr "语法错误"
+
+#: src/Tableur.cc:2451
+msgid "New row number"
+msgstr ""
+
+#: src/Tableur.cc:2455
+msgid "Really delete rows?"
+msgstr ""
+
+#: src/Tableur.cc:2467
+msgid "New col number"
+msgstr ""
+
+#: src/Tableur.cc:2471
+msgid "Really delete columns?"
+msgstr ""
+
+#: src/Tableur.cc:2485
+msgid "Histogram 1 or 2 columns: data or data/eff"
+msgstr ""
+
+#: src/Tableur.cc:2495
+msgid "Make classes from column data or data/eff into two adjacent columns"
+msgstr ""
+
+#: src/Tableur.cc:2524
+msgid "One boxwhisker per column"
+msgstr ""
+
+#: src/Tableur.cc:2531
+msgid "Plotlist: One column (y) or two columns (x,y)"
+msgstr ""
+
+#: src/Tableur.cc:2538
+msgid "Camembert: column 1: legends, column 2: data"
+msgstr ""
+
+#: src/Tableur.cc:2545
+msgid "Bar_plot: column 1: legends, column 2: data"
+msgstr ""
+
+#: src/Tableur.cc:2552
+msgid "Column 1: x, one scatterplot per remaining column"
+msgstr ""
+
+#: src/Tableur.cc:2559
+msgid "Column 1: x, one polygonplot per remaining column"
+msgstr ""
+
+#: src/Tableur.cc:2566
+msgid "Column 1: x, one polygon line per remaining column"
+msgstr ""
+
+#: src/Tableur.cc:2573
+msgid "Linear regression: column 1: x, column 2: y"
+msgstr ""
+
+#: src/Tableur.cc:2580
+msgid "Power regression: Column 1: x, column 2: y"
+msgstr ""
+
+#: src/Tableur.cc:2587
+msgid "Log regression: Column 1: x, column 2: y"
+msgstr ""
+
+#: src/Tableur.cc:2594
+msgid "Exp regression: Column 1: x, column 2: y"
+msgstr ""
+
+#: src/Tableur.cc:2601
+msgid "Polynomial regression degree d: Column 1: x, column 2: y"
+msgstr ""
+
+#: src/Tableur.cc:2608
+msgid "Logistic regressionfor y', with y(x=1)=y1"
+msgstr ""
+
+#: src/Tableur.cc:2617 src/Tableur.cc:2673
+msgid "Sort with respect to "
+msgstr ""
+
+#: src/Tableur.cc:2619 src/Tableur.cc:2675
+msgid "row"
+msgstr "行"
+
+#: src/Tableur.cc:2621 src/Tableur.cc:2677
+msgid "column"
+msgstr ""
+
+#: src/Tableur.cc:2648
+msgid "Sorting is not compatible with some cell references. Sort anyway"
+msgstr ""
+
+#: src/Tableur.cc:2813 src/Tableur.cc:2825 src/Tableur.cc:2837
+#: src/Tableur.cc:2849
+msgid "Make rows==cols first!"
+msgstr ""
+
+#: src/Tableur.cc:2924
+msgid "Table"
+msgstr ""
+
+#: src/Tableur.cc:2925
+msgid "Save sheet as text"
+msgstr ""
+
+#: src/Tableur.cc:2926 src/Graph.cc:6232
+msgid "Save as alternate filename"
+msgstr ""
+
+#: src/Tableur.cc:2927
+msgid "Save as CSV"
+msgstr ""
+
+#: src/Tableur.cc:2928
+msgid "Save as mathml"
+msgstr ""
+
+#: src/Tableur.cc:2929
+msgid "Save selection to variable"
+msgstr ""
+
+#: src/Tableur.cc:2931
+msgid "Insert CSV"
+msgstr ""
+
+#: src/Tableur.cc:2933
+msgid "Print Export"
+msgstr ""
+
+#: src/Tableur.cc:2936 src/Graph.cc:1136 src/Graph.cc:6235
+msgid "EPS PNG and preview"
+msgstr ""
+
+#: src/Tableur.cc:2941
+msgid "Eval sheet"
+msgstr "求值表"
+
+#: src/Tableur.cc:2942
+msgid "Copy Cell"
+msgstr "复制单元格"
+
+#: src/Tableur.cc:2946
+msgid "Configuration"
+msgstr ""
+
+#: src/Tableur.cc:2947
+msgid "Cfg window"
+msgstr ""
+
+#: src/Tableur.cc:2949
+msgid "Autoscale graph"
+msgstr ""
+
+#: src/Tableur.cc:2950
+msgid "Graph portrait"
+msgstr ""
+
+#: src/Tableur.cc:2951
+msgid "Graph landscape"
+msgstr ""
+
+#: src/Tableur.cc:2952
+msgid "Hide Graph"
+msgstr ""
+
+#: src/Tableur.cc:2956
+msgid "Matrix"
+msgstr "矩阵"
+
+#: src/Tableur.cc:2957
+msgid "Normal matrix"
+msgstr "正规矩阵"
+
+#: src/Tableur.cc:2958
+msgid "Symmetric matrix"
+msgstr "对称矩阵"
+
+#: src/Tableur.cc:2959
+msgid "AntiSymmetric matrix"
+msgstr "AntiSymmetric 矩阵"
+
+#: src/Tableur.cc:2960
+msgid "Hermitian matrix"
+msgstr ""
+
+#: src/Tableur.cc:2961
+msgid "AntiHermitian matrix"
+msgstr "AntiHermitian 矩阵"
+
+#: src/Tableur.cc:2963
+msgid "Set Rows Number"
+msgstr ""
+
+#: src/Tableur.cc:2964
+msgid "Set Cols Number"
+msgstr ""
+
+#: src/Tableur.cc:2965
+msgid "Move ->"
+msgstr ""
+
+#: src/Tableur.cc:2966
+msgid "Move down"
+msgstr ""
+
+#: src/Tableur.cc:2967
+msgid "Auto Recompute"
+msgstr ""
+
+#: src/Tableur.cc:2968
+msgid "No Recompute"
+msgstr "不重新计算"
+
+#: src/Tableur.cc:2969
+msgid "Dispatch matrice to cells"
+msgstr ""
+
+#: src/Tableur.cc:2970
+msgid "Keep matrice in one cell"
+msgstr "使矩阵位于一个单元格中"
+
+#: src/Tableur.cc:2972
+msgid "Fill"
+msgstr ""
+
+#: src/Tableur.cc:2973
+msgid "Copy right"
+msgstr ""
+
+#: src/Tableur.cc:2974
+msgid "Copy down"
+msgstr ""
+
+#: src/Tableur.cc:2975
+msgid "Fill selection with pushed cell"
+msgstr ""
+
+#: src/Tableur.cc:2976
+msgid "Fill selection with 0"
+msgstr ""
+
+#: src/Tableur.cc:2977
+msgid "Fill sheet with 0"
+msgstr ""
+
+#: src/Tableur.cc:2979
+msgid "Add or delete"
+msgstr ""
+
+#: src/Tableur.cc:2980
+msgid "Insert Row"
+msgstr ""
+
+#: src/Tableur.cc:2981
+msgid "Row+ at end"
+msgstr ""
+
+#: src/Tableur.cc:2982
+msgid "Insert Col"
+msgstr ""
+
+#: src/Tableur.cc:2983
+msgid "Col+ at end"
+msgstr "末尾 Col+"
+
+#: src/Tableur.cc:2984
+msgid "Erase current row"
+msgstr ""
+
+#: src/Tableur.cc:2985
+msgid "Erase selection rows"
+msgstr ""
+
+#: src/Tableur.cc:2986
+msgid "Erase current col"
+msgstr ""
+
+#: src/Tableur.cc:2987
+msgid "Erase selection cols"
+msgstr ""
+
+#: src/Tableur.cc:2989
+msgid "Sort"
+msgstr ""
+
+#: src/Tableur.cc:2990
+msgid "Inc col"
+msgstr ""
+
+#: src/Tableur.cc:2991
+msgid "Dec col"
+msgstr "小数列"
+
+#: src/Tableur.cc:2992
+msgid "Inc row"
+msgstr ""
+
+#: src/Tableur.cc:2993
+msgid "Dec row"
+msgstr "小数行"
+
+#: src/Tableur.cc:2995
+msgid "Col larger"
+msgstr ""
+
+#: src/Tableur.cc:2996
+msgid "Col smaller"
+msgstr ""
+
+#: src/Tableur.cc:3000
+msgid "Maths"
+msgstr ""
+
+#: src/Tableur.cc:3001 src/Graph.cc:6256
+msgid "Function"
+msgstr "函数"
+
+#: src/Tableur.cc:3002
+msgid "Random values"
+msgstr "随机值"
+
+#: src/Tableur.cc:3003
+msgid "Sequences"
+msgstr ""
+
+#: src/Tableur.cc:3004
+msgid "Recurrent sequence"
+msgstr "递推数列"
+
+#: src/Tableur.cc:3005 src/Tableur.cc:3013
+msgid "bar_plot"
+msgstr ""
+
+#: src/Tableur.cc:3006 src/Tableur.cc:3014
+msgid "plotlist"
+msgstr ""
+
+#: src/Tableur.cc:3007 src/Tableur.cc:3020
+msgid "Polygonscatterplot"
+msgstr ""
+
+#: src/Tableur.cc:3008 src/Tableur.cc:3021
+msgid "Scatterplot"
+msgstr ""
+
+#: src/Tableur.cc:3009 src/Tableur.cc:3022
+msgid "Polygonplot"
+msgstr ""
+
+#: src/Tableur.cc:3011
+msgid "1-d stats"
+msgstr ""
+
+#: src/Tableur.cc:3012
+msgid "camembert"
+msgstr ""
+
+#: src/Tableur.cc:3015
+msgid "Boxwhisker"
+msgstr ""
+
+#: src/Tableur.cc:3016
+msgid "Classes (data or data,eff)"
+msgstr ""
+
+#: src/Tableur.cc:3017
+msgid "Histogram (interval,eff)"
+msgstr ""
+
+#: src/Tableur.cc:3019
+msgid "2-d stats"
+msgstr ""
+
+#: src/Tableur.cc:3024
+msgid "Regressions"
+msgstr ""
+
+#: src/Tableur.cc:3025
+msgid "Linear"
+msgstr "线性"
+
+#: src/Tableur.cc:3026
+msgid "Polynomial"
+msgstr "多项式"
+
+#: src/Tableur.cc:3028
+msgid "Logarithmic"
+msgstr "对数拟合"
+
+#: src/Tableur.cc:3029
+msgid "Power"
+msgstr ""
+
+#: src/Tableur.cc:3030
+msgid "Logistic"
+msgstr ""
+
+#: src/Tableur.cc:3181
+msgid "Too large for cell display"
+msgstr ""
+
+#: src/Tableur.cc:3267
+msgid "CAS is busy"
+msgstr "CAS 正忙"
+
+#: src/Tableur.cc:3437
+msgid "Spreadsheet commandline"
+msgstr ""
+
+#: src/Tableur.cc:3444
+msgid "Selection area"
+msgstr "选择区域"
+
+#: src/Tableur.cc:3469
+msgid "Reeval current sheet"
+msgstr ""
+
+#: src/Tableur.cc:3473
+msgid "See value instead of formula"
+msgstr ""
+
+#: src/Tableur.cc:3477
+msgid "Initialize the sheet using init formula"
+msgstr ""
+
+#: src/Tableur.cc:3481
+msgid "View attached graph 2-d"
+msgstr ""
+
+#: src/Tableur.cc:3485
+msgid "View attached graph 3-d"
+msgstr ""
+
+#: src/Tableur.cc:3489
+msgid "<Save sheet as text>"
+msgstr ""
+
+#: src/Tableur.cc:3491
+msgid "Save spreadsheet independently of session"
+msgstr ""
+
+#: src/Editeur.cc:437
+msgid "No program editor found. Please click in or add one"
+msgstr ""
+
+#: src/Editeur.cc:572
+msgid "File exists. Overwrite?"
+msgstr ""
+
+#: src/Editeur.cc:1161
+msgid "Syntax compatibility mode: "
+msgstr ""
+
+#: src/Editeur.cc:1369
+msgid "Should be used inside a Logo level"
+msgstr ""
+
+#: src/Editeur.cc:1407
+msgid "Search"
+msgstr ""
+
+#: src/Editeur.cc:1408
+msgid "Word to search"
+msgstr ""
+
+#: src/Editeur.cc:1411
+msgid "Replace by"
+msgstr ""
+
+#: src/Editeur.cc:1418 src/Graph.cc:1105
+msgid "Next"
+msgstr "下一个"
+
+#: src/Editeur.cc:1422
+msgid "Replace"
+msgstr ""
+
+#: src/Editeur.cc:1426
+msgid "Replace all"
+msgstr ""
+
+#: src/Editeur.cc:1751
+msgid "Prog"
+msgstr ""
+
+#: src/Editeur.cc:1754
+msgid "file"
+msgstr ""
+
+#: src/Editeur.cc:1762
+msgid "File extension"
+msgstr ""
+
+#: src/Editeur.cc:1763
+msgid "Export"
+msgstr ""
+
+#: src/Editeur.cc:1769
+msgid "Translate"
+msgstr "转换"
+
+#: src/Editeur.cc:1773
+msgid "ti"
+msgstr ""
+
+#: src/Editeur.cc:1775 src/Graph.cc:7055
+msgid "Export/Print"
+msgstr ""
+
+#: src/Editeur.cc:1778
+msgid "Preview"
+msgstr ""
+
+#: src/Editeur.cc:1784
+msgid "Search (Ctrl-F)"
+msgstr ""
+
+#: src/Editeur.cc:1785
+msgid "Indent line (Esc)"
+msgstr ""
+
+#: src/Editeur.cc:1786
+msgid "Indent all"
+msgstr ""
+
+#: src/Editeur.cc:1787
+msgid "Parse"
+msgstr "解析"
+
+#: src/Editeur.cc:1788
+msgid "Exec all"
+msgstr ""
+
+#: src/Editeur.cc:1789
+msgid "Extend editor"
+msgstr ""
+
+#: src/Editeur.cc:1790
+msgid "Shrink editor"
+msgstr ""
+
+#: src/Editeur.cc:1793
+msgid "Func"
+msgstr ""
+
+#: src/Editeur.cc:1794
+msgid "function"
+msgstr ""
+
+#: src/Editeur.cc:1795
+msgid "local"
+msgstr ""
+
+#: src/Editeur.cc:1796
+msgid "return"
+msgstr "退回"
+
+#: src/Editeur.cc:1798
+msgid "Test"
+msgstr ""
+
+#: src/Editeur.cc:1799
+msgid "si alors sinon"
+msgstr ""
+
+#: src/Editeur.cc:1800
+msgid "if [then] else"
+msgstr ""
+
+#: src/Editeur.cc:1801
+msgid "if [then]"
+msgstr ""
+
+#: src/Editeur.cc:1802
+msgid "switch"
+msgstr ""
+
+#: src/Editeur.cc:1803
+msgid "try catch"
+msgstr ""
+
+#: src/Editeur.cc:1805
+msgid "Loop"
+msgstr ""
+
+#: src/Editeur.cc:1806
+msgid "pour"
+msgstr ""
+
+#: src/Editeur.cc:1807
+msgid "tantque"
+msgstr ""
+
+#: src/Editeur.cc:1808
+msgid "repeter jusqu_a"
+msgstr "repeter jusqu_a"
+
+#: src/Editeur.cc:1809
+msgid "for"
+msgstr ""
+
+#: src/Editeur.cc:1810
+msgid "while"
+msgstr ""
+
+#: src/Editeur.cc:1812
+msgid "continue"
+msgstr ""
+
+#: src/Editeur.cc:1868
+msgid "nxt"
+msgstr ""
+
+#: src/Editeur.cc:1869
+msgid "Find next occurence (defined by Edit->Search)"
+msgstr ""
+
+#: src/Editeur.cc:1872
+msgid "Line number"
+msgstr ""
+
+#: src/Editeur.cc:1879
+msgid "exe"
+msgstr ""
+
+#: src/Editeur.cc:1880
+msgid "Exec line in current widget"
+msgstr ""
+
+#: src/Editeur.cc:1886
+msgid "Parse current program"
+msgstr "解析当前程序"
+
+#: src/Editeur.cc:1892
+msgid "Save current program"
+msgstr ""
+
+#: src/Graph.cc:906
+msgid "Rotate Animation"
+msgstr ""
+
+#: src/Graph.cc:1004
+msgid "Trace which object?"
+msgstr ""
+
+#: src/Graph.cc:1070
+msgid "Frames number? (>0 forward, <0 forward+backward)"
+msgstr ""
+
+#: src/Graph.cc:1075
+msgid "Figure must depend on a parameter (Edit->Add parameter)"
+msgstr "图形必须取决于一个参数（编辑->添加参数）"
+
+#: src/Graph.cc:1097 src/Graph.cc:7045 src/Help1.cc:241
+msgid "View"
+msgstr ""
+
+#: src/Graph.cc:1098 src/Graph.cc:1210 src/Graph.cc:1688
+msgid "Autoscale"
+msgstr ""
+
+#: src/Graph.cc:1099
+msgid "Orthonormalize (2-d)"
+msgstr ""
+
+#: src/Graph.cc:1100 src/Graph.cc:1160 src/Graph.cc:7046
+msgid "Zoom in"
+msgstr ""
+
+#: src/Graph.cc:1101 src/Graph.cc:1185 src/Graph.cc:7047
+msgid "Zoom out"
+msgstr ""
+
+#: src/Graph.cc:1102
+msgid "Frame move on"
+msgstr ""
+
+#: src/Graph.cc:1103
+msgid "Frame move off"
+msgstr ""
+
+#: src/Graph.cc:1104
+msgid "Previous"
+msgstr ""
+
+#: src/Graph.cc:1106
+msgid "Config"
+msgstr ""
+
+#: src/Graph.cc:1108
+msgid "Trace"
+msgstr ""
+
+#: src/Graph.cc:1109
+msgid "Trace clear"
+msgstr ""
+
+#: src/Graph.cc:1110
+msgid "Trace on"
+msgstr ""
+
+#: src/Graph.cc:1111
+msgid "Trace off"
+msgstr ""
+
+#: src/Graph.cc:1112
+msgid "Trace object"
+msgstr ""
+
+#: src/Graph.cc:1114
+msgid "Animation"
+msgstr ""
+
+#: src/Graph.cc:1115
+msgid "Pause"
+msgstr ""
+
+#: src/Graph.cc:1116 src/Help1.cc:274
+msgid "Stop"
+msgstr ""
+
+#: src/Graph.cc:1117
+msgid "Restart"
+msgstr "重新启动"
+
+#: src/Graph.cc:1118
+msgid "Faster (2x)"
+msgstr "更快地 (2x)"
+
+#: src/Graph.cc:1119
+msgid "Slower (2x)"
+msgstr ""
+
+#: src/Graph.cc:1120
+msgid "Build animation"
+msgstr ""
+
+#: src/Graph.cc:1121
+msgid "Unanimate"
+msgstr ""
+
+#: src/Graph.cc:1122
+msgid "Graph on"
+msgstr ""
+
+#: src/Graph.cc:1123
+msgid "Graph off"
+msgstr ""
+
+#: src/Graph.cc:1125
+msgid "3-d"
+msgstr ""
+
+#: src/Graph.cc:1126
+msgid "Mouse plan equation"
+msgstr ""
+
+#: src/Graph.cc:1127
+msgid "Oyz view (x=cst=depth)"
+msgstr ""
+
+#: src/Graph.cc:1128
+msgid "Oxz view (y=cst=depth)"
+msgstr ""
+
+#: src/Graph.cc:1129
+msgid "upper view (z=cst=depth)"
+msgstr "上部视图（z=cst=视图）"
+
+#: src/Graph.cc:1130
+msgid "default view"
+msgstr ""
+
+#: src/Graph.cc:1131
+msgid "Rotate animation"
+msgstr ""
+
+#: src/Graph.cc:1132
+msgid "Hide below depth"
+msgstr ""
+
+#: src/Graph.cc:1133
+msgid "Show below depth"
+msgstr ""
+
+#: src/Graph.cc:1135 src/Graph.cc:6234
+msgid "Export Print"
+msgstr ""
+
+#: src/Graph.cc:1137
+msgid "3-d to PNG"
+msgstr ""
+
+#: src/Graph.cc:1139 src/Graph.cc:7058
+msgid "Preview (with Latex)"
+msgstr ""
+
+#: src/Graph.cc:1140 src/Graph.cc:7059
+msgid "Print (with Latex)"
+msgstr ""
+
+#: src/Graph.cc:1164
+msgid "Increase y"
+msgstr ""
+
+#: src/Graph.cc:1168
+msgid "Increase z (3-d)/Zoom in for y (2-d)"
+msgstr ""
+
+#: src/Graph.cc:1174
+msgid "Decrease x"
+msgstr ""
+
+#: src/Graph.cc:1177
+msgid "Hide or show below depth"
+msgstr ""
+
+#: src/Graph.cc:1181
+msgid "Increase x"
+msgstr ""
+
+#: src/Graph.cc:1189
+msgid "Decrease y"
+msgstr ""
+
+#: src/Graph.cc:1193
+msgid "Decrease z (3-d)/Zoom out in y (2-d)"
+msgstr ""
+
+#: src/Graph.cc:1197
+msgid "Back in cfg history"
+msgstr ""
+
+#: src/Graph.cc:1200
+msgid "Forward in cfg history"
+msgstr ""
+
+#: src/Graph.cc:1203
+msgid "Configure screen view and axis"
+msgstr ""
+
+#: src/Graph.cc:1207
+msgid "Stop or restart animation"
+msgstr ""
+
+#: src/Graph.cc:1213
+msgid "Graphic menu"
+msgstr ""
+
+#: src/Graph.cc:1370
+msgid "x position of spot"
+msgstr ""
+
+#: src/Graph.cc:1372
+msgid "y position of spot"
+msgstr ""
+
+#: src/Graph.cc:1374
+msgid "z position of spot"
+msgstr ""
+
+#: src/Graph.cc:1376
+msgid "0 directional light source (e.g. sun), 1 position light (e.g. bulb)"
+msgstr ""
+
+#: src/Graph.cc:1379
+msgid "x direction of spot"
+msgstr ""
+
+#: src/Graph.cc:1381
+msgid "y direction of spot"
+msgstr ""
+
+#: src/Graph.cc:1383
+msgid "z direction of spot"
+msgstr ""
+
+#: src/Graph.cc:1385
+msgid "Turn on/off light"
+msgstr ""
+
+#: src/Graph.cc:1390
+msgid "ambient red component"
+msgstr ""
+
+#: src/Graph.cc:1392
+msgid "ambient green component"
+msgstr ""
+
+#: src/Graph.cc:1394
+msgid "ambient blue component"
+msgstr ""
+
+#: src/Graph.cc:1396
+msgid "ambient alpha component"
+msgstr ""
+
+#: src/Graph.cc:1399
+msgid "diffuse red component"
+msgstr ""
+
+#: src/Graph.cc:1401
+msgid "diffuse green component"
+msgstr ""
+
+#: src/Graph.cc:1403
+msgid "diffuse blue component"
+msgstr ""
+
+#: src/Graph.cc:1405
+msgid "diffuse alpha component"
+msgstr ""
+
+#: src/Graph.cc:1408
+msgid "specular red component"
+msgstr ""
+
+#: src/Graph.cc:1410
+msgid "specular green component"
+msgstr ""
+
+#: src/Graph.cc:1412
+msgid "specular blue component"
+msgstr ""
+
+#: src/Graph.cc:1414
+msgid "specular alpha component"
+msgstr ""
+
+#: src/Graph.cc:1418
+msgid "Spot attenuation exponent: power of cos(theta), e.g. 1"
+msgstr ""
+
+#: src/Graph.cc:1420
+msgid "Spot cutoff angle in 0..90 or 180 for no cutoff"
+msgstr ""
+
+#: src/Graph.cc:1422
+msgid "Attenuation constant coefficient"
+msgstr ""
+
+#: src/Graph.cc:1424
+msgid "Attenuation linear coefficient"
+msgstr ""
+
+#: src/Graph.cc:1426
+msgid "Attenuation quadratic coefficient"
+msgstr ""
+
+#: src/Graph.cc:1434 src/Graph.cc:1686
+msgid "Default"
+msgstr "默认状态"
+
+#: src/Graph.cc:1440
+msgid "Light configuration"
+msgstr ""
+
+#: src/Graph.cc:1557
+msgid "Xmax for visualisation"
+msgstr ""
+
+#: src/Graph.cc:1560
+msgid "Orthonormal or perspective"
+msgstr "正交或透视"
+
+#: src/Graph.cc:1564
+msgid "Ymin for visualisation"
+msgstr ""
+
+#: src/Graph.cc:1567
+msgid "Ymax for visualisation"
+msgstr ""
+
+#: src/Graph.cc:1570
+msgid "Enable blending"
+msgstr ""
+
+#: src/Graph.cc:1574
+msgid "Zmin for visualisation"
+msgstr ""
+
+#: src/Graph.cc:1577
+msgid "Zmax for visualisation"
+msgstr ""
+
+#: src/Graph.cc:1580
+msgid "Flat or Gouraud shading"
+msgstr ""
+
+#: src/Graph.cc:1590
+msgid "Graphic displayed with a framebox"
+msgstr ""
+
+#: src/Graph.cc:1593
+msgid "Ticks in pixels or units"
+msgstr ""
+
+#: src/Graph.cc:1596
+msgid "Number of units or pixels for ticks on X"
+msgstr ""
+
+#: src/Graph.cc:1598
+msgid "Number of units or pixels for ticks on Y"
+msgstr ""
+
+#: src/Graph.cc:1601
+msgid "x coefficient of mouse plan equation"
+msgstr ""
+
+#: src/Graph.cc:1606
+msgid "y coefficient of mouse plan equation"
+msgstr ""
+
+#: src/Graph.cc:1611
+msgid "z coefficient of mouse plan equation"
+msgstr ""
+
+#: src/Graph.cc:1616
+msgid "constant coefficient of mouse plan equation"
+msgstr "控制平面图方程的常数系数"
+
+#: src/Graph.cc:1621
+msgid "3d rotation"
+msgstr "3 维旋转"
+
+#: src/Graph.cc:1626
+msgid "Number of latitude divisions for sphere drawing"
+msgstr ""
+
+#: src/Graph.cc:1631
+msgid "Number of longitude divisions for sphere drawing"
+msgstr ""
+
+#: src/Graph.cc:1636
+msgid "Size in pixels for y graduation printing"
+msgstr ""
+
+#: src/Graph.cc:1642 src/Graph.cc:1644 src/Graph.cc:1646 src/Graph.cc:1648
+#: src/Graph.cc:1650 src/Graph.cc:1652 src/Graph.cc:1654 src/Graph.cc:1656
+msgid "Configure light"
+msgstr ""
+
+#: src/Graph.cc:1658
+msgid "Show scene with lights"
+msgstr ""
+
+#: src/Graph.cc:1661
+msgid "Show names"
+msgstr ""
+
+#: src/Graph.cc:1662
+msgid "Show/Hide names of geometric objects"
+msgstr ""
+
+#: src/Graph.cc:1664
+msgid "Plot names"
+msgstr ""
+
+#: src/Graph.cc:1665
+msgid "Show/Hide names of parametric and function plots"
+msgstr ""
+
+#: src/Graph.cc:1667 src/Graph.cc:6249
+msgid "Portrait"
+msgstr ""
+
+#: src/Graph.cc:1668
+msgid "Portrait or landscape split"
+msgstr ""
+
+#: src/Graph.cc:1671
+msgid "Autoname"
+msgstr ""
+
+#: src/Graph.cc:1673
+msgid "Show axis"
+msgstr ""
+
+#: src/Graph.cc:1674
+msgid "Show or hide axis"
+msgstr ""
+
+#: src/Graph.cc:1677
+msgid "Time between image changes for animations"
+msgstr ""
+
+#: src/Graph.cc:1682
+msgid "Round"
+msgstr "四舍五入"
+
+#: src/Graph.cc:1683
+msgid "Round xmin/xmax/ymin/ymax/zmin/zmax"
+msgstr ""
+
+#: src/Graph.cc:1695
+msgid "Current gl_quaternion= value"
+msgstr ""
+
+#: src/Graph.cc:1699
+msgid "Rotate what: 1 l1, 2 l2, 4 l3, ..., 128 l8, 256 viewpoint"
+msgstr ""
+
+#: src/Graph.cc:1702
+msgid "Time for 1 step in s"
+msgstr ""
+
+#: src/Graph.cc:1705
+msgid "Number of steps for animation"
+msgstr ""
+
+#: src/Graph.cc:1708
+msgid "x rotation axis coordinate"
+msgstr ""
+
+#: src/Graph.cc:1711
+msgid "y rotation axis coordinate"
+msgstr ""
+
+#: src/Graph.cc:1714
+msgid "z rotation axis coordinate"
+msgstr ""
+
+#: src/Graph.cc:1717
+msgid "Other animation change (normally 0)"
+msgstr ""
+
+#: src/Graph.cc:2279
+msgid "LaTeX filaneme"
+msgstr ""
+
+#: src/Graph.cc:2859
+msgid "Thickness"
+msgstr ""
+
+#: src/Graph.cc:2864
+msgid "Point width"
+msgstr ""
+
+#: src/Graph.cc:2963
+msgid "Make point symbolic"
+msgstr "使数据点符号化"
+
+#: src/Graph.cc:2966
+msgid "Remove translation"
+msgstr ""
+
+#: src/Graph.cc:2974
+msgid "Delete"
+msgstr "删除"
+
+#: src/Graph.cc:2975
+msgid "Delete current object"
+msgstr ""
+
+#: src/Graph.cc:3009
+msgid "Object attributs "
+msgstr ""
+
+#: src/Graph.cc:4025 src/Graph.cc:6269 src/Graph.cc:6406
+msgid "Frame"
+msgstr ""
+
+#: src/Graph.cc:4027 src/Graph.cc:6270
+msgid "Pointer"
+msgstr "指针"
+
+#: src/Graph.cc:4951 src/Graph3d.cc:2224
+msgid "Click "
+msgstr ""
+
+#: src/Graph.cc:5131
+msgid "Save figure"
+msgstr ""
+
+#: src/Graph.cc:5195
+msgid "Insert figure"
+msgstr ""
+
+#: src/Graph.cc:5264
+msgid "Parameter minimal value"
+msgstr "参数最小值"
+
+#: src/Graph.cc:5267
+msgid "Parameter maximal value"
+msgstr "参数最大值"
+
+#: src/Graph.cc:5270
+msgid "Parameter current value"
+msgstr ""
+
+#: src/Graph.cc:5272
+msgid "Parameter step value"
+msgstr "参数步骤值"
+
+#: src/Graph.cc:5278
+msgid "Parameter variable name"
+msgstr "参数变量名"
+
+#: src/Graph.cc:5281
+msgid "Numeric or formal parameter"
+msgstr ""
+
+#: src/Graph.cc:5292
+msgid "Parameter definition"
+msgstr "参数定义"
+
+#: src/Graph.cc:5389
+msgid "Draw slopefield"
+msgstr ""
+
+#: src/Graph.cc:5392
+msgid "Normalize slopefield"
+msgstr ""
+
+#: src/Graph.cc:5393
+msgid "F(x,y)="
+msgstr ""
+
+#: src/Graph.cc:5395
+msgid "Implicit expression"
+msgstr ""
+
+#: src/Graph.cc:5396
+msgid "dy/dt(t,y)="
+msgstr ""
+
+#: src/Graph.cc:5398
+msgid "Expression of dy/dt in terms of y and t, e.g. sin(t*y)"
+msgstr ""
+
+#: src/Graph.cc:5399
+msgid "rho(t)="
+msgstr ""
+
+#: src/Graph.cc:5401
+msgid "Expression of modulus rho wrt to angle t (e.g sin(t))"
+msgstr "模数 ρ 关于角度 t 的表达式（比如 sin(t)）"
+
+#: src/Graph.cc:5402
+msgid "x(t)="
+msgstr ""
+
+#: src/Graph.cc:5404
+msgid "Expression of x wrt to t (e.g sin(t))"
+msgstr "x 关于 t 的表达式（比如 sin(t)）"
+
+#: src/Graph.cc:5405
+msgid "y(t)="
+msgstr ""
+
+#: src/Graph.cc:5407
+msgid "Expression of y wrt to t (e.g cos(t))"
+msgstr "y 关于 t 的表达式（比如 cos(t)）"
+
+#: src/Graph.cc:5408
+msgid "x="
+msgstr ""
+
+#: src/Graph.cc:5410
+msgid "Expression of x wrt to u and v (e.g. u+v)"
+msgstr "x 关于 u 和 v 的表达式（比如 u+v）"
+
+#: src/Graph.cc:5411 src/Graph.cc:5414
+msgid "y="
+msgstr ""
+
+#: src/Graph.cc:5413
+msgid "Expression of y wrt to u and v (e.g exp(u)-v)"
+msgstr "y 关于 u 和 v 的表达式（比如 exp(u)-v）"
+
+#: src/Graph.cc:5416
+msgid "Expression of z wrt to u and v (e.g u-v)"
+msgstr "z 关于 u 和 v 的表达式（比如 u-v）"
+
+#: src/Graph.cc:5417
+msgid "Var"
+msgstr "变量"
+
+#: src/Graph.cc:5419
+msgid "Independant variable name (e.g t)"
+msgstr ""
+
+#: src/Graph.cc:5422
+msgid "First independant variable name (e.g u)"
+msgstr ""
+
+#: src/Graph.cc:5425
+msgid "Second independant variable name (e.g v)"
+msgstr ""
+
+#: src/Graph.cc:5428
+msgid "First independant variable name (e.g x)"
+msgstr ""
+
+#: src/Graph.cc:5432
+msgid "Time var"
+msgstr ""
+
+#: src/Graph.cc:5434
+msgid "Time variable name"
+msgstr ""
+
+#: src/Graph.cc:5437
+msgid "Function variable name"
+msgstr "函数变量名"
+
+#: src/Graph.cc:5438
+msgid "tmin"
+msgstr ""
+
+#: src/Graph.cc:5441
+msgid "tstep"
+msgstr ""
+
+#: src/Graph.cc:5444
+msgid "tmax"
+msgstr ""
+
+#: src/Graph.cc:5447
+msgid "umin"
+msgstr ""
+
+#: src/Graph.cc:5450
+msgid "ustep"
+msgstr ""
+
+#: src/Graph.cc:5453
+msgid "umax"
+msgstr ""
+
+#: src/Graph.cc:5456
+msgid "vmin"
+msgstr ""
+
+#: src/Graph.cc:5459
+msgid "vstep"
+msgstr ""
+
+#: src/Graph.cc:5462
+msgid "vmax"
+msgstr ""
+
+#: src/Graph.cc:5495
+msgid "Polar plot"
+msgstr ""
+
+#: src/Graph.cc:5498
+msgid "Parametric plot"
+msgstr "参数绘图"
+
+#: src/Graph.cc:5501
+msgid "Field/Odeplot"
+msgstr "域/Odeplot"
+
+#: src/Graph.cc:5504
+msgid "Implicitplot"
+msgstr ""
+
+#: src/Graph.cc:5649
+msgid "Click first in a commandline"
+msgstr ""
+
+#: src/Graph.cc:5752 src/Graph.cc:5766
+msgid "Point_on_ode_curve"
+msgstr ""
+
+#: src/Graph.cc:5753
+msgid "Click initials conditions in graphic window. Change mode when finished."
+msgstr ""
+
+#: src/Graph.cc:5829
+msgid "Shade area under a curve"
+msgstr ""
+
+#: src/Graph.cc:6009
+msgid "Real number?"
+msgstr "是否是实数？"
+
+#: src/Graph.cc:6043
+msgid "Center,Point_on_circle,Point_in_plane"
+msgstr ""
+
+#: src/Graph.cc:6043
+msgid "Center,Point_on_circle"
+msgstr ""
+
+#: src/Graph.cc:6047 src/Graph.cc:6051
+msgid "Curve1,Curve2"
+msgstr ""
+
+#: src/Graph.cc:6055
+msgid "Curve1,Curve2,Point"
+msgstr ""
+
+#: src/Graph.cc:6059
+msgid "Curve,Point"
+msgstr ""
+
+#: src/Graph.cc:6063 src/Graph.cc:6067 src/Graph.cc:6071 src/Graph.cc:6075
+#: src/Graph.cc:6170 src/Graph.cc:6174 src/Graph.cc:6198
+msgid "Point1,Point2"
+msgstr ""
+
+#: src/Graph.cc:6079 src/Graph.cc:6082
+msgid "Object1,Object2,Position"
+msgstr ""
+
+#: src/Graph.cc:6086 src/Graph.cc:6089
+msgid "Angle_vertex,Direction1,Direction2,Position"
+msgstr ""
+
+#: src/Graph.cc:6093 src/Graph.cc:6097 src/Graph.cc:6101 src/Graph.cc:6105
+#: src/Graph.cc:6109 src/Graph.cc:6113
+msgid "Object,Position"
+msgstr ""
+
+#: src/Graph.cc:6117
+msgid "Symetry_center_axis,Object"
+msgstr ""
+
+#: src/Graph.cc:6121 src/Graph.cc:6137
+msgid "Center,Ratio,Object"
+msgstr ""
+
+#: src/Graph.cc:6125
+msgid "Curve,Object"
+msgstr ""
+
+#: src/Graph.cc:6129
+msgid "Circle,Object"
+msgstr ""
+
+#: src/Graph.cc:6133
+msgid "Center,Angle,Object"
+msgstr ""
+
+#: src/Graph.cc:6141
+msgid "Vector,Object"
+msgstr ""
+
+#: src/Graph.cc:6145
+msgid "Center,Ratio,Angle,Object"
+msgstr ""
+
+#: src/Graph.cc:6149
+msgid "Number of vertices?"
+msgstr ""
+
+#: src/Graph.cc:6156
+msgid "Point"
+msgstr ""
+
+#: src/Graph.cc:6166 src/Graph.cc:6202 src/Graph.cc:6206 src/Graph.cc:6210
+#: src/Graph.cc:6222
+msgid "Point1,Point2,Point3"
+msgstr ""
+
+#: src/Graph.cc:6178 src/Graph.cc:6182
+msgid "Point,Line"
+msgstr ""
+
+#: src/Graph.cc:6186 src/Graph.cc:6190
+msgid "Sommet_angle,Point2,Point3"
+msgstr ""
+
+#: src/Graph.cc:6194
+msgid "Point1,Point2,Point3,Point4"
+msgstr ""
+
+#: src/Graph.cc:6198
+msgid "Point1,Point2,Point_in_plane"
+msgstr ""
+
+#: src/Graph.cc:6214
+msgid "Focus1,Focus2,Point_on_ellipse"
+msgstr ""
+
+#: src/Graph.cc:6218
+msgid "Focus1,Focus2,Point_on_hyperbola"
+msgstr ""
+
+#: src/Graph.cc:6226
+msgid "Center,Point_on_sphere"
+msgstr ""
+
+#: src/Graph.cc:6230
+msgid "Fig"
+msgstr ""
+
+#: src/Graph.cc:6231
+msgid "Save figure as text"
+msgstr ""
+
+#: src/Graph.cc:6238
+msgid "latex printer"
+msgstr ""
+
+#: src/Graph.cc:6242
+msgid "Add parameter"
+msgstr ""
+
+#: src/Graph.cc:6243
+msgid "Add numerical value"
+msgstr ""
+
+#: src/Graph.cc:6244
+msgid "Add new entry"
+msgstr ""
+
+#: src/Graph.cc:6245
+msgid "Add an object trace"
+msgstr ""
+
+#: src/Graph.cc:6246
+msgid "Change selection attribut"
+msgstr "更改选择属性"
+
+#: src/Graph.cc:6253
+msgid "Focus"
+msgstr ""
+
+#: src/Graph.cc:6258
+msgid "Recurrent sequence (2-d)"
+msgstr "递推数列 (2-d)"
+
+#: src/Graph.cc:6260
+msgid "Parametric"
+msgstr "参数"
+
+#: src/Graph.cc:6261
+msgid "Polar (2-d)"
+msgstr ""
+
+#: src/Graph.cc:6262
+msgid "Implicit"
+msgstr ""
+
+#: src/Graph.cc:6263
+msgid "Slopefield Ode (2-d)"
+msgstr ""
+
+#: src/Graph.cc:6271
+msgid "point"
+msgstr "点"
+
+#: src/Graph.cc:6272
+msgid "Lines"
+msgstr ""
+
+#: src/Graph.cc:6273
+msgid "segment"
+msgstr ""
+
+#: src/Graph.cc:6274
+msgid "vector"
+msgstr "矢量"
+
+#: src/Graph.cc:6275
+msgid "half_line"
+msgstr "half_line"
+
+#: src/Graph.cc:6276
+msgid "line"
+msgstr ""
+
+#: src/Graph.cc:6277
+msgid "parallel"
+msgstr "并行"
+
+#: src/Graph.cc:6278
+msgid "perpendicular"
+msgstr "垂直"
+
+#: src/Graph.cc:6279
+msgid "perpen_bisector"
+msgstr ""
+
+#: src/Graph.cc:6280
+msgid "median_line"
+msgstr ""
+
+#: src/Graph.cc:6281
+msgid "bisector"
+msgstr ""
+
+#: src/Graph.cc:6283
+msgid "Polygons"
+msgstr "多边形"
+
+#: src/Graph.cc:6284
+msgid "triangle"
+msgstr ""
+
+#: src/Graph.cc:6285
+msgid "equilateral_triangle"
+msgstr ""
+
+#: src/Graph.cc:6286
+msgid "square"
+msgstr ""
+
+#: src/Graph.cc:6287
+msgid "quadrilateral"
+msgstr "四边形"
+
+#: src/Graph.cc:6288
+msgid "polygon"
+msgstr "多边形"
+
+#: src/Graph.cc:6290
+msgid "Circles"
+msgstr "圆"
+
+#: src/Graph.cc:6291
+msgid "circle"
+msgstr "正圆"
+
+#: src/Graph.cc:6292
+msgid "incircle"
+msgstr ""
+
+#: src/Graph.cc:6293
+msgid "excircle"
+msgstr ""
+
+#: src/Graph.cc:6294
+msgid "circumcircle"
+msgstr "外接圆"
+
+#: src/Graph.cc:6297
+msgid "ellipse"
+msgstr "椭圆"
+
+#: src/Graph.cc:6298
+msgid "hyperbola"
+msgstr ""
+
+#: src/Graph.cc:6299
+msgid "plotode"
+msgstr ""
+
+#: src/Graph.cc:6301
+msgid "Surfaces (3d)"
+msgstr ""
+
+#: src/Graph.cc:6302
+msgid "plane"
+msgstr "平面"
+
+#: src/Graph.cc:6303
+msgid "sphere"
+msgstr ""
+
+#: src/Graph.cc:6305
+msgid "Measures"
+msgstr "尺寸"
+
+#: src/Graph.cc:6306
+msgid "distanceat"
+msgstr ""
+
+#: src/Graph.cc:6307
+msgid "angleat"
+msgstr ""
+
+#: src/Graph.cc:6308
+msgid "areaat"
+msgstr ""
+
+#: src/Graph.cc:6309
+msgid "perimeterat"
+msgstr ""
+
+#: src/Graph.cc:6310
+msgid "slopeat"
+msgstr ""
+
+#: src/Graph.cc:6311
+msgid "distanceatraw"
+msgstr ""
+
+#: src/Graph.cc:6312
+msgid "angleatraw"
+msgstr ""
+
+#: src/Graph.cc:6313
+msgid "areaatraw"
+msgstr ""
+
+#: src/Graph.cc:6314
+msgid "perimeteratraw"
+msgstr ""
+
+#: src/Graph.cc:6315
+msgid "slopeatraw"
+msgstr ""
+
+#: src/Graph.cc:6317
+msgid "Transformations"
+msgstr "变换"
+
+#: src/Graph.cc:6318
+msgid "reflection"
+msgstr ""
+
+#: src/Graph.cc:6319
+msgid "rotation"
+msgstr ""
+
+#: src/Graph.cc:6320
+msgid "translation"
+msgstr ""
+
+#: src/Graph.cc:6321
+msgid "projection"
+msgstr "射影"
+
+#: src/Graph.cc:6322
+msgid "homothety"
+msgstr ""
+
+#: src/Graph.cc:6323
+msgid "similarity"
+msgstr "相似性"
+
+#: src/Graph.cc:6324
+msgid "inversion"
+msgstr ""
+
+#: src/Graph.cc:6325 src/plot.cc:12169
+msgid "reciprocation"
+msgstr "互换"
+
+#: src/Graph.cc:6327
+msgid "Intersections"
+msgstr ""
+
+#: src/Graph.cc:6328
+msgid "inter_unique (1 point)"
+msgstr "inter_unique（单点）"
+
+#: src/Graph.cc:6329
+msgid "inter (close to a point)"
+msgstr "inter（逼近某个点）"
+
+#: src/Graph.cc:6330
+msgid "inter (list of points)"
+msgstr "inter（点列表）"
+
+#: src/Graph.cc:6332
+msgid "tangent"
+msgstr ""
+
+#: src/Graph.cc:6408
+msgid "Set mode for mouse constructions"
+msgstr ""
+
+#: src/Graph.cc:6422
+msgid "Color used for next mouse drawings"
+msgstr ""
+
+#: src/Graph.cc:6428
+msgid "Line style used for next mouse drawings"
+msgstr ""
+
+#: src/Graph.cc:6433
+msgid "Check for step evaluation"
+msgstr ""
+
+#: src/Graph.cc:6438
+msgid "Check for landscape"
+msgstr ""
+
+#: src/Graph.cc:6443
+msgid "Check if mouse clicks in approx mode"
+msgstr ""
+
+#: src/Graph.cc:6448
+msgid "Save current figure commands independently of the session"
+msgstr ""
+
+#: src/Graph.cc:6818 src/Graph.cc:7092
+msgid "av"
+msgstr ""
+
+#: src/Graph.cc:6820 src/Graph.cc:7097
+msgid "re"
+msgstr ""
+
+#: src/Graph.cc:6822 src/Graph.cc:7102
+msgid "td"
+msgstr ""
+
+#: src/Graph.cc:6824 src/Graph.cc:7107
+msgid "tg"
+msgstr ""
+
+#: src/Graph.cc:6826 src/Graph.cc:7112
+msgid "pc"
+msgstr ""
+
+#: src/Graph.cc:6828 src/Graph.cc:7117
+msgid "sa"
+msgstr ""
+
+#: src/Graph.cc:6830 src/Graph.cc:7122
+msgid "cr"
+msgstr ""
+
+#: src/Graph.cc:6839 src/Graph.cc:7127
+msgid "ro"
+msgstr ""
+
+#: src/Graph.cc:6841 src/Graph.cc:7132
+msgid "di"
+msgstr ""
+
+#: src/Graph.cc:6843 src/Graph.cc:7137
+msgid "rp"
+msgstr ""
+
+#: src/Graph.cc:6845 src/Graph.cc:7142
+msgid "tp"
+msgstr ""
+
+#: src/Graph.cc:6847 src/Graph.cc:7157
+msgid "ef"
+msgstr ""
+
+#: src/Graph.cc:6849 src/Graph.cc:7147
+msgid "ec"
+msgstr ""
+
+#: src/Graph.cc:6851 src/Graph.cc:7152
+msgid "sg"
+msgstr ""
+
+#: src/Graph.cc:6881
+msgid "Not registered\n"
+msgstr ""
+
+#: src/Graph.cc:7040
+msgid "Maillage"
+msgstr ""
+
+#: src/Graph.cc:7041
+msgid "None"
+msgstr "无"
+
+#: src/Graph.cc:7042
+msgid "Square"
+msgstr ""
+
+#: src/Graph.cc:7043
+msgid "Triangle"
+msgstr ""
+
+#: src/Graph.cc:7048
+msgid "Right"
+msgstr "居右"
+
+#: src/Graph.cc:7049
+msgid "Left"
+msgstr "居左"
+
+#: src/Graph.cc:7050
+msgid "Up"
+msgstr ""
+
+#: src/Graph.cc:7051
+msgid "Down"
+msgstr ""
+
+#: src/Graph.cc:7052
+msgid "ShowPosition"
+msgstr ""
+
+#: src/Graph.cc:7053
+msgid "HidePosition"
+msgstr ""
+
+#: src/Graph.cc:7056
+msgid "EPS/PNG and preview"
+msgstr ""
+
+#: src/Graph.cc:7061
+msgid "Color"
+msgstr ""
+
+#: src/Graph.cc:7093
+msgid "La tortue avance de n pas"
+msgstr ""
+
+#: src/Graph.cc:7098
+msgid "La tortue recule de n pas"
+msgstr ""
+
+#: src/Graph.cc:7103
+msgid "La tortue tourne a droite de n degres"
+msgstr ""
+
+#: src/Graph.cc:7108
+msgid "La tortue tourne a gauche de n degres"
+msgstr ""
+
+#: src/Graph.cc:7113
+msgid "Pas de cote a gauche de n pas"
+msgstr ""
+
+#: src/Graph.cc:7118
+msgid "Saute de n pas"
+msgstr ""
+
+#: src/Graph.cc:7123
+msgid "Change la couleur du crayon"
+msgstr ""
+
+#: src/Graph.cc:7128
+msgid "Arc de cercle"
+msgstr ""
+
+#: src/Graph.cc:7133
+msgid "Arc de cercle rempli"
+msgstr ""
+
+#: src/Graph.cc:7138
+msgid "Rectangle plein"
+msgstr "矩形平面"
+
+#: src/Graph.cc:7143
+msgid "Triangle plein"
+msgstr ""
+
+#: src/Graph.cc:7148
+msgid "Ecrire a la droite de la tortue"
+msgstr ""
+
+#: src/Graph.cc:7153
+msgid "Signer le dessin de la tortue"
+msgstr ""
+
+#: src/Graph.cc:7158
+msgid "Efface tout"
+msgstr ""
+
+#: src/Graph.cc:7167
+msgid "Turtle menu"
+msgstr ""
+
+#: src/Graph3d.cc:2228
+msgid "mouse plan "
+msgstr ""
+
+#: src/Help1.cc:224
+msgid "Finish"
+msgstr "完成"
+
+#: src/Help1.cc:226
+msgid "Searching for "
+msgstr ""
+
+#: src/Help1.cc:241
+msgid "Find"
+msgstr ""
+
+#: src/Help1.cc:264
+msgid "Please select the title of the page"
+msgstr ""
+
+#: src/sym2poly.cc:191
+msgid "sym2poly.cc/algebraic_argument"
+msgstr ""
+
+#: src/sym2poly.cc:196
+msgid "algebraic_argument"
+msgstr ""
+
+#: src/sym2poly.cc:212
+msgid "sym2poly.cc/equalposmat"
+msgstr ""
+
+#: src/sym2poly.cc:233
+msgid "sym2poly.cc/addfirstrow"
+msgstr ""
+
+#: src/sym2poly.cc:682
+msgid "Can't check irreducibility extracting rootof"
+msgstr "无法检查所求 rootof 的不可约性"
+
+#: src/sym2poly.cc:717
+msgid "sym2poly.cc/sym2rxroot"
+msgstr ""
+
+#: src/sym2poly.cc:961
+msgid "Minimal poly. in rootof must be fraction free"
+msgstr "最小多项式 rootof 中必须不含分数"
+
+#: src/sym2poly.cc:997
+msgid "sym2poly.cc/bool sym2r (const"
+msgstr ""
+
+#: src/sym2poly.cc:1140
+msgid "sym2r type sym2poly.cc l.948"
+msgstr ""
+
+#: src/sym2poly.cc:1438
+msgid "sym2poly/r2sym(const gen & e,const index_m & i,const vecteur & l)"
+msgstr ""
+
+#: src/sym2poly.cc:1532 src/sym2poly.cc:1538 src/sym2poly.cc:1560
+#: src/sym2poly.cc:1564
+msgid "sym2poly.cc/ckdeg2_rootof"
+msgstr ""
+
+#: src/sym2poly.cc:1569
+msgid "No root found for pmin"
+msgstr "未求得 pmin 的根"
+
+#: src/sym2poly.cc:1579
+msgid "sym2poly.cc/is_root_of_deg2"
+msgstr ""
+
+#: src/sym2poly.cc:2323 src/sym2poly.cc:2353
+msgid "Not implemented, e.g. for multivariate mod polynomials"
+msgstr ""
+
+#: src/gausspol.cc:153
+msgid "gausspol.cc/cyclotomic"
+msgstr ""
+
+#: src/gausspol.cc:243 src/gausspol.cc:320 src/gausspol.cc:352
+#: src/gausspol.cc:816 src/gausspol.cc:3893 src/threaded.cc:3517
+#: src/ti89.cc:1962 src/modpoly.cc:450 src/modpoly.cc:465 src/modpoly.cc:596
+#: src/modpoly.cc:611 src/modpoly.cc:684 src/modpoly.cc:697 src/modpoly.cc:717
+#: src/modpoly.cc:730 src/modpoly.cc:1112 src/solve.cc:2704 src/solve.cc:2755
+#: src/gen.cc:1444 src/gen.cc:1630 src/gen.cc:3302 src/gen.cc:3337
+#: src/gen.cc:3553 src/gen.cc:3911 src/gen.cc:3946 src/gen.cc:4094
+#: src/gen.cc:4465 src/gen.cc:4708 src/gen.cc:4982 src/gen.cc:5211
+#: src/gen.cc:5307 src/gen.cc:5523 src/gen.cc:5627
+msgid "Stopped by user interruption."
+msgstr "被用户中止。"
+
+#: src/gausspol.cc:1295
+msgid "Negative polynome power"
+msgstr "负多项式幂"
+
+#: src/gausspol.cc:1577 src/gausspol.cc:1579 src/gausspol.cc:1600
+#: src/gausspol.cc:1602 src/usual.cc:4403 src/usual.cc:4431
+msgid "Unable to divide, perhaps due to rounding error"
+msgstr ""
+
+#: src/gausspol.cc:1900
+msgid "gausspol.cc/divremmod2"
+msgstr ""
+
+#: src/gausspol.cc:2057 src/gausspol.cc:2060 src/gausspol.cc:2067
+#: src/gausspol.cc:2069
+msgid "gausspol.cc/pow"
+msgstr ""
+
+#: src/gausspol.cc:2252
+msgid "content1mod"
+msgstr ""
+
+#: src/gausspol.cc:2515
+msgid "Modgcd: no suitable evaluation point"
+msgstr "Modgcd：没有合适的求值点"
+
+#: src/gausspol.cc:2717
+msgid "gausspol.cc/contentgcdmod"
+msgstr ""
+
+#: src/gausspol.cc:2779
+msgid "Bug!"
+msgstr ""
+
+#: src/gausspol.cc:3121 src/gausspol.cc:3181
+msgid "Incompatible coeff type"
+msgstr "系数类型不兼容"
+
+#: src/gausspol.cc:3380 src/gausspol.cc:3409
+msgid "gausspol.cc/gcdheu"
+msgstr ""
+
+#: src/gausspol.cc:4079
+msgid "Square free factor mod bug"
+msgstr "平方 自由 因子 模数 缺陷"
+
+#: src/gausspol.cc:4210
+msgid ""
+"Multivariate finite field factorzation expects a unitary polynomial regular "
+"at 0. Try to translate with respect to one variable"
+msgstr ""
+
+#: src/gausspol.cc:4301
+msgid "gausspol.cc/mod_factor"
+msgstr ""
+
+#: src/gausspol.cc:4426
+msgid "Modular factorization not yet accessible"
+msgstr "还不能对模数进行因式分解"
+
+#: src/gausspol.cc:4474
+msgid "To be implemented"
+msgstr ""
+
+#: src/gausspol.cc:4499
+msgid "Factor: Only one algebraic extension allowed"
+msgstr "Factor：只允许进行一次代数扩张"
+
+#: src/gausspol.cc:5880 src/gausspol.cc:5882
+msgid "Too much substitution variables"
+msgstr "替换变量太多"
+
+#: src/threaded.cc:192
+msgid "Unable to make thread"
+msgstr ""
+
+#: src/threaded.cc:3157
+msgid "complex_smod"
+msgstr "complex_smod"
+
+#: src/threaded.cc:3640 src/threaded.cc:3670 src/threaded.cc:3672
+msgid "invmodext"
+msgstr ""
+
+#: src/threaded.cc:4204
+msgid "interp_tk"
+msgstr "interp_tk"
+
+#: src/threaded.cc:4420
+msgid "vector<int> operator /"
+msgstr ""
+
+#: src/threaded.cc:4427
+msgid "vector<int> operator %"
+msgstr ""
+
+#: src/threaded.cc:4434
+msgid "vector<int> operator >"
+msgstr ""
+
+#: src/moyal.cc:56
+msgid "moyal.cc/_moyal"
+msgstr ""
+
+#: src/moyal.cc:388
+msgid "Overflow"
+msgstr ""
+
+#: src/moyal.cc:987
+msgid "Bessel"
+msgstr ""
+
+#: src/maple.cc:181 src/vecteur.cc:4641
+msgid "Option keep_pivot not applicable"
+msgstr "keep_pivot 选项不适用"
+
+#: src/maple.cc:743 src/plot.cc:6431 src/plot.cc:6451
+msgid "not implemented"
+msgstr "未执行"
+
+#: src/maple.cc:754
+msgid "Could not open file"
+msgstr ""
+
+#: src/maple.cc:785
+msgid "1st arg=open result, then other args"
+msgstr ""
+
+#: src/maple.cc:1300
+msgid "File not found or unrecognized wav file format"
+msgstr ""
+
+#: src/maple.cc:1398
+msgid "Unable to open file or unable to code data"
+msgstr ""
+
+#: src/maple.cc:1547 src/maple.cc:1570
+msgid "File not found or unrecognized image file format"
+msgstr ""
+
+#: src/maple.cc:1581 src/intg.cc:221
+msgid "in linear_apply"
+msgstr ""
+
+#: src/maple.cc:1607 src/intg.cc:247
+msgid "in linear_apply 2"
+msgstr ""
+
+#: src/maple.cc:2003
+msgid "Unable to handle this kind of recurrence"
+msgstr "无法处理这种递推"
+
+#: src/maple.cc:2021
+msgid "Bad indexes in recurrence"
+msgstr "递推中的下标错误"
+
+#: src/maple.cc:2025
+msgid "Multi-recurrences implemented only for 1 step"
+msgstr "多次递推只执行 1 步"
+
+#: src/maple.cc:2134
+msgid "Not yet implemented"
+msgstr "尚未执行"
+
+#: src/maple.cc:2258
+msgid "Array too large"
+msgstr "数组过大"
+
+#: src/ti89.cc:2172
+msgid "TI stop"
+msgstr ""
+
+#: src/ti89.cc:2547
+msgid "Can't find length of non tokenized programs"
+msgstr "无法发现非标记化程序的长度"
+
+#: src/ti89.cc:2779
+msgid "Unknown sysvar tag"
+msgstr "未知的 sysvar 标记"
+
+#: src/ti89.cc:2911
+msgid "Parser internal token"
+msgstr "解析内部标志"
+
+#: src/ti89.cc:2952
+msgid "Unknown secondary tag"
+msgstr "未知的附属标记"
+
+#: src/ti89.cc:3096
+msgid "empty local declaration"
+msgstr "空局部声明"
+
+#: src/ti89.cc:3151
+msgid "End structure "
+msgstr "结束结构 "
+
+#: src/ti89.cc:3447
+msgid "Unknown instruction tag:"
+msgstr "未知的指令标记："
+
+#: src/ti89.cc:3493
+msgid "Data_var_tag not implemented"
+msgstr "未执行 Data_var_tag"
+
+#: src/ti89.cc:3495
+msgid "Gdb_var_tag not implemented"
+msgstr ""
+
+#: src/ti89.cc:3497
+msgid "Unable to find pic_var_tag length"
+msgstr "无法找到 pic_var_tag 的长度"
+
+#: src/ti89.cc:3499
+msgid "Unable to find text_var_tag length"
+msgstr "无法找到 text_var_tag 的长度"
+
+#: src/ti89.cc:3510
+msgid "End_tag/End_of_segment"
+msgstr ""
+
+#: src/ti89.cc:3512
+msgid "Asm programs not implemented"
+msgstr ""
+
+#: src/ti89.cc:3514
+msgid "3rd party data"
+msgstr "第三方数据"
+
+#: src/ti89.cc:3771
+msgid "start tag"
+msgstr ""
+
+#: src/ti89.cc:3820
+msgid "Internal sincos token"
+msgstr "内部 sincos 标志"
+
+#: src/ti89.cc:3968
+msgid "fig_tag"
+msgstr ""
+
+#: src/ti89.cc:3970
+msgid "mac_tag"
+msgstr ""
+
+#: src/ti89.cc:4003
+msgid "Unknown tag "
+msgstr "未知标记 "
+
+#: src/ti89.cc:4087
+msgid "Unable to open "
+msgstr "无法打开 "
+
+#: src/ti89.cc:4097
+msgid "Too short for a TI archive"
+msgstr ""
+
+#: src/ti89.cc:4107
+msgid "Not long enough"
+msgstr "长度不够"
+
+#: src/ti89.cc:4181
+msgid "Not a TI89/92 program/function/group file"
+msgstr ""
+
+#: src/mathml.cc:35
+msgid "No mathml support"
+msgstr "不支持 mathml"
+
+#: src/mathml.cc:1023
+msgid "MathMl convert "
+msgstr ""
+
+#: src/misc.cc:771
+msgid "2nd arg"
+msgstr "第二个参数"
+
+#: src/misc.cc:1144
+msgid "Not a potential"
+msgstr "不是一个势"
+
+#: src/misc.cc:1174
+msgid "Not a vector potential"
+msgstr "不是一个矢量势"
+
+#: src/misc.cc:2709
+msgid "Guessing initial production requires more than 20 samples"
+msgstr ""
+
+#: src/misc.cc:2834
+msgid "Values out of range"
+msgstr "数值超出范围"
+
+#: src/misc.cc:3620
+msgid "Negative value encoutered"
+msgstr "遇到负值"
+
+#: src/misc.cc:3649
+msgid "graham_sort_function"
+msgstr ""
+
+#: src/misc.cc:4080
+msgid "binop"
+msgstr ""
+
+#: src/misc.cc:4150
+msgid "plotarea(f(x),x=a..b[,n,method])"
+msgstr ""
+
+#: src/quater.cc:55
+msgid "Quaternion has 1 or 4 arguments"
+msgstr "四元数有 1-4 个参数"
+
+#: src/quater.cc:189
+msgid "No irreducible primitive polynomial found"
+msgstr "未发现不可约分的本原多项式"
+
+#: src/quater.cc:197
+msgid "Not a power of a prime"
+msgstr "不是一个素数幂"
+
+#: src/quater.cc:211
+msgid ""
+"galois_field has 1 or 4 arguments (charac p, irred poly P, var name x, value "
+"as a poly of x or as a vector)"
+msgstr ""
+
+#: src/quater.cc:224
+msgid "Not irreducible or not primitive polynomial"
+msgstr "不是不可约分多项式，或者不是本原多项式"
+
+#: src/quater.cc:248
+msgid "Unable to convert user type to galois field"
+msgstr ""
+
+#: src/quater.cc:253
+msgid "Expecting characteristic p, integer m"
+msgstr ""
+
+#: src/quater.cc:257
+msgid "Bad characteristic: "
+msgstr "特征值错误： "
+
+#: src/quater.cc:261
+msgid "Exponent must be >=2: "
+msgstr "指数必须 >=2： "
+
+#: src/quater.cc:372
+msgid "galois field inv"
+msgstr ""
+
+#: src/quater.cc:385
+msgid "GF inv internal bug"
+msgstr "GF 逆运算内部缺陷"
+
+#: src/quater.cc:537
+msgid "Multivariate GF factorization not yet implemented"
+msgstr "尚未执行多变量 GF 因式分解"
+
+#: src/quater.cc:539 src/quater.cc:548
+msgid "GF polyfactor"
+msgstr "GF 多因子"
+
+#: src/desolve.cc:164 src/desolve.cc:206
+msgid "desolve.cc/pf_ilaplace"
+msgstr ""
+
+#: src/desolve.cc:294
+msgid "Unable to solve differential equation"
+msgstr "无法求解微分方程"
+
+#: src/desolve.cc:380 src/desolve.cc:383
+msgid "function_of"
+msgstr ""
+
+#: src/desolve.cc:776
+msgid ""
+"Inverse z-transform of non rational functions not implemented or unable to "
+"fully factor rational function"
+msgstr ""
+
+#: src/desolve.cc:801 src/desolve.cc:804
+msgid "desolve.cc/invztrans"
+msgstr ""
+
+#: src/index.cc:68
+msgid "Error index.cc index_gcd"
+msgstr ""
+
+#: src/index.cc:82
+msgid "index.cc index_lcm"
+msgstr ""
+
+#: src/index.cc:98
+msgid "index.cc operator +"
+msgstr ""
+
+#: src/index.cc:111
+msgid "index.cc operator -"
+msgstr ""
+
+#: src/index.cc:125
+msgid "index.cc operator |"
+msgstr ""
+
+#: src/index.cc:165
+msgid "index.cc operator /"
+msgstr ""
+
+#: src/index.cc:178
+msgid "index.cc operator >="
+msgstr ""
+
+#: src/index.cc:191
+msgid "index.cc operator <="
+msgstr ""
+
+#: src/index.cc:463
+msgid "index.cc index_m operator +"
+msgstr ""
+
+#: src/index.cc:479
+msgid "index.cc index_m operator -"
+msgstr ""
+
+#: src/index.cc:517 src/index.cc:531
+msgid "index.cc index_m operator >="
+msgstr ""
+
+#: src/index.cc:555 src/index.cc:590
+msgid "index.cc index_m i_lex_is_greater"
+msgstr ""
+
+#: src/modpoly.cc:212
+msgid "modpoly.cc/modularize"
+msgstr ""
+
+#: src/modpoly.cc:318
+msgid "Field too large"
+msgstr "域过大"
+
+#: src/modpoly.cc:327
+msgid "modpoly.cc/x_to_xp"
+msgstr ""
+
+#: src/modpoly.cc:1340
+msgid "modpoly.cc/DivRem"
+msgstr ""
+
+#: src/modpoly.cc:3241
+msgid "Argument must be a vector of even size"
+msgstr "参数必须是一个大小均匀的矢量"
+
+#: src/modpoly.cc:3344
+msgid "modpoly.cc/powmod"
+msgstr ""
+
+#: src/modpoly.cc:4125
+msgid "modpoly.cc/ininttype2ZZ"
+msgstr ""
+
+#: src/ezgcd.cc:148
+msgid "ezgcd.cc/reduce_divrem2"
+msgstr ""
+
+#: src/ezgcd.cc:643
+msgid "Bad dimension for qb or rb or b or degrees"
+msgstr "qb、rb 或 b 的维数或度数错误"
+
+#: src/ezgcd.cc:652
+msgid "qb and rb not prime together!"
+msgstr "qb 与 rb 都不是素数！"
+
+#: src/ezgcd.cc:763
+msgid "peval_1"
+msgstr ""
+
+#: src/ezgcd.cc:883
+msgid "Args must be multivariate polynomials"
+msgstr "参数必须是多变量多项式"
+
+#: src/ezgcd.cc:1060
+msgid "GCD not successfull"
+msgstr "GCD 不成功"
+
+#: src/derive.cc:157
+msgid "Derivative of rootof currently not handled"
+msgstr "目前未处理 rootof 的导数"
+
+#: src/derive.cc:177
+msgid "Expecting an expression, not a function"
+msgstr ""
+
+#: src/derive.cc:300 src/derive.cc:318 src/derive.cc:337 src/derive.cc:340
+msgid "derive.cc/derive_SYMB"
+msgstr ""
+
+#: src/derive.cc:451 src/derive.cc:453
+msgid "derive.cc/derive"
+msgstr ""
+
+#: src/solve.cc:439
+msgid "Bad equal in"
+msgstr "等于错误"
+
+#: src/solve.cc:474 src/solve.cc:487
+msgid "Unable to isolate "
+msgstr "无法隔离 "
+
+#: src/solve.cc:788 src/plot3d.cc:439
+msgid "Unable to check sign "
+msgstr ""
+
+#: src/solve.cc:848
+msgid "Unable to solve inequations with approx coeffs "
+msgstr "无法求解含有近似系数的不等式 "
+
+#: src/solve.cc:854
+msgid "Inequation inside inequation not implemented "
+msgstr "未执行不等式中的不等式 "
+
+#: src/solve.cc:856
+msgid "Inequation is constant with respect to "
+msgstr "不等式是 的常数 "
+
+#: src/solve.cc:866 src/prog.cc:4768
+msgid "Unable to sort "
+msgstr "无法排序 "
+
+#: src/solve.cc:1238
+msgid "unable to isolate "
+msgstr "无法隔离 "
+
+#: src/solve.cc:1334
+msgid "Modulo too large"
+msgstr "同余过大"
+
+#: src/solve.cc:1971
+msgid "solve.cc/my_f"
+msgstr ""
+
+#: src/solve.cc:1992
+msgid "solve.cc/my_df"
+msgstr ""
+
+#: src/solve.cc:2011
+msgid "solve.cc/my_fdf"
+msgstr ""
+
+#: src/solve.cc:2032
+msgid "solve.cc/my_F"
+msgstr ""
+
+#: src/solve.cc:2046
+msgid "solve.cc/my_dF"
+msgstr ""
+
+#: src/solve.cc:2061
+msgid "solve.cc/my_FdF"
+msgstr ""
+
+#: src/solve.cc:2409
+msgid "Not linked with GSL"
+msgstr ""
+
+#: src/solve.cc:3228
+msgid "Bad var "
+msgstr "变量错误 "
+
+#: src/intg.cc:1091
+msgid "trig_fraction"
+msgstr ""
+
+#: src/intg.cc:1168
+msgid "in intgab_rational"
+msgstr ""
+
+#: src/intg.cc:1352
+msgid "in integrate_rational"
+msgstr ""
+
+#: src/intg.cc:1955
+msgid "Bad when "
+msgstr "when 错误 "
+
+#: src/intg.cc:2330
+msgid "Floor definite integration: can only handle linear < or > condition"
+msgstr ""
+
+#: src/intg.cc:2390
+msgid "Piecewise definite integration: can only handle linear < or > condition"
+msgstr ""
+
+#: src/intg.cc:3210
+msgid "prodsum"
+msgstr ""
+
+#: src/intg.cc:3372
+msgid "Bad step"
+msgstr "步骤错误"
+
+#: src/intg.cc:3588
+msgid "bernoulli"
+msgstr ""
+
+#: src/intg.cc:3758 src/intg.cc:3895 src/intg.cc:3906
+msgid "GSL not available"
+msgstr "GSL 不可用"
+
+#: src/intg.cc:3864
+msgid "RK8 evolve not successfull"
+msgstr ""
+
+#: src/intg.cc:3944 src/plot.cc:8748
+msgid "Time"
+msgstr ""
+
+#: src/intgab.cc:235 src/intgab.cc:243
+msgid "Non holomorphic function "
+msgstr ""
+
+#: src/intgab.cc:263
+msgid "Syntax residue(expr,x=a)"
+msgstr ""
+
+#: src/risch.cc:73
+msgid "Risch diff dimension"
+msgstr "Risch 差值维数"
+
+#: src/risch.cc:450 src/risch.cc:481
+msgid "risch.cc/hermite_reduce"
+msgstr ""
+
+#: src/series.cc:96
+msgid "non tractable function "
+msgstr "不易处理的函数 "
+
+#: src/series.cc:1041
+msgid "unknown rational operator"
+msgstr "未知的有理算子"
+
+#: src/series.cc:1230 src/series.cc:1312
+msgid "Integral must be definite"
+msgstr "积分必须是定积分"
+
+#: src/series.cc:1236
+msgid "Summation variable must be != from series expansion variable"
+msgstr "求和变量必须 != 级数展开式变量"
+
+#: src/series.cc:1318
+msgid "Integration variable must be != from series expansion variable"
+msgstr ""
+
+#: src/series.cc:1342
+msgid "Can not expand remainder of integrand"
+msgstr "无法展开被积函数的余项"
+
+#: src/series.cc:1386
+msgid " multiargs not implemented"
+msgstr " 有多个参数未执行"
+
+#: src/series.cc:1780
+msgid "Unable to convert sum to Euler Mac-Laurin"
+msgstr "无法将求和转换为 Euler Mac-Laurin"
+
+#: src/series.cc:1907
+msgid "Try unidirectional series"
+msgstr "尝试单向级数"
+
+#: src/series.cc:1911
+msgid "Series internal bug"
+msgstr ""
+
+#: src/subst.cc:47
+msgid "This function works only in radian mode"
+msgstr "该函数只能采用弧度模式运行"
+
+#: src/subst.cc:364 src/plot.cc:7933
+msgid "Unable to solve"
+msgstr "无法求解"
+
+#: src/vecteur.cc:508 src/vecteur.cc:516
+msgid "pos2cell"
+msgstr ""
+
+#: src/vecteur.cc:661
+msgid "matrice_extract"
+msgstr ""
+
+#: src/vecteur.cc:743
+msgid "Bad cell"
+msgstr "单元格错误"
+
+#: src/vecteur.cc:1022 src/vecteur.cc:1029 src/vecteur.cc:1033
+msgid "mergematrice"
+msgstr ""
+
+#: src/vecteur.cc:1053 src/vecteur.cc:1058
+msgid "a_root"
+msgstr ""
+
+#: src/vecteur.cc:1520
+msgid "Proot error : no root found"
+msgstr "Proot 错误：未求得根"
+
+#: src/vecteur.cc:1777
+msgid "dotvector"
+msgstr ""
+
+#: src/vecteur.cc:1904
+msgid "dotvecteur"
+msgstr ""
+
+#: src/vecteur.cc:2277
+msgid "mmultck"
+msgstr ""
+
+#: src/vecteur.cc:4070
+msgid "Unable to find a modulus to solve"
+msgstr "无法找到一个模数来求解"
+
+#: src/vecteur.cc:4076
+msgid "Incompatible system"
+msgstr "系统不兼容"
+
+#: src/vecteur.cc:4195
+msgid "minor_det option applies only to det"
+msgstr ""
+
+#: src/vecteur.cc:4240
+msgid "idn"
+msgstr ""
+
+#: src/vecteur.cc:4530 src/gen.cc:7255
+msgid "Not invertible"
+msgstr "不可逆"
+
+#: src/vecteur.cc:5785
+msgid "polymat2matpoly"
+msgstr ""
+
+#: src/vecteur.cc:5816
+msgid "polymat2mat"
+msgstr ""
+
+#: src/vecteur.cc:5861
+msgid "rat_jordan_block"
+msgstr "rat_jordan_block"
+
+#: src/vecteur.cc:5907
+msgid "pseudo_rat_ro_rat"
+msgstr "pseudo_rat_ro_rat"
+
+#: src/vecteur.cc:6593 src/vecteur.cc:6615
+msgid "Low accuracy"
+msgstr ""
+
+#: src/vecteur.cc:6707
+msgid "Unable to find all eigenvalues"
+msgstr "无法求得所有特征值"
+
+#: src/vecteur.cc:6870 src/vecteur.cc:6887
+msgid "cross"
+msgstr ""
+
+#: src/vecteur.cc:6945
+msgid "vecteur.cc vecteur2gsl_vector"
+msgstr ""
+
+#: src/vecteur.cc:7168 src/vecteur.cc:7192
+msgid "LAPACK LU error"
+msgstr ""
+
+#: src/vecteur.cc:7215
+msgid "Expecting a square matrix"
+msgstr "期望是一个方阵"
+
+#: src/vecteur.cc:7301 src/vecteur.cc:7537
+msgid "Complex entry!"
+msgstr "输入复数！"
+
+#: src/vecteur.cc:7324 src/vecteur.cc:7543
+msgid "LAPACK not available"
+msgstr ""
+
+#: src/vecteur.cc:7333
+msgid "Lapack conversion error"
+msgstr ""
+
+#: src/vecteur.cc:7345 src/vecteur.cc:7357 src/vecteur.cc:7376
+#: src/vecteur.cc:7568 src/vecteur.cc:7582
+msgid "LAPACK error "
+msgstr ""
+
+#: src/vecteur.cc:7652
+msgid "0 as singular value, not implemented"
+msgstr ""
+
+#: src/vecteur.cc:7682
+msgid "Non positive definite"
+msgstr "非正定型"
+
+#: src/vecteur.cc:7702
+msgid "Not invertible matrice"
+msgstr "不可逆矩阵"
+
+#: src/vecteur.cc:8062 src/vecteur.cc:8223
+msgid "Integer matrix expected"
+msgstr "期望是整数矩阵"
+
+#: src/vecteur.cc:8345
+msgid "Expecting file name to convert"
+msgstr ""
+
+#: src/csturm.cc:901
+msgid "Square is flat!"
+msgstr ""
+
+#: src/ifactor.cc:158 src/ifactor.cc:194 src/ifactor.cc:800
+msgid "Integer too large"
+msgstr "整数过大"
+
+#: src/ifactor.cc:252 src/ifactor.cc:300
+msgid "Pollard-rho too many tries"
+msgstr "Pollard-rho 算法尝试次数太多"
+
+#: src/ifactor.cc:498 src/ifactor.cc:504
+msgid "Stopped by user interruption"
+msgstr ""
+
+#: src/ifactor.cc:521 src/ifactor.cc:635
+msgid "ifactors"
+msgstr ""
+
+#: src/ifactor.cc:531
+msgid "ifactor.cc/ifactors"
+msgstr ""
+
+#: src/ifactor.cc:907 src/ifactor.cc:917 src/ifactor.cc:941
+msgid "pa2b2"
+msgstr ""
+
+#: src/ifactor.cc:997
+msgid "iabcuv"
+msgstr ""
+
+#: src/ifactor.cc:1025
+msgid "No solution in ring"
+msgstr "环无解"
+
+#: src/alg_ext.cc:146
+msgid "ext_reduce"
+msgstr "ext_reduce"
+
+#: src/alg_ext.cc:151 src/alg_ext.cc:159
+msgid "alg_ext.cc/ext_reduce"
+msgstr ""
+
+#: src/alg_ext.cc:174 src/alg_ext.cc:360
+msgid "alg_ext.cc/polynome2vecteur"
+msgstr ""
+
+#: src/alg_ext.cc:225
+msgid "Invalid _EXT in replace_ext"
+msgstr "replace_ext 中的 _EXT 无效"
+
+#: src/alg_ext.cc:334
+msgid "Unable to find common minimal polynomial"
+msgstr "无法找到最小共有多项式"
+
+#: src/alg_ext.cc:452
+msgid "alg_ext.cc/min_pol"
+msgstr ""
+
+#: src/alg_ext.cc:511 src/alg_ext.cc:518
+msgid "alg_ext.cc/common_EXT"
+msgstr ""
+
+#: src/alg_ext.cc:678 src/alg_ext.cc:683
+msgid "inv_EXT"
+msgstr ""
+
+#: src/alg_ext.cc:713 src/alg_ext.cc:715
+msgid "rootof"
+msgstr ""
+
+#: src/alg_ext.cc:1025
+msgid "Or condition not implemented"
+msgstr "未执行 Or 条件句"
+
+#: src/alg_ext.cc:1029
+msgid "fminmax, range "
+msgstr ""
+
+#: src/gauss.cc:129 src/gauss.cc:412
+msgid "q is not quadratic"
+msgstr "q 不是一个二次方程式"
+
+#: src/gauss.cc:361 src/gen.cc:181 src/gen.cc:244
+msgid "Invalid dimension"
+msgstr "无效维数"
+
+#: src/plot.cc:353
+msgid "Plotfunc: bad variable name"
+msgstr ""
+
+#: src/plot.cc:574 src/plot.cc:579
+msgid "Gnuplot write error"
+msgstr ""
+
+#: src/plot.cc:1096
+msgid "Plotfunc: unable to discretize: xmin, xmax, step="
+msgstr ""
+
+#: src/plot.cc:1212
+msgid "Plotfunc 2nd arg must be var or [var1,var2]"
+msgstr ""
+
+#: src/plot.cc:1603
+msgid "Plotfunc: Range must be [xmin,ymin] or [xmax,ymax]"
+msgstr ""
+
+#: src/plot.cc:1609 src/plot.cc:1620 src/plot.cc:1636
+msgid "Plotfunc: bad range value!"
+msgstr ""
+
+#: src/plot.cc:1800
+msgid "pointon"
+msgstr ""
+
+#: src/plot.cc:1904
+msgid "Non linear equations"
+msgstr "非线性方程"
+
+#: src/plot.cc:1907
+msgid "Parallel plans"
+msgstr ""
+
+#: src/plot.cc:2012
+msgid "Not a line!"
+msgstr ""
+
+#: src/plot.cc:2028
+msgid "2-d instruction"
+msgstr ""
+
+#: src/plot.cc:2711
+msgid "3-d instruction"
+msgstr ""
+
+#: src/plot.cc:2818 src/plot.cc:2851
+msgid "cercle"
+msgstr "圆"
+
+#: src/plot.cc:2969
+msgid "milieu"
+msgstr ""
+
+#: src/plot.cc:3036
+msgid "3 points expected"
+msgstr ""
+
+#: src/plot.cc:3065
+msgid "midpoint"
+msgstr ""
+
+#: src/plot.cc:4061
+msgid "Sum of coeff is 0"
+msgstr "系数和等于零"
+
+#: src/plot.cc:4239
+msgid "line2curve"
+msgstr ""
+
+#: src/plot.cc:4258
+msgid "Distance curve/curve not implemented"
+msgstr "未执行距离曲线/曲线"
+
+#: src/plot.cc:4583 src/plot.cc:4595
+msgid "area(f(x),x=a..b,n,method])"
+msgstr ""
+
+#: src/plot.cc:4692
+msgid "angle plan with unknown"
+msgstr "含有未知值的角平面图"
+
+#: src/plot.cc:4702 src/plot.cc:4718 src/plot.cc:4732
+msgid "angle"
+msgstr "角度"
+
+#: src/plot.cc:4705
+msgid "Lines must intersect"
+msgstr ""
+
+#: src/plot.cc:5017 src/plot.cc:5026 src/plot.cc:5035 src/plot.cc:5036
+msgid "plot.cc/parameter2point"
+msgstr ""
+
+#: src/plot.cc:5486
+msgid "Locus on an unknown parametric curve type"
+msgstr ""
+
+#: src/plot.cc:5521
+msgid "3-d enveloppe not implemented"
+msgstr ""
+
+#: src/plot.cc:5728 src/plot.cc:5731 src/plot.cc:5745
+msgid "sommet"
+msgstr ""
+
+#: src/plot.cc:6292
+msgid "gen2complex"
+msgstr ""
+
+#: src/plot.cc:6665
+msgid "Plotparam: unable to discretize: tmin, tmax, tstep="
+msgstr ""
+
+#: src/plot.cc:6885 src/plot.cc:7017
+msgid "2nd arg must be a free variable"
+msgstr "第二个参数必须是一个自由变量"
+
+#: src/plot.cc:7273
+msgid "Wrong parameter type "
+msgstr ""
+
+#: src/plot.cc:7291
+msgid "Can't isolate"
+msgstr "无法隔离"
+
+#: src/plot.cc:7395
+msgid "3-d line/2-d circle"
+msgstr ""
+
+#: src/plot.cc:7397
+msgid "2-d line/sphere"
+msgstr ""
+
+#: src/plot.cc:7841
+msgid "Hypersurface w/o equation not implemented"
+msgstr ""
+
+#: src/plot.cc:7846
+msgid "f(t)!=0:"
+msgstr ""
+
+#: src/plot.cc:8191
+msgid "Bug in conique reducing "
+msgstr ""
+
+#: src/plot.cc:8199
+msgid "Bug in conique, equation "
+msgstr ""
+
+#: src/plot.cc:9039
+msgid "End of stream"
+msgstr ""
+
+#: src/plot.cc:9408
+msgid "Error writing "
+msgstr "写错误 "
+
+#: src/plot.cc:9588
+msgid "Bad iteration"
+msgstr "迭代错误"
+
+#: src/plot.cc:9624 src/plot.cc:9631
+msgid "Bad iteration number"
+msgstr "迭代次数错误"
+
+#: src/plot.cc:9648
+msgid "Non numeric range value"
+msgstr "非数字型范围值"
+
+#: src/plot.cc:9654
+msgid "Non numeric initial value"
+msgstr "非数字型初值"
+
+#: src/plot.cc:10012 src/plot3d.cc:2093
+msgid "Variables must be free"
+msgstr "变量必须是自由变量"
+
+#: src/plot.cc:11035
+msgid "vecteur2turtle"
+msgstr ""
+
+#: src/plot.cc:11354
+msgid "Donner le nom de la procedure, ex. \"essai\""
+msgstr ""
+
+#: src/plot.cc:11372
+msgid "Donner le nom de fichier, ex. \"essai\""
+msgstr ""
+
+#: src/plot.cc:11380
+msgid "Instruction debut_enregistrement non trouvee"
+msgstr ""
+
+#: src/plot.cc:11605
+msgid "Argument entier >= 2"
+msgstr "参数全部 >= 2"
+
+#: src/plot.cc:11996
+msgid "Circle centers are identical"
+msgstr "圆心相同"
+
+#: src/plot.cc:12376 src/plot.cc:12380 src/plot.cc:12395
+msgid "conj_harmonique"
+msgstr ""
+
+#: src/plot.cc:12617
+msgid "div-harmonique)"
+msgstr ""
+
+#: src/plot.cc:12656
+msgid "enveloppe"
+msgstr ""
+
+#: src/plot3d.cc:92
+msgid "hyperplan_normal"
+msgstr ""
+
+#: src/plot3d.cc:387
+msgid "Parellel lines"
+msgstr "平行线"
+
+#: src/plot3d.cc:456
+msgid "Each element must be a face (vector of 3/4 points)"
+msgstr ""
+
+#: src/plot3d.cc:460
+msgid "at least 3 points by face"
+msgstr ""
+
+#: src/plot3d.cc:1104 src/plot3d.cc:1107
+msgid "hypersphere_equation"
+msgstr ""
+
+#: src/plot3d.cc:1115 src/plot3d.cc:1118
+msgid "hypersphere_parameq"
+msgstr ""
+
+#: src/plot3d.cc:1158
+msgid "Hypersurface w/o equation"
+msgstr ""
+
+#: src/plot3d.cc:1377 src/plot3d.cc:1380 src/plot3d.cc:1382 src/plot3d.cc:1387
+msgid "hyperplan2hypersurface"
+msgstr ""
+
+#: src/plot3d.cc:1394
+msgid "hypersphere2hypersurface"
+msgstr ""
+
+#: src/plot3d.cc:2191
+msgid "Bug in quadrique reducing "
+msgstr ""
+
+#: src/plot3d.cc:2198
+msgid "Bug in quadrique, equation "
+msgstr ""
+
+#: src/rpn.cc:663 src/gen.cc:6778
+msgid "Bad index"
+msgstr "下标错误"
+
+#: src/rpn.cc:721
+msgid "Non-empty folder"
+msgstr ""
+
+#: src/rpn.cc:1603
+msgid "Invalid step value"
+msgstr ""
+
+#: src/rpn.cc:1647
+msgid "∂(expression,variable=value)"
+msgstr ""
+
+#: src/rpn.cc:1652
+msgid "Order of derivation must be positive"
+msgstr "导数的阶数必须为正数"
+
+#: src/rpn.cc:1702
+msgid "∫(expression,var,lower,upper)"
+msgstr ""
+
+#: src/prog.cc:97
+msgid "Running in secure mode"
+msgstr "在安全模式下运行"
+
+#: src/prog.cc:397
+msgid " compiling "
+msgstr " 编译 "
+
+#: src/prog.cc:416
+msgid "// Warning, assignation is :=, check these lines: "
+msgstr ""
+
+#: src/prog.cc:424
+msgid "// Warning: "
+msgstr ""
+
+#: src/prog.cc:430
+msgid " declared as global variable(s)\n"
+msgstr " 声明为全局变量\n"
+
+#: src/prog.cc:433
+msgid "// Error(s)\n"
+msgstr ""
+
+#: src/prog.cc:433
+msgid "// Success\n"
+msgstr ""
+
+#: src/prog.cc:452
+msgid "check_type must have 2 args"
+msgstr ""
+
+#: src/prog.cc:486
+msgid "Argument should be of type "
+msgstr "参数的类型应该是 "
+
+#: src/prog.cc:576
+msgid "Proc Parameters"
+msgstr "程序参数"
+
+#: src/prog.cc:753
+msgid "// Parsing "
+msgstr ""
+
+#: src/prog.cc:755
+msgid ""
+"Warning, defining a derivative function should be done with function_diff or "
+"unapply: "
+msgstr ""
+
+#: src/prog.cc:757
+msgid ""
+"Warning: algebraic function defined in term of others functions may lead to "
+"evaluation errors"
+msgstr ""
+
+#: src/prog.cc:759
+msgid "Try "
+msgstr ""
+
+#: src/prog.cc:925 src/prog.cc:929 src/gen.cc:1518
+msgid "Too many recursions"
+msgstr "递推太多"
+
+#: src/prog.cc:1260
+msgid "Ifte must have 3 args"
+msgstr "Ifte 必须有 3 个参数"
+
+#: src/prog.cc:1267
+msgid "Ifte: Unable to check test"
+msgstr "Ifte：无法检查测试情况"
+
+#: src/prog.cc:1361
+msgid "3 or 4 arguments expected"
+msgstr ""
+
+#: src/prog.cc:1391
+msgid "from_increment"
+msgstr ""
+
+#: src/prog.cc:1626
+msgid "Unable to eval test in loop : "
+msgstr "无法求得循环测试值： "
+
+#: src/prog.cc:1643
+msgid "For must have 4 args"
+msgstr "必须有 4 个参数"
+
+#: src/prog.cc:1664
+msgid "Invalid loop index (hint: i=sqrt(-1)!)"
+msgstr "无效循环下标（提示：i=sqrt(-1)!）"
+
+#: src/prog.cc:1850
+msgid "Reserved word:"
+msgstr ""
+
+#: src/prog.cc:1858
+msgid "Not bindable"
+msgstr "不可绑定"
+
+#: src/prog.cc:1898
+msgid "prog.cc/leave"
+msgstr ""
+
+#: src/prog.cc:2040
+msgid "Local must have 2 args"
+msgstr "本地变量必须具有 2 个参数"
+
+#: src/prog.cc:2204
+msgid "Try_catch must have 3 or 4 args"
+msgstr ""
+
+#: src/prog.cc:2899
+msgid "asc"
+msgstr ""
+
+#: src/prog.cc:3046
+msgid "apply"
+msgstr ""
+
+#: src/prog.cc:3119
+msgid "Invalid null step"
+msgstr "无效零步骤"
+
+#: src/prog.cc:3207
+msgid "Union"
+msgstr ""
+
+#: src/prog.cc:3246
+msgid "Minus"
+msgstr ""
+
+#: src/prog.cc:3371
+msgid "makemat"
+msgstr ""
+
+#: src/prog.cc:3375
+msgid "interval"
+msgstr "区间"
+
+#: src/prog.cc:3379
+msgid "Boundaries not integer"
+msgstr "界限不是整数"
+
+#: src/prog.cc:3529
+msgid "Program killed"
+msgstr "程序被终止"
+
+#: src/prog.cc:4023
+msgid "check_binary"
+msgstr ""
+
+#: src/prog.cc:4178
+msgid "No such user "
+msgstr ""
+
+#: src/prog.cc:4887
+msgid "Float too large"
+msgstr ""
+
+#: src/prog.cc:4923
+msgid "Incompatible units"
+msgstr "单位不兼容"
+
+#: src/prog.cc:5288
+msgid "No help file found"
+msgstr ""
+
+#: src/prog.cc:5776
+msgid "Invalid |"
+msgstr "无效 |"
+
+#: src/prog.cc:7697
+msgid "User operator not available on this architecture"
+msgstr ""
+
+#: src/prog.cc:7795
+msgid "Non existent Folder"
+msgstr ""
+
+#: src/prog.cc:7841
+msgid "No case applies"
+msgstr "无案例适用"
+
+#: src/prog.cc:7973
+msgid "Unable to handle when condition "
+msgstr "无法处理 when 条件句 "
+
+#: src/pari.cc:485 src/pari.cc:490
+msgid "Error in PARI subsystem"
+msgstr ""
+
+#: src/pari.cc:511
+msgid ""
+"PARI locked by another thread. Try again later.\n"
+"If PARI is locked by a cancelled thread, you can unlock it with pari_unlock()"
+msgstr ""
+
+#: src/pari.cc:932
+msgid "Not implemented, please recompile giac with PARI"
+msgstr ""
+
+#: src/cocoa.cc:93
+msgid "Invalid giac gen -> CoCoA ZZ conversion"
+msgstr ""
+
+#: src/cocoa.cc:105
+msgid "Unable to convert CoCoA data"
+msgstr ""
+
+#: src/unary.cc:78 src/unary.cc:86 src/unary.cc:124 src/unary.cc:132
+msgid "Unable to register "
+msgstr ""
+
+#: src/usual.cc:248
+msgid "apply_to_equal"
+msgstr ""
+
+#: src/usual.cc:853
+msgid "sqrt_noabs of "
+msgstr ""
+
+#: src/usual.cc:2127
+msgid "Taylor sign with unsigned limit"
+msgstr ""
+
+#: src/usual.cc:2159
+msgid "Taylor abs with unsigned limit"
+msgstr ""
+
+#: src/usual.cc:2601 src/usual.cc:2730
+msgid "sto "
+msgstr ""
+
+#: src/usual.cc:2636
+msgid "Index outside of range"
+msgstr "下标超出范围"
+
+#: src/usual.cc:2658 src/usual.cc:2682 src/usual.cc:2700
+msgid "Bad index "
+msgstr "下标错误 "
+
+#: src/usual.cc:2824
+msgid "Increment"
+msgstr ""
+
+#: src/usual.cc:2856
+msgid "Non assigned variable"
+msgstr "未赋值的变量"
+
+#: src/usual.cc:3316
+msgid "bad pow "
+msgstr ""
+
+#: src/usual.cc:3463
+msgid "Too many variables "
+msgstr "变量太多 "
+
+#: src/usual.cc:3617
+msgid "Warning : using implicit multiplication for ("
+msgstr ""
+
+#: src/usual.cc:4343
+msgid "Iquo"
+msgstr ""
+
+#: src/usual.cc:4564
+msgid "Taylor of floor with unsigned limit"
+msgstr ""
+
+#: src/usual.cc:4616
+msgid "Taylor of ceil with unsigned limit"
+msgstr ""
+
+#: src/usual.cc:4674
+msgid "Taylor of round with unsigned limit"
+msgstr ""
+
+#: src/usual.cc:4811
+msgid "check_2d_vecteur"
+msgstr ""
+
+#: src/usual.cc:4833
+msgid "ichinrem2 1"
+msgstr ""
+
+#: src/usual.cc:4836
+msgid "Null polynomial"
+msgstr "零多项式"
+
+#: src/usual.cc:4841 src/usual.cc:4845
+msgid "Expecting modular coeff"
+msgstr "期望是模数系数"
+
+#: src/usual.cc:4863
+msgid "ichinrem2 2"
+msgstr ""
+
+#: src/usual.cc:4877
+msgid "ichinrem2 3"
+msgstr ""
+
+#: src/usual.cc:4884
+msgid "ichinrem2 4"
+msgstr ""
+
+#: src/usual.cc:4889
+msgid "[a % p, b % q,...]"
+msgstr ""
+
+#: src/identificateur.cc:605
+msgid "Function not defined"
+msgstr "未定义函数"
+
+#: src/gen.cc:93
+msgid " in "
+msgstr ""
+
+#: src/gen.cc:110
+msgid " instruction #"
+msgstr " 指令编号"
+
+#: src/gen.cc:112
+msgid " error, try debug("
+msgstr ""
+
+#: src/gen.cc:173 src/gen.cc:236
+msgid "Bad Argument Type"
+msgstr "参数类型错误"
+
+#: src/gen.cc:177 src/gen.cc:240
+msgid "Bad Argument Value"
+msgstr "参数值错误"
+
+#: src/gen.cc:185 src/gen.cc:248
+msgid " Error: Bad Argument Type"
+msgstr ""
+
+#: src/gen.cc:189 src/gen.cc:252
+msgid " Error: Bad Argument Value"
+msgstr " 错误：参数值错误"
+
+#: src/gen.cc:193 src/gen.cc:256
+msgid " Error: Invalid dimension"
+msgstr " 错误：无效维数"
+
+#: src/gen.cc:197 src/gen.cc:260
+msgid "Division of "
+msgstr " 除法 "
+
+#: src/gen.cc:197 src/gen.cc:260
+msgid " by 0"
+msgstr " 除以零"
+
+#: src/gen.cc:201 src/gen.cc:264
+msgid "Unable to check sign: "
+msgstr ""
+
+#: src/gen.cc:205 src/gen.cc:268
+msgid "Invalid series expansion: "
+msgstr "无效级数展开式： "
+
+#: src/gen.cc:209 src/gen.cc:273
+msgid "Too few arguments: "
+msgstr "参数太少： "
+
+#: src/gen.cc:213 src/gen.cc:277
+msgid "Too many arguments: "
+msgstr "参数太多： "
+
+#: src/gen.cc:217 src/gen.cc:281
+msgid "Max order ("
+msgstr "最大阶数 ("
+
+#: src/gen.cc:217 src/gen.cc:281
+msgid ") exceeded or non unidirectional series"
+msgstr ") 超出单向级数或不是单向级数"
+
+#: src/gen.cc:221 src/gen.cc:285
+msgid "calculation size limit exceeded"
+msgstr "超过计算范围限制"
+
+#: src/gen.cc:753 src/gen.cc:796
+msgid "complex constructor"
+msgstr ""
+
+#: src/gen.cc:854
+msgid "makegen of type "
+msgstr ""
+
+#: src/gen.cc:866 src/gen.cc:879
+msgid "complex<double>"
+msgstr "复数<双复数>"
+
+#: src/gen.cc:1083
+msgid "Gen Destructor"
+msgstr ""
+
+#: src/gen.cc:1197
+msgid "Gen Operator ="
+msgstr ""
+
+#: src/gen.cc:1217
+msgid "To_int"
+msgstr ""
+
+#: src/gen.cc:1247
+msgid "gen.cc/_FRAC2_SYMB"
+msgstr ""
+
+#: src/gen.cc:1945 src/gen.cc:1955
+msgid "Undefined"
+msgstr "未定义"
+
+#: src/gen.cc:1947 src/gen.cc:1958
+msgid "Infinity error"
+msgstr ""
+
+#: src/gen.cc:2257
+msgid "Conj"
+msgstr ""
+
+#: src/gen.cc:2635
+msgid "reim"
+msgstr ""
+
+#: src/gen.cc:2747
+msgid "Re"
+msgstr ""
+
+#: src/gen.cc:2853
+msgid "Im"
+msgstr ""
+
+#: src/gen.cc:2976
+msgid "Abs"
+msgstr ""
+
+#: src/gen.cc:3003
+msgid "Linfnorm"
+msgstr "Linfnorm"
+
+#: src/gen.cc:3069
+msgid "Arg"
+msgstr ""
+
+#: src/gen.cc:3104
+msgid "Bindigits"
+msgstr ""
+
+#: src/gen.cc:3114 src/gen.cc:3116
+msgid "addpoly"
+msgstr ""
+
+#: src/gen.cc:3182
+msgid "Bad mod:"
+msgstr "模数错误："
+
+#: src/gen.cc:3208 src/gen.cc:3217 src/gen.cc:3225
+msgid "Mod are different"
+msgstr "模数不同"
+
+#: src/gen.cc:3244
+msgid "Non invertible"
+msgstr "不可逆"
+
+#: src/gen.cc:3820 src/gen.cc:3822
+msgid "subpoly"
+msgstr ""
+
+#: src/gen.cc:4327 src/gen.cc:4329
+msgid "mulpoly"
+msgstr ""
+
+#: src/gen.cc:4919
+msgid "Negative to a fractional power"
+msgstr ""
+
+#: src/gen.cc:5264
+msgid "Inv of non-square matrix"
+msgstr "非方阵的逆运算"
+
+#: src/gen.cc:5365
+msgid "Pow"
+msgstr ""
+
+#: src/gen.cc:5453
+msgid "Division by 0"
+msgstr "除以零"
+
+#: src/gen.cc:5470
+msgid "iquo"
+msgstr ""
+
+#: src/gen.cc:5742
+msgid "rdiv"
+msgstr ""
+
+#: src/gen.cc:6541
+msgid "Gen [int]"
+msgstr ""
+
+#: src/gen.cc:6544
+msgid "Index outside range : "
+msgstr "下标超出范围： "
+
+#: src/gen.cc:6780
+msgid "Index out of range"
+msgstr ""
+
+#: src/gen.cc:6859
+msgid "islesscomplexthan mod"
+msgstr ""
+
+#: src/gen.cc:7004
+msgid "power_basis_exp"
+msgstr "power_basis_exp"
+
+#: src/gen.cc:7412
+msgid "symgcd"
+msgstr ""
+
+#: src/gen.cc:7780
+msgid "irem"
+msgstr ""
+
+#: src/gen.cc:7933
+msgid "Not invertible "
+msgstr "不可逆 "
+
+#: src/gen.cc:7954 src/gen.cc:7957
+msgid "invmod"
+msgstr ""
+
+#: src/gen.cc:8059
+msgid "Reconstructed denominator is not prime with modulo"
+msgstr "新建分母不是含有同余的素数"
+
+#: src/gen.cc:8107 src/gen.cc:8124
+msgid "powmod"
+msgstr ""
+
+#: src/gen.cc:8140
+msgid "No Integer Solution"
+msgstr "无整数解"
+
+#: src/gen.cc:8147
+msgid "isqrt"
+msgstr ""
+
+#: src/gen.cc:8189
+msgid "is_probab_prime_p"
+msgstr "is_probab_prime_p"
+
+#: src/gen.cc:8214
+msgid "nextprime"
+msgstr ""
+
+#: src/gen.cc:8225
+msgid "prevprime"
+msgstr ""
+
+#: src/gen.cc:8242
+msgid "jacobi"
+msgstr ""
+
+#: src/gen.cc:8278
+msgid "legendre"
+msgstr ""
+
+#: src/gen.cc:8319
+msgid "has_denominator"
+msgstr "has_denominator"
+
+#: src/gen.cc:8455
+msgid "Invalid float"
+msgstr "无效浮点数"
+
+#: src/gen.cc:8861
+msgid "Empty array"
+msgstr "空数组"
+
+#: src/gen.cc:8866
+msgid "Bad array indexes"
+msgstr "数组下标错误"
+
+#: src/gen.cc:10843 src/gen.cc:10901
+msgid "Unable to convert to real "
+msgstr "无法转换为实数 "
+
+#: src/gen.cc:10950 src/gen.cc:11045
+msgid "real_object + gen"
+msgstr ""
+
+#: src/gen.cc:11167
+msgid ""
+"Compile with MPFR or USE_GMP_REPLACEMENTS if you want transcendental long "
+"float support"
+msgstr ""
+
+#: src/gen.cc:11455
+msgid "real_interval inv"
+msgstr ""
+
+#: src/gen.cc:11507
+msgid "real_interval mul"
+msgstr ""
+
+#: src/gen.cc:11533
+msgid "real_interval mul 2"
+msgstr ""
+
+#: src/gen.cc:11616
+msgid "MPFR error reading binary "
+msgstr ""
+
+#: src/gen.cc:11618
+msgid "Error no MPFR reading "
+msgstr ""
+
+#~ msgid "No proper matrix"
+#~ msgstr "无合适的矩阵"
+
+#~ msgid "NaN matrix entries"
+#~ msgstr "NaN 矩阵输入"

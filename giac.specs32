@@ -1,0 +1,139 @@
+%define name giac
+%define version 0.9.5
+%define release 1
+
+Name: %{name} 
+Summary: Computer Algebra System
+Version: %{version} 
+Release: %{release} 
+Source0: giac-0.9.5.tar.gz
+URL: http://www-fourier.ujf-grenoble.fr/~parisse/giac.html
+Group: Sciences/Mathematics
+BuildRoot: %{_tmppath}/%{name}-buildroot 
+License: GPL
+
+%description
+CAS
+
+%prep 
+rm -rf $RPM_BUILD_ROOT
+
+%setup -q 
+
+%build 
+#export CXXFLAGS=-g 
+#export LFLAGS=-L/usr/local/lib
+# cp -f giac-0.4.0/Makefile.rpm giac-0.4.0
+#export LIBS='/usr/local/lib/libpari.a /usr/local/lib/libgsl.a /usr/local/lib/libgslcblas.a'
+
+%configure 
+cd /home/parisse/rpm/BUILD/giac-0.9.5/src/ ; mkdir .libs ; cd .libs ;
+ln -s . .libs ; cd ../.. ; make
+
+%install 
+%makeinstall
+
+%clean 
+rm -rf $RPM_BUILD_ROOT
+
+%files 
+%defattr(-,root,root,0755) 
+%doc README NEWS COPYING AUTHORS 
+%{_bindir}/xcas
+%{_bindir}/cas
+%{_bindir}/updatecas
+%{_bindir}/giac
+%{_bindir}/aide
+%{_bindir}/cas_help
+%{_bindir}/en_cas_help
+%{_bindir}/es_cas_help
+%{_bindir}/fr_cas_help
+%{_libdir}/libgiac.so.0.0.0
+%{_libdir}/libgiac.so.0
+%{_libdir}/libgiac.so
+%{_libdir}/libgiac.a
+%{_libdir}/libgiac.la
+%{_includedir}/giac/dispatch.h
+%{_includedir}/giac/fraction.h
+%{_includedir}/giac/gen.h
+%{_includedir}/giac/desolve.h
+%{_includedir}/giac/misc.h
+%{_includedir}/giac/ti89.h
+%{_includedir}/giac/mathml.h
+%{_includedir}/giac/identificateur.h
+%{_includedir}/giac/unary.h
+%{_includedir}/giac/symbolic.h
+%{_includedir}/giac/index.h
+%{_includedir}/giac/modpoly.h
+%{_includedir}/giac/modfactor.h
+%{_includedir}/giac/permu.h
+%{_includedir}/giac/monomial.h
+%{_includedir}/giac/poly.h
+%{_includedir}/giac/gausspol.h
+%{_includedir}/giac/sym2poly.h
+%{_includedir}/giac/ezgcd.h
+%{_includedir}/giac/derive.h
+%{_includedir}/giac/solve.h
+%{_includedir}/giac/quater.h
+%{_includedir}/giac/subst.h
+%{_includedir}/giac/usual.h
+%{_includedir}/giac/intg.h
+%{_includedir}/giac/risch.h
+%{_includedir}/giac/lin.h
+%{_includedir}/giac/series.h
+%{_includedir}/giac/vecteur.h
+%{_includedir}/giac/moyal.h
+%{_includedir}/giac/tex.h
+%{_includedir}/giac/global.h
+%{_includedir}/giac/ifactor.h
+%{_includedir}/giac/alg_ext.h 
+%{_includedir}/giac/gauss.h 
+%{_includedir}/giac/isom.h
+%{_includedir}/giac/plot.h
+%{_includedir}/giac/help.h
+%{_includedir}/giac/rpn.h
+%{_includedir}/giac/prog.h
+%{_includedir}/giac/pari.h
+%{_includedir}/giac/giac.h
+%{_includedir}/giac/input_lexer.h
+%{_includedir}/giac/input_parser.h
+%{_includedir}/giac/first.h
+%{_includedir}/giac/path.h
+%{_includedir}/giac/maple.h
+%{_includedir}/giac/giacintl.h
+%{_includedir}/giac/config.h
+%{_datadir}/giac/aide_cas
+%{_datadir}/giac/doc/*
+%{_datadir}/locale/es/LC_MESSAGES/giac.mo
+%{_datadir}/locale/fr/LC_MESSAGES/giac.mo
+%{_datadir}/locale/de/LC_MESSAGES/giac.mo
+%{_infodir}/giac_us.info.bz2
+%{_infodir}/giac_es.info.bz2
+
+%changelog 
+* Mon Apr 11 2011 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.9.5
+Alpha release
+* Wed Nov 24 2010 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.9.1
+Alpha release
+* Wed Sep 26 2007 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.8.1
+Alpha release
+* Mon Jul  2 2007 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.7.1
+Alpha release
+* Wed Feb 28 2007 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.6.3
+Unstable release
+* Sat Aug  5 2006 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.6.2
+Unstable release
+* Sat Aug  5 2006 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.6.1
+Unstable release
+* Wed Oct 12 2005 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.5.1
+Stable release
+* Wed Dec 01 2004 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.5.0
+Stable release
+* Mon Mar 15 2004 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.3.0-9
+First stable release candidate
+* Mon Oct 20 2003 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.3.0-4
+Updated gcc 3.2 version
+* Wed Jan 15 2003 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.2.4-3
+Compiled with gcc 3.2
+* Mon Dec 09 2002 Bernard Parisse <parisse@fourier.ujf-grenoble.fr> 0.2.4-2
+First RPM-packaged version
